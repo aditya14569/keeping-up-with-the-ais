@@ -19,7 +19,8 @@ A daily AI briefing, written by Claude and emailed as a PDF every morning.
 - `state/curriculum.md` is the learning path. Reorder or add topics any time.
 - `state/news-log.md` holds stories already covered (to avoid repeats) and open threads to follow up.
 - `state/sources.md` lists where to look.
-- `scripts/build_pdf.py` turns Markdown into the PDF. `scripts/email_body.py` builds the email text.
+- `VISUALS.md` documents the diagram and chart blocks (stats, loop, flow, bars, timeline, versus, meter, quiz) that every issue uses.
+- `scripts/build_pdf.py` turns Markdown into the PDF, drawing the visual blocks. `fonts/` holds the open-licensed fonts it uses. `scripts/email_body.py` builds the email text.
 
 ## One-time email setup (about 10 minutes)
 

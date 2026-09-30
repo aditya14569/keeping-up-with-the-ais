@@ -19,14 +19,15 @@ You are writing today's issue of **Keeping up with the AIs**, a daily AI briefin
 - Find 3–4 real, high-quality tutorials, docs or articles for it. Open each link to confirm it works and fits. Prefer official docs, free courses and well-known engineering blogs.
 
 ## 3. Write `issues/YYYY-MM-DD-issue-NNN.md`
-Copy the exact structure of the last issue:
+Copy the exact structure of the last issue, and read `VISUALS.md` first. **The issue should be fun to read, not a chore.** It should feel like a good magazine: visual, punchy and scannable.
 - Front matter: `issue`, `date`, `title` (a short, punchy headline for the day).
-- `<div class="tldr" markdown="1">`: "If you only have one minute", 3 numbered one-liners.
-- `# Part 1 · Learn one thing` (~4 min): plain-English version, an analogy, a small table or list if it helps, "Try it in 10 minutes" (a no-code option + a some-code option), a `<div class="box devs" markdown="1">` For devs box (code or technical detail and gotchas), "Go deeper" with 3–4 links.
-- `# Part 2 · What moved in AI` (~7 min): 2–3 top stories (What happened / Why it matters / Should you care? + a For devs box where useful), 5–8 quick hits, then "One thing to try today".
-- Footer div, same as the last issue.
+- `<div class="tldr" markdown="1">`: "⚡ If you only have one minute", 3 numbered one-liners.
+- A `viz:stats` strip: "Today in three numbers", using real, sourced numbers only.
+- `# Part 1 · Learn one thing` (~4 min): an H2 with an emoji, tag pills, a bold one-line hook, the plain-English version, an **analogy**, at least one **diagram** (`viz:loop`, `viz:flow`, `viz:versus` or a table), a 📖 Jargon buster box, "Why now?" if relevant, a 🧪 Try it in 10 minutes box (no-code + some-code), a 🛠️ For devs box (code + gotchas), and 🔗 Go deeper with 3–4 links.
+- `# Part 2 · What moved in AI` (~7 min): open with a visual (a `viz:timeline` when there's a multi-day arc, otherwise a flow or bars chart). Then 2–3 top stories, each with: tag pills, What happened, a diagram or chart where one genuinely helps, The details that matter, Why it matters, a `viz:meter`, a 👀 Should you care? box, and a 🛠️ For devs box where useful. Then ⚡ Quick hits as `cards` (6–8 items, emoji + bold title, the last one "🗓️ Coming up"), a 🎯 One thing to try today box, a `viz:quiz` (3 questions), and the footer.
+- Short paragraphs (≤ 4 lines). Bold the one phrase per paragraph that someone skimming should see.
 
-**Length:** 1,900–2,400 words, which is 10–12 minutes. **Hard maximum 2,700 words.**
+**Length:** 1,700–2,300 words of text plus the visuals (the build script prints the count), which is 10–12 minutes. **Hard maximum 2,500 words.**
 
 **Voice:** a vibe coder must understand every sentence, and a developer must find something useful in every item. Explain jargon the first time you use it. No hype words. Company numbers are "claims." Use Indian context (₹, IST, Indian availability) where natural.
 
@@ -34,7 +35,7 @@ Copy the exact structure of the last issue:
 
 ## 4. Build and check
 1. `python3 scripts/build_pdf.py issues/<file>.md`
-2. Render the pages to PNG (`pdftoppm -r 60 -png <pdf> /tmp/p`) and look at them. Check for layout breaks, overflowing code, and empty pages.
+2. Render the pages to PNG (`pdftoppm -r 70 -png <pdf> /tmp/p`) and look at **every** page. Fix clipped diagram labels, overflowing boxes, half-empty pages and headings stranded at the bottom of a page, then rebuild.
 3. Re-check every number and date against its source.
 
 ## 5. Update state and publish
