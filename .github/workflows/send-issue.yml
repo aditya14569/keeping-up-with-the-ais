@@ -1,0 +1,57 @@
+name: Email new issue
+
+# Runs when the daily Claude task pushes a new issue PDF, or manually for any issue.
+on:
+  push:
+    branches: [main]
+    paths: ["issues/*.pdf"]
+  workflow_dispatch:
+    inputs:
+      pdf:
+        description: "Path of the issue PDF to send (e.g. issues/2026-09-30-issue-001.pdf)"
+        required: true
+
+concurrency:
+  group: send-issue
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find the new issue
+        id: find
+        env:
+          INPUT_PDF: ${{ github.event.inputs.pdf }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -n "$INPUT_PDF" ]; then
+            PDF="$INPUT_PDF"
+          elif [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            PDF=$(ls issues/*.pdf | sort | tail -n 1)
+          else
+            PDF=$(git diff --name-only --diff-filter=A "$BEFORE" "$GITHUB_SHA" -- 'issues/*.pdf' | sort | tail -n 1)
+          fi
+          if [ -z "$PDF" ]; then echo "No new PDF in this push; nothing to send."; echo "skip=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          echo "pdf=$PDF" >> "$GITHUB_OUTPUT"
+          python3 scripts/email_body.py "$PDF" >> "$GITHUB_OUTPUT"
+
+      - name: Send email
+        if: steps.find.outputs.skip != 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          secure: ${{ secrets.SMTP_PORT == '465' }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          from: Keeping up with the AIs <${{ secrets.SMTP_USERNAME }}>
+          to: ${{ secrets.SMTP_USERNAME }}
+          bcc: ${{ secrets.RECIPIENTS }}
+          subject: ${{ steps.find.outputs.subject }}
+          html_body: file://email.html
+          attachments: ${{ steps.find.outputs.pdf }}
