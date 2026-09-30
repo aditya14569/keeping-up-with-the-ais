@@ -23,6 +23,25 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Check email settings
+        env:
+          S1: ${{ secrets.SMTP_SERVER }}
+          S2: ${{ secrets.SMTP_PORT }}
+          S3: ${{ secrets.SMTP_USERNAME }}
+          S4: ${{ secrets.SMTP_PASSWORD }}
+          S5: ${{ secrets.RECIPIENTS }}
+        run: |
+          missing=""
+          [ -z "$S1" ] && missing="$missing SMTP_SERVER"
+          [ -z "$S2" ] && missing="$missing SMTP_PORT"
+          [ -z "$S3" ] && missing="$missing SMTP_USERNAME"
+          [ -z "$S4" ] && missing="$missing SMTP_PASSWORD"
+          [ -z "$S5" ] && missing="$missing RECIPIENTS"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing. Add them in Settings > Secrets and variables > Actions (see README)."
+            exit 1
+          fi
+
       - name: Find the new issue
         id: find
         env:
