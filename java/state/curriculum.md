@@ -1,0 +1,48 @@
+# Curriculum: Java – Beautifully Broken
+
+Rules for the daily run:
+- Take the first `[ ]` item, cover it, then mark it `[x] Issue #N (YYYY-MM-DD)`.
+- The list deliberately interleaves three tracks: **[C] Catch-up** (what changed since Java 8/11), **[R] Revise** (fundamentals worth re-learning) and **[E] Ecosystem** (Spring, tooling, production). Keep that mix when adding topics.
+- An item can be pulled forward if today's news makes it timely. Mark it done where it sits.
+- When fewer than 10 `[ ]` remain, append 15 new items, keeping the track balance.
+
+- [x] [C] The map: Java 8 → 27, what changed and what actually matters: Issue #1 (2026-10-01)
+- [ ] [C] `var`, text blocks and switch expressions: small features, big readability wins
+- [ ] [R] `equals`/`hashCode`/`compareTo` contracts, and how HashMap really works (buckets, treeification, resizing)
+- [ ] [C] Records: data carriers done right (compact constructors, validation, where not to use them)
+- [ ] [E] Spring Boot 2 → 3 → 4: the jakarta namespace, the Java 17 baseline, what changed in 4.x
+- [ ] [C] Sealed types + pattern matching for switch: modelling domains without the visitor pattern
+- [ ] [R] Generics refresher: wildcards, PECS, type erasure and its consequences
+- [ ] [C] Record patterns and unnamed variables (`_`): deconstruction in practice
+- [ ] [R] Streams revisited: laziness, collectors, parallel-stream pitfalls
+- [ ] [C] Stream Gatherers (JDK 24): writing your own intermediate operations
+- [ ] [E] Testing in 2026: JUnit 5/6, AssertJ, Testcontainers, Mockito with modern Java
+- [ ] [R] The Java Memory Model: happens-before, volatile, safe publication
+- [ ] [C] Virtual threads I: what they are, when they help, when they don't
+- [ ] [C] Virtual threads II: pinning, ThreadLocal pitfalls, JEP 491 and migrating a Spring app
+- [ ] [C] Structured concurrency and scoped values: the new concurrency toolkit
+- [ ] [R] java.util.concurrent refresher: executors, CompletableFuture, locks, concurrent collections
+- [ ] [R] JVM memory layout: heap, stack, metaspace, object headers (and compact headers)
+- [ ] [R] Garbage collection explained: G1, ZGC, Shenandoah, and choosing between them
+- [ ] [E] Observability: Micrometer, OpenTelemetry and JFR in a Spring Boot app
+- [ ] [C] Sequenced collections and the small API wins since Java 11 (String, Optional, HttpClient)
+- [ ] [R] Exceptions done right: checked vs unchecked, try-with-resources, error handling at boundaries
+- [ ] [E] Build tools: Maven 4, Gradle 9, dependency management and reproducible builds
+- [ ] [C] Modules (JPMS) and strong encapsulation: why upgrades broke libraries, and what to do
+- [ ] [E] Startup and footprint: CDS, AOT cache (Leyden), GraalVM native image, CRaC
+- [ ] [R] Immutability and defensive copying in practice
+- [ ] [C] Compact source files, instance main and module imports (JDK 25): Java for scripts
+- [ ] [E] Spring Data JPA and Hibernate: N+1, fetching strategies, transactions
+- [ ] [R] Class loading, reflection, annotations and how frameworks use them
+- [ ] [C] Foreign Function & Memory API: calling native code without JNI
+- [ ] [E] Quarkus and Micronaut vs Spring Boot: when each makes sense
+- [ ] [R] Performance basics: JIT, warm-up, JMH microbenchmarks, common anti-patterns
+- [ ] [C] Flexible constructor bodies, lazy constants and other recent language polish
+- [ ] [E] Security essentials: dependency CVEs, TLS (incl. post-quantum), secrets, Spring Security 7
+- [ ] [C] Project Valhalla: value classes and what they'll change
+- [ ] [E] Java and AI: LangChain4j, Spring AI, calling LLMs from Java
+- [ ] [R] Design patterns that modern Java made simpler (strategy, builder, visitor)
+- [ ] [E] Containers and Kubernetes: JVM ergonomics, memory limits, right-sizing
+- [ ] [R] Serialization and JSON: Jackson pitfalls, records with Jackson, deserialization safety
+- [ ] [C] The Vector API and where SIMD helps
+- [ ] [E] Upgrading a real codebase from 11/17 to 25: a step-by-step playbook

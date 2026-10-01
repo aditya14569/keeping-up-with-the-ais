@@ -1,0 +1,110 @@
+name: Email new issue (Java & Storage Wars)
+
+# Separate from send-issue.yml, which handles "Keeping up with the AIs" and is untouched.
+# Fires when a daily run pushes a new PDF into java/issues/ or data/issues/, or manually.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "java/issues/*.pdf"
+      - "data/issues/*.pdf"
+  workflow_dispatch:
+    inputs:
+      pdf:
+        description: "Issue PDF to send, e.g. java/issues/2026-10-01-issue-001.pdf"
+        required: true
+
+concurrency:
+  group: send-newsletters
+  cancel-in-progress: false
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    outputs:
+      pdfs: ${{ steps.find.outputs.pdfs }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Find new issue PDFs
+        id: find
+        env:
+          INPUT_PDF: ${{ github.event.inputs.pdf }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -n "$INPUT_PDF" ]; then
+            LIST="$INPUT_PDF"
+          elif [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            LIST=$(ls java/issues/*.pdf data/issues/*.pdf 2>/dev/null | sort | tail -n 2)
+          else
+            LIST=$(git diff --name-only --diff-filter=A "$BEFORE" "$GITHUB_SHA" -- 'java/issues/*.pdf' 'data/issues/*.pdf')
+          fi
+          JSON=$(printf '%s\n' $LIST | python3 -c "import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))")
+          echo "Found: $JSON"
+          echo "pdfs=$JSON" >> "$GITHUB_OUTPUT"
+
+  send:
+    needs: find
+    if: needs.find.outputs.pdfs != '[]' && needs.find.outputs.pdfs != ''
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        pdf: ${{ fromJson(needs.find.outputs.pdfs) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check email settings
+        env:
+          S1: ${{ secrets.SMTP_SERVER }}
+          S2: ${{ secrets.SMTP_PORT }}
+          S3: ${{ secrets.SMTP_USERNAME }}
+          S4: ${{ secrets.SMTP_PASSWORD }}
+          S5: ${{ secrets.RECIPIENTS }}
+        run: |
+          missing=""
+          [ -z "$S1" ] && missing="$missing SMTP_SERVER"
+          [ -z "$S2" ] && missing="$missing SMTP_PORT"
+          [ -z "$S3" ] && missing="$missing SMTP_USERNAME"
+          [ -z "$S4" ] && missing="$missing SMTP_PASSWORD"
+          [ -z "$S5" ] && missing="$missing RECIPIENTS"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository secrets:$missing. Add them in Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          if [ ! -f "${{ matrix.pdf }}" ]; then echo "::error::File not found: ${{ matrix.pdf }}"; exit 1; fi
+
+      - name: Build email
+        id: mail
+        env:
+          JAVA_RECIPIENTS: ${{ secrets.JAVA_RECIPIENTS }}
+          DATA_RECIPIENTS: ${{ secrets.DATA_RECIPIENTS }}
+          RECIPIENTS: ${{ secrets.RECIPIENTS }}
+        run: |
+          python3 tools/email_body.py "${{ matrix.pdf }}" >> "$GITHUB_OUTPUT"
+          KEY=$(python3 tools/email_body.py "${{ matrix.pdf }}" | sed -n 's/^key=//p')
+          # Optional per-newsletter list (JAVA_RECIPIENTS / DATA_RECIPIENTS); falls back to RECIPIENTS.
+          case "$KEY" in
+            java) TO="${JAVA_RECIPIENTS:-$RECIPIENTS}" ;;
+            data) TO="${DATA_RECIPIENTS:-$RECIPIENTS}" ;;
+            *)    TO="$RECIPIENTS" ;;
+          esac
+          echo "::add-mask::$TO"
+          echo "to=$TO" >> "$GITHUB_OUTPUT"
+
+      - name: Send email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          secure: ${{ secrets.SMTP_PORT == '465' }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          from: ${{ steps.mail.outputs.name }} <${{ secrets.SMTP_USERNAME }}>
+          to: ${{ secrets.SMTP_USERNAME }}
+          bcc: ${{ steps.mail.outputs.to }}
+          subject: ${{ steps.mail.outputs.subject }}
+          html_body: file://email.html
+          attachments: ${{ matrix.pdf }}

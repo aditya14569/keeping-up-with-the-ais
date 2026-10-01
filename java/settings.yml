@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────
+#  Java – Beautifully Broken · settings
+#  Edit these in GitHub (pencil icon) and commit. The next
+#  morning's issue follows them. Nothing else needs changing.
+# ─────────────────────────────────────────────────────────────
+
+# How long the issue should take to read, in minutes.
+# The writer aims for this; the hard cap is this + 5.
+read_time_minutes: 20
+
+# How deep to go, 1–5:
+#   1 = Refresher   – plain recap of concepts you once knew, light code
+#   2 = Practical   – everyday usage, common patterns, simple examples
+#   3 = Working dev – trade-offs, real code, gotchas, "why" not just "how"  (default)
+#   4 = Senior      – internals, performance, JVM behaviour, design decisions
+#   5 = Deep dive   – spec/JEP level detail, benchmarks, edge cases
+difficulty: 3
+
+# Share of the issue spent on Part 1 (Learn) vs Part 2 (What's new), in %.
+learn_share: 50
+
+# Optional: topics to lean towards for a while, e.g. [virtual threads, spring boot]
+# Leave empty [] to follow the curriculum in order.
+focus: []
+
+# ── Branding (no need to touch) ──────────────────────────────
+name: "Java – Beautifully Broken"
+kicker: "Daily Java briefing · Catch up, revise, stay current"
+words_per_minute: 200
+email_accent: "#c2410c"
+theme:
+  accent: "#c2410c"
+  accent2: "#0f766e"
+  gradient: ["#2b1408", "#7c2d12", "#c2410c", "#f59e0b"]

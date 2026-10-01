@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────
+#  Storage Wars · settings
+#  Edit these in GitHub (pencil icon) and commit. The next
+#  morning's issue follows them. Nothing else needs changing.
+# ─────────────────────────────────────────────────────────────
+
+# How long the issue should take to read, in minutes.
+# The writer aims for this; the hard cap is this + 5.
+read_time_minutes: 20
+
+# How deep to go, 1–5:
+#   1 = Refresher   – what it is and when to use it, minimal internals
+#   2 = Practical   – everyday usage, configs and commands you'd actually run
+#   3 = Working dev – how it works inside, trade-offs, failure modes  (default)
+#   4 = Senior      – internals, tuning, capacity planning, design decisions
+#   5 = Deep dive   – papers, source-level detail, benchmarks, edge cases
+difficulty: 3
+
+# Share of the issue spent on Part 1 (Learn) vs Part 2 (What's new), in %.
+learn_share: 50
+
+# Optional: topics to lean towards for a while, e.g. [kafka, postgres]
+# Leave empty [] to follow the curriculum in order.
+focus: []
+
+# ── Branding (no need to touch) ──────────────────────────────
+name: "Storage Wars"
+kicker: "Daily data briefing · Databases, streams & platforms"
+words_per_minute: 200
+email_accent: "#0e7490"
+theme:
+  accent: "#0e7490"
+  accent2: "#7c3aed"
+  gradient: ["#06121f", "#0b2a42", "#0e7490", "#22d3ee"]

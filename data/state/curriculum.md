@@ -1,0 +1,48 @@
+# Curriculum: Storage Wars
+
+Rules for the daily run:
+- Take the first `[ ]` item, cover it, then mark it `[x] Issue #N (YYYY-MM-DD)`.
+- The list interleaves four tracks: **[F] Foundations** (how storage works), **[S] Systems** (specific technologies), **[P] Platforms** (analytics and lakehouse) and **[D] Design** (architecture trade-offs). Keep that mix when adding topics.
+- An item can be pulled forward if today's news makes it timely. Mark it done where it sits.
+- When fewer than 10 `[ ]` remain, append 15 new items, keeping the track balance.
+
+- [x] [F] How a database stores a row: pages, heap files and the B-tree: Issue #1 (2026-10-01)
+- [ ] [F] Indexes in depth: composite indexes, covering indexes, selectivity, when an index is ignored
+- [ ] [S] Redis I: data structures, single-threaded event loop, why it's fast
+- [ ] [F] The write-ahead log: durability, crash recovery and fsync
+- [ ] [S] Kafka I: topics, partitions, offsets and the commit log
+- [ ] [D] Caching patterns: cache-aside, write-through, invalidation and stampedes
+- [ ] [F] Transactions and isolation levels: dirty reads to serializable, with examples
+- [ ] [F] MVCC: how Postgres and InnoDB let readers and writers not block each other
+- [ ] [S] Postgres VACUUM, bloat and autovacuum tuning
+- [ ] [F] LSM-trees vs B-trees: why Cassandra, RocksDB and ScyllaDB write so fast
+- [ ] [S] Kafka II: consumer groups, rebalancing, delivery semantics, exactly-once
+- [ ] [P] Row vs columnar storage: why analytics databases are different
+- [ ] [D] Replication: leader/follower, sync vs async, replication lag
+- [ ] [S] Redis II: persistence (RDB/AOF), replication, Sentinel vs Cluster
+- [ ] [P] Parquet, Delta Lake and Apache Iceberg: the open table formats
+- [ ] [D] Partitioning and sharding: hash vs range, hot keys, resharding
+- [ ] [S] Query planning: reading EXPLAIN ANALYZE in Postgres
+- [ ] [P] Databricks and the lakehouse: Spark, Delta, Unity Catalog explained
+- [ ] [D] CAP, PACELC and consistency models in plain terms
+- [ ] [S] Kafka III: KRaft, tiered storage, share groups (queues for Kafka)
+- [ ] [P] Snowflake architecture: separating storage and compute
+- [ ] [F] Connection pooling: HikariCP, PgBouncer, and why connections are expensive
+- [ ] [D] Change data capture: Debezium, outbox pattern, logical replication
+- [ ] [S] MongoDB and document modelling: embedding vs referencing
+- [ ] [P] Stream processing: Kafka Streams vs Flink vs Spark Structured Streaming
+- [ ] [F] Locks and deadlocks: row locks, gap locks, advisory locks
+- [ ] [S] Elasticsearch/OpenSearch: inverted indexes and why search is different
+- [ ] [D] Choosing a database: a decision framework with real examples
+- [ ] [P] DuckDB and embedded analytics
+- [ ] [S] ClickHouse: how a columnar OLAP engine gets its speed
+- [ ] [F] Storage hardware: SSDs, IOPS, the page cache and why random I/O hurts
+- [ ] [D] Multi-region data: latency, conflict resolution, CRDTs
+- [ ] [S] Vector search: pgvector, HNSW, and when you need a vector database
+- [ ] [P] Data modelling for analytics: star schemas, slowly changing dimensions, medallion layers
+- [ ] [D] Backups, PITR and disaster recovery: RPO/RTO in practice
+- [ ] [S] Distributed SQL: CockroachDB, Spanner, YugabyteDB, TiDB
+- [ ] [F] Compression and encoding: dictionary, RLE, delta, and why columnar compresses well
+- [ ] [D] Event sourcing and CQRS: when they help, when they hurt
+- [ ] [P] Orchestration and data quality: Airflow, dbt, expectations
+- [ ] [S] Time-series data: TimescaleDB, Redis TimeSeries, InfluxDB
