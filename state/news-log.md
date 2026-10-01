@@ -13,10 +13,22 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-09-30 | 1 | openai-agents-posted-user-images-53-users | https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday
 2026-09-30 | 1 | anthropic-ipo-timeline (public prospectus pending) | https://tribune.com.pk/story/2627660/anthropic-delays-ipo-launch
 2026-09-30 | 1 | dots-studio-dots3-note-preview | https://openrouter.ai/dots-studio/dots-3-note-preview:free
+2026-10-01 | 2 | google-gemini-4-argon-limited-release | https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release
+2026-10-01 | 2 | openai-gpt-6-1-sol-pricing-details (Update on DevDay) | https://thenextweb.com/news/openai-gpt-6-1-sol-price-astra-devday
+2026-10-01 | 2 | white-house-super-intelligence-eo-and-si-accord | https://www.foxbusiness.com/politics/trump-signs-executive-order-rebranding-ai-super-intelligence-tech-titans-ink-separate-accord
+2026-10-01 | 2 | anthropic-glm-5-3-cyber-report | https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities
+2026-10-01 | 2 | anthropic-what-do-you-want-from-ai-interviews (closes Oct 6) | https://www.anthropic.com/research/your-thoughts-on-ai
+2026-10-01 | 2 | openai-arr-near-70b | https://www.axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b
+2026-10-01 | 2 | dots-demo-stumble-eea-uk-excluded | https://pymnts.com/news/artificial-intelligence/2026/openais-muse-rival-arrives-half-baked
+2026-10-01 | 2 | factory-vs-cognition-board-adviser | https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition
+2026-10-01 | 2 | claude-plugin-directory-submissions | https://claude.com/blog/build-plugins-for-claude
+2026-10-01 | 2 | argon-gray-swan-prompt-injection-results | https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release
 
 ## Open threads to follow up
-- Outcome of the 29 Sep White House AI CEO meeting.
 - Anthropic public S-1 / IPO pricing.
-- GPT-6.1 Sol: OpenAI published details at DevDay; not yet covered in depth.
+- Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks.
+- GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon").
+- Super Intelligence accord: who sits on the promised AI safety board; federal SI definition.
+- OpenAI new funding round (Bloomberg reported a ~$30B target on 30 Sep; not yet verified/covered).
 - Independent benchmarks of Jev.
-- Dots rollout beyond Pro/Business Premium, pricing for extra dots.
+- Dots rollout beyond Pro/Business Premium (incl. EEA/UK), pricing for extra dots.

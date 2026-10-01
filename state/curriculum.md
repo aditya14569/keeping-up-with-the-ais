@@ -7,7 +7,7 @@ Rules for the daily run:
 - Each topic: plain-English explanation, an analogy, "Try it in 10 minutes", a "For devs" box, 3–4 links to real tutorials/docs.
 
 ## Module 1: How LLMs actually work
-- [ ] Tokens: how models read text (and why it affects your bill)
+- [x] Tokens: how models read text (and why it affects your bill): Issue #2 (2026-10-01)
 - [ ] Context windows: the model's working memory
 - [ ] Temperature, sampling and why answers vary
 - [ ] Hallucinations: why models make things up and how to reduce it
