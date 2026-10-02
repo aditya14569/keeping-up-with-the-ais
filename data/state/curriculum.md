@@ -7,7 +7,7 @@ Rules for the daily run:
 - When fewer than 10 `[ ]` remain, append 15 new items, keeping the track balance.
 
 - [x] [F] How a database stores a row: pages, heap files and the B-tree: Issue #1 (2026-10-01)
-- [ ] [F] Indexes in depth: composite indexes, covering indexes, selectivity, when an index is ignored
+- [x] [F] Indexes in depth: composite indexes, covering indexes, selectivity, when an index is ignored: Issue #2 (2026-10-02)
 - [ ] [S] Redis I: data structures, single-threaded event loop, why it's fast
 - [ ] [F] The write-ahead log: durability, crash recovery and fsync
 - [ ] [S] Kafka I: topics, partitions, offsets and the commit log
