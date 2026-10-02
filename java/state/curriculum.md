@@ -7,7 +7,7 @@ Rules for the daily run:
 - When fewer than 10 `[ ]` remain, append 15 new items, keeping the track balance.
 
 - [x] [C] The map: Java 8 → 27, what changed and what actually matters: Issue #1 (2026-10-01)
-- [ ] [C] `var`, text blocks and switch expressions: small features, big readability wins
+- [x] [C] `var`, text blocks and switch expressions: small features, big readability wins: Issue #2 (2026-10-02)
 - [ ] [R] `equals`/`hashCode`/`compareTo` contracts, and how HashMap really works (buckets, treeification, resizing)
 - [ ] [C] Records: data carriers done right (compact constructors, validation, where not to use them)
 - [ ] [E] Spring Boot 2 → 3 → 4: the jakarta namespace, the Java 17 baseline, what changed in 4.x

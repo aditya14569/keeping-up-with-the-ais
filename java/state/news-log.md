@@ -13,14 +13,28 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 2026-10-01 | 1 | netflix-ja-cli | https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/
 2026-10-01 | 1 | liberica-jdk-27 | https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/
 2026-10-01 | 1 | oracle-premier-support-java-17-ended-sep-2026 | https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+2026-10-02 | 2 | Update: jep-401-value-objects-preview-targeted-jdk28 (+ jep-539-strict-fields targeted 26 Sep) | https://inside.java/2026/09/20/jep401-target-jdk28/
+2026-10-02 | 2 | jdk-27-performance-roundup (HashMap.putAll fast path, crypto, GC fixes) | https://inside.java/2026/09/28/performance-update-jdk27/
+2026-10-02 | 2 | jep-543-structured-concurrency-final-proposed-jdk28 | https://github.com/openjdk/jdk/pull/32602
+2026-10-02 | 2 | jep-541-macos-x64-deprecated-targeted-jdk28 | https://www.osnews.com/story/145609/java-deprecates-support-for-macos-x86/
+2026-10-02 | 2 | jep-540-json-api-incubator-targeted-jdk28 | https://www.infoworld.com/article/4205791/java-28-starts-to-take-shape.html
+2026-10-02 | 2 | pqc-intrinsics-ml-kem-3x-jdk28 | https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/
+2026-10-02 | 2 | groovy-6-0-ga | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
+2026-10-02 | 2 | tornadovm-7-0 | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
+2026-10-02 | 2 | open-liberty-26-0-0-10-beta-jdk27 | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
+2026-10-02 | 2 | micrometer-tracing-1-8-m2-zipkin-exporter-deprecated | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
+2026-10-02 | 2 | azul-payara-7-4-0-jackson-cve | https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/
 
 ## Version watch (re-verify every issue)
-- Current LTS: 25 (Sep 2025). Next LTS: 29 (Sep 2027).
-- Latest JDK: 27 (GA 15 Sep 2026). JDK 28 due March 2027 (EA build 17 out).
-- Latest Spring Boot GA: 4.1.1 (20 Aug 2026). 4.2.0-M2 on 25 Sep 2026.
+- Current LTS: 25 (Sep 2025). Next LTS: 29 (Sep 2027). (Oracle roadmap updated 15 Sep 2026)
+- Latest JDK: 27 (GA Sep 2026). JDK 28 due March 2027.
+- Latest Spring Boot GA: 4.1.1 (20 Aug 2026); 4.0.8 and 3.5.16 also current. 4.2.0-M2 on 25 Sep 2026. (docs.spring.io version list, 2 Oct)
 
 ## Open threads to follow up
 - Maven 4.0 GA ("coming weeks" as of late Sep).
-- Spring Boot 4.2 / Spring Framework 7.1 GA dates.
-- JEP 544 targeting to JDK 28; ZGC JEPs 545/546; whether JEP 401 (value classes) gets targeted.
-- Jakarta EE 12 Core Profile (targeted before December); Jakarta CRaC spec review.
+- Spring Boot 4.2 / Spring Framework 7.1 GA dates; Boot 4.1.2 / 4.0.9 snapshots in progress.
+- JDK 28: JEP 544 (AOT code compilation) final targeting after 28 Sep review; JEP 543 structured concurrency (final) PR #32602 merge + targeting; ZGC JEPs 545/546; JEP 535 Shenandoah generational default.
+- JEP 401 value objects: watch for JDK 28 EA builds that include it.
+- Jakarta EE 12 Core Profile (targeted before 1 Dec 2026); Jakarta CRaC spec review.
+- Oracle October 2026 Critical Patch Update (mid/late Oct): JDK 25.0.x / 21.0.x / 17.0.x patch releases.
+- Note: openjdk.org pages returned 403 on 2 Oct; JEP statuses came from inside.java, InfoWorld, JVM Weekly and the openjdk/jdk GitHub PR. Re-verify on openjdk.org when reachable.
