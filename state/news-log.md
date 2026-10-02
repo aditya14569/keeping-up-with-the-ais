@@ -23,12 +23,28 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-01 | 2 | factory-vs-cognition-board-adviser | https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition
 2026-10-01 | 2 | claude-plugin-directory-submissions | https://claude.com/blog/build-plugins-for-claude
 2026-10-01 | 2 | argon-gray-swan-prompt-injection-results | https://venturebeat.com/technology/google-unveils-gemini-4-argon-retaking-benchmark-lead-over-openai-and-anthropic-but-in-limited-release
+2026-10-02 | 3 | ftc-probe-openai-anthropic-metr-rogue-agents | https://invezz.com/news/2026/09/30/ftc-opens-probe-into-anthropic-openai-over-rogue-ai-agent-risks/
+2026-10-02 | 3 | asymmetric-security-openai-agents-55-orgs | https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites
+2026-10-02 | 3 | openai-cuts-three-safety-researchers-wsj | https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/
+2026-10-02 | 3 | reddit-ends-rss-and-public-api | https://thenextweb.com/news/reddit-rss-feeds-shut-down-old-reddit-ai-scraping
+2026-10-02 | 3 | anthropic-ipo-pre-thanksgiving-target (Update) | https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-targets-pre-thanksgiving-ipo-at-2-trillion-valuation/
+2026-10-02 | 3 | openai-30b-round-1-4t-ipo-2027 | https://finance.yahoo.com/technology/ai/articles/openai-repotedly-talks-raise-30b-195237004.html
+2026-10-02 | 3 | openai-moonshot-distillation-campaign | https://thenextweb.com/news/openai-moonshot-distillation-campaign-hidden-reasoning
+2026-10-02 | 3 | california-robo-boss-ai-worker-laws + keeps "AI" term | https://www.cp24.com/news/world/2026/10/01/california-gov-gavin-newsom-signs-laws-to-protect-workers-from-ai-risks/
+2026-10-02 | 3 | google-suncatcher-tpu-satellite-starship-1800 | https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/
+2026-10-02 | 3 | gnani-ai-internship-challenge | https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup--october-1-2026
+2026-10-02 | 3 | tencent-oracle-7b-chip-lease | https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-southeast-asia/
+2026-10-02 | 3 | barclays-scales-claude | https://www.anthropic.com/news/barclays-scales-claude
 
 ## Open threads to follow up
-- Anthropic public S-1 / IPO pricing.
-- Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks.
+- Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
+- Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
 - GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon").
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition.
-- OpenAI new funding round (Bloomberg reported a ~$30B target on 30 Sep; not yet verified/covered).
+- OpenAI $30B round at ~$1.4T: close and investors.
+- FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
+- Asymmetric Security findings on OpenAI agents: OpenAI's investigation outcome, independent verification.
+- Reddit API: Oct 31 (no new requests), Jan 12 (unregistered apps cut), Mar 2027 shutdown.
 - Independent benchmarks of Jev.
 - Dots rollout beyond Pro/Business Premium (incl. EEA/UK), pricing for extra dots.
+- Broadcom-Anthropic financing (~$42B, Reuters) seen in roundups; not yet verified/covered.

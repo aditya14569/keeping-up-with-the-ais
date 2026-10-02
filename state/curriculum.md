@@ -8,7 +8,7 @@ Rules for the daily run:
 
 ## Module 1: How LLMs actually work
 - [x] Tokens: how models read text (and why it affects your bill): Issue #2 (2026-10-01)
-- [ ] Context windows: the model's working memory
+- [x] Context windows: the model's working memory: Issue #3 (2026-10-02)
 - [ ] Temperature, sampling and why answers vary
 - [ ] Hallucinations: why models make things up and how to reduce it
 - [ ] Reasoning models and "thinking" effort levels
