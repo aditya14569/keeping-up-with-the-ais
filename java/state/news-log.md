@@ -24,11 +24,19 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 2026-10-02 | 2 | open-liberty-26-0-0-10-beta-jdk27 | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
 2026-10-02 | 2 | micrometer-tracing-1-8-m2-zipkin-exporter-deprecated | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
 2026-10-02 | 2 | azul-payara-7-4-0-jackson-cve | https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/
+2026-10-03 | 3 | oracle-jdk-21-nftc-ends-oct-2026-cpu-otn (CPU 20 Oct; JDK 25 NFTC to Sep 2028) | https://blogs.oracle.com/java/jdk-21-approaches-end-of-permissive-license
+2026-10-03 | 3 | quarkus-4-0-0-beta1 (Java 21 baseline, Hibernate ORM 8, Jackson 3, HTTP/3; GA end Nov) | https://quarkus.io/blog/quarkus-4-0-0-beta1-released/
+2026-10-03 | 3 | quarkus-desktop-0-1-0 | https://quarkus.io/blog/quarkus-desktop/
+2026-10-03 | 3 | jobrunr-9 (last OSS major with Java 8) | https://www.jobrunr.io/en/guides/migration/v9/
+2026-10-03 | 3 | spring-boot-4-2-rc1-notes-draft-ubuntu-resolute-builder | https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.2.0-RC1-Release-Notes
+2026-10-03 | 3 | jdk-26-oracle-premier-support-ended-sep-2026 | https://www.oracle.com/java/technologies/java-se-support-roadmap.html
+2026-10-03 | 3 | jakarta-ee-12-cdi-5-ballot-passed; leyden-aot-training-prototype | https://jvm-weekly.com/p/the-rest-of-the-story-september-edition
 
 ## Version watch (re-verify every issue)
-- Current LTS: 25 (Sep 2025). Next LTS: 29 (Sep 2027). (Oracle roadmap updated 15 Sep 2026)
+- Current LTS: 25 (Sep 2025), Oracle NFTC free updates through Sep 2028. Next LTS: 29 (Sep 2027). (Oracle roadmap updated 15 Sep 2026, re-checked 3 Oct)
+- Oracle JDK 21: updates from the 20 Oct 2026 CPU under OTN licence. JDK 26 Premier Support ended Sep 2026.
 - Latest JDK: 27 (GA Sep 2026). JDK 28 due March 2027.
-- Latest Spring Boot GA: 4.1.1 (20 Aug 2026); 4.0.8 and 3.5.16 also current. 4.2.0-M2 on 25 Sep 2026. (docs.spring.io version list, 2 Oct)
+- Latest Spring Boot GA: 4.1.1 (20 Aug 2026); 4.0.8 and 3.5.16 also current. 4.2.0-M2 on 24/25 Sep 2026. No newer release as of 3 Oct (releasealert.dev / mvnrepository).
 
 ## Open threads to follow up
 - Maven 4.0 GA ("coming weeks" as of late Sep).
@@ -36,5 +44,7 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 - JDK 28: JEP 544 (AOT code compilation) final targeting after 28 Sep review; JEP 543 structured concurrency (final) PR #32602 merge + targeting; ZGC JEPs 545/546; JEP 535 Shenandoah generational default.
 - JEP 401 value objects: watch for JDK 28 EA builds that include it.
 - Jakarta EE 12 Core Profile (targeted before 1 Dec 2026); Jakarta CRaC spec review.
-- Oracle October 2026 Critical Patch Update (mid/late Oct): JDK 25.0.x / 21.0.x / 17.0.x patch releases.
-- Note: openjdk.org pages returned 403 on 2 Oct; JEP statuses came from inside.java, InfoWorld, JVM Weekly and the openjdk/jdk GitHub PR. Re-verify on openjdk.org when reachable.
+- Oracle October 2026 Critical Patch Update: 20 Oct 2026 (first Oracle JDK 21 update under OTN). Next CPU 19 Jan 2027.
+- Quarkus 4.0 GA (planned end of Nov 2026); Quarkus 4 CR releases.
+- Spring Boot 4.2.0-RC1 (release notes page drafted 26 Sep).
+- Note: openjdk.org pages returned 403 on 2 Oct and again for /projects/jdk/28/ on 3 Oct (jeps/180 loaded fine); JEP statuses came from inside.java, InfoWorld, JVM Weekly and the openjdk/jdk GitHub PR. Re-verify on openjdk.org when reachable.

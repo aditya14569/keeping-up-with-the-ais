@@ -8,7 +8,7 @@ Rules for the daily run:
 
 - [x] [C] The map: Java 8 → 27, what changed and what actually matters: Issue #1 (2026-10-01)
 - [x] [C] `var`, text blocks and switch expressions: small features, big readability wins: Issue #2 (2026-10-02)
-- [ ] [R] `equals`/`hashCode`/`compareTo` contracts, and how HashMap really works (buckets, treeification, resizing)
+- [x] [R] `equals`/`hashCode`/`compareTo` contracts, and how HashMap really works (buckets, treeification, resizing): Issue #3 (2026-10-03)
 - [ ] [C] Records: data carriers done right (compact constructors, validation, where not to use them)
 - [ ] [E] Spring Boot 2 → 3 → 4: the jakarta namespace, the Java 17 baseline, what changed in 4.x
 - [ ] [C] Sealed types + pattern matching for switch: modelling domains without the visitor pattern
