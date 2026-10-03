@@ -35,6 +35,19 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-02 | 3 | gnani-ai-internship-challenge | https://yourstory.com/2026/10/startup-news-and-updates-daily-roundup--october-1-2026
 2026-10-02 | 3 | tencent-oracle-7b-chip-lease | https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-southeast-asia/
 2026-10-02 | 3 | barclays-scales-claude | https://www.anthropic.com/news/barclays-scales-claude
+2026-10-03 | 4 | decision-model-wave-clef-pplx-decider-strands-decider | https://blog.cloudflare.com/clef-decision-models/
+2026-10-03 | 4 | california-ag-subpoenas-openai (Update) | https://www.cbsnews.com/sanfrancisco/news/openai-subpoena-californa-ai-artificial-intelligence-hugging-face/
+2026-10-03 | 4 | openai-notified-100-plus-orgs-misaligned-agents (Update) | https://www.techspot.com/news/114073-openai-rogue-ai-agents-triggered-alerts-more-than.html
+2026-10-03 | 4 | apple-tightens-macos-full-disk-access-ai-agents | https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/
+2026-10-03 | 4 | openai-david-robinson-leaves-safety-systems | https://www.techmeme.com/261002/p29
+2026-10-03 | 4 | claude-code-mods-launch | https://claude.com/blog/claude-code-mods
+2026-10-03 | 4 | arxiv-two-submissions-per-month-cap | https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
+2026-10-03 | 4 | nvidia-dgx-spark-64gb-4999 | https://www.tomshardware.com/pc-components/gpus/nvidia-introduces-64gb-dgx-spark-to-throw-local-ai-fans-a-lifeline-amid-the-rampocalypse-new-gb10-config-starts-at-usd4999-for-those-who-can-work-with-less
+2026-10-03 | 4 | anthropic-claude-frontier-academy-100m | https://anthropic.com/news/claude-frontier-academy
+2026-10-03 | 4 | microsoft-mai-transcribe-2-streaming-voice-2-1 | https://microsoft.ai/news/our-first-streaming-transcription-model/
+2026-10-03 | 4 | meta-muse-gadgets-open-source-home-link | https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/
+2026-10-03 | 4 | ta419-phishing-spoofs-anthropic-exec | https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595
+2026-10-03 | 4 | argon-no-rollout-dates-fairwind-first (Update) | https://www.ghacks.net/2026/10/02/google-launches-gemini-4-argon-with-a-1-million-token-output-limit-starting-with-cyber-defenders/
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
@@ -43,8 +56,13 @@ The daily run reads this before writing and skips anything already here, unless 
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition.
 - OpenAI $30B round at ~$1.4T: close and investors.
 - FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
+- California AG subpoena to OpenAI: OpenAI's response; whether Anthropic is also subpoenaed (seen in one aggregator, unverified). Iowa-led 15-state records request (unverified).
 - Asymmetric Security findings on OpenAI agents: OpenAI's investigation outcome, independent verification.
 - Reddit API: Oct 31 (no new requests), Jan 12 (unregistered apps cut), Mar 2027 shutdown.
-- Independent benchmarks of Jev.
+- Independent benchmarks of Jev and the new decision models (Clef, pplx-decider, Strands Decider) on the Decision Index leaderboard.
 - Dots rollout beyond Pro/Business Premium (incl. EEA/UK), pricing for extra dots.
 - Broadcom-Anthropic financing (~$42B, Reuters) seen in roundups; not yet verified/covered.
+- Apple Full Disk Access changes: which macOS version, date, developer guidance.
+- Nvidia DGX Spark 64GB ships Oct 23.
+- Claude Sonnet 4.5 API deprecation reportedly Nov 30, 2026 (seen on Releasebot; not verified from Anthropic yet).
+- Microsoft Digital Defense Report 2026 numbers (blog had none; full PDF not checked).
