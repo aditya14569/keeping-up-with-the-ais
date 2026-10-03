@@ -21,21 +21,34 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 2026-10-02 | 2 | snowflake-10-35-account-usage-streams | https://docs.snowflake.com/release-notes/2026/10_35
 2026-10-02 | 2 | dasha-1-8-index-recommendations | https://www.postgresql.org/about/news/dasha-18-index-recommendations-io-analysis-schema-checks-and-log-insights-3387/
 2026-10-02 | 2 | pgedge-starfleet-launch | https://www.postgresql.org/about/news/pgedge-announces-pgedge-starfleet-a-new-postgres-cloud-platform-to-bridge-the-ai-prototype-to-production-chasm-3389/
+2026-10-03 | 3 | databricks-pipeline-delete-keeps-tables-query-tags-abac-views | https://docs.databricks.com/aws/en/release-notes/product/2026/september
+2026-10-03 | 3 | perplexity-cobbledb-replaces-dynamodb | https://www.infoq.com/news/2026/09/cobbledb-perplexity/
+2026-10-03 | 3 | meta-zgateway-zippydb-proxy | https://infoq.com/news/2026/09/meta-zgateway-zippydb-proxy
+2026-10-03 | 3 | bigquery-continuous-queries-iceberg-rust-sdk-ga | https://docs.cloud.google.com/bigquery/docs/release-notes
+2026-10-03 | 3 | snowflake-dynamic-tables-incremental-after-failover-ga | https://docs.snowflake.com/en/user-guide/dynamic-tables/replication
+2026-10-03 | 3 | alloydb-columnar-engine-hnsw-cache-ga | https://docs.cloud.google.com/alloydb/docs/release-notes?authuser=1
+2026-10-03 | 3 | cosmosdb-elasticsearch-migration-posts-cosmos-shell-portal | https://devblogs.microsoft.com/cosmosdb/
+2026-10-03 | 3 | cloudflare-durable-objects-pending-io-15min-basin-1gbps | https://developers.cloudflare.com/changelog/product-group/storage/index.md
+2026-10-03 | 3 | duckdb-dimension-tables-string-aggregation | https://duckdb.org/2026/10/02/dimension-tables.html
+2026-10-03 | 3 | databricks-jdbc-2-8-4-java-25 | https://docs.databricks.com/aws/en/release-notes/product/2026/september
 
 ## Release radar (re-verify every issue)
-- PostgreSQL: current 18.6 (13 Aug); 19 still Beta 4 (24 Sep) as of 2 Oct, RC early Oct, GA possibly Oct. PG 14 EOL 12 Nov 2026; PG 15 EOL 11 Nov 2027.
-- Kafka: latest feature line 4.3 (4.3.1, 25 Jun); 4.2.2 bug-fix 29 Sep.
-- Redis Open Source: 8.8 (8.8.2, Aug 2026).
+- PostgreSQL: current 18.6 (13 Aug); 19 still Beta 4 (24 Sep) as of 3 Oct, no RC yet. PG 14 EOL 12 Nov 2026; PG 15 EOL 11 Nov 2027.
+- Kafka: latest feature line 4.3 (4.3.1, 25 Jun); 4.2.2 bug-fix 29 Sep; 4.4.0 not yet listed as of 3 Oct (project aims for a release every 4 months; 4.3.0 was 22 May).
+- Redis Open Source: 8.10 is the latest line on redis.io config docs (8.10.1 fixed CVE-2026-81934, Aug). Third-party trackers list 8.10.2 / 8.8.3 etc. on 17 Sep and 8.12-M02 on 28 Sep: not yet confirmed from an official page.
 - MongoDB: 9.0 GA (announced 29 Sep).
-- DuckDB: 1.5.6 (28 Sep); v2.0 in preview.
+- DuckDB: 1.5.6 (28 Sep); v2.0 projected for second half of October (per 2 Sep alpha post).
 - ClickHouse: 26.9 (23 Sep).
-- Valkey: 9.1.2 / 9.0.6 (1 Sep); no newer release as of 2 Oct.
+- Valkey: 9.1.2 / 9.0.6 (1 Sep); no newer release seen as of 3 Oct.
 - Pgpool-II: 4.7.3 (1 Oct, 7 CVEs fixed across 4.3–4.7 lines).
 
 ## Open threads to follow up
 - PostgreSQL 19 RC and GA dates; do reverted features return in 20?
-- MongoDB permanent CEO; independent 9.0 benchmarks.
-- DuckDB v2.0 release.
+- MongoDB permanent CEO (Ittycheria interim since 28 Sep); independent 9.0 benchmarks.
+- DuckDB v2.0 release (second half of October).
+- Kafka 4.4.0 release.
+- Redis 17 Sep security releases (8.10.2 etc.): confirm via official release notes / advisory.
+- Perplexity CobbleDB open-source release.
 - Databricks Lakebase agent memory GA.
 - Cloudflare Basin pricing and independent reviews.
 - Pgpool-II CVE follow-ups (exploit details, distro packages).
