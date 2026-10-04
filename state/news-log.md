@@ -48,12 +48,26 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-03 | 4 | meta-muse-gadgets-open-source-home-link | https://www.engadget.com/2276312/meta-muse-gadgets-open-source-smart-home-link/
 2026-10-03 | 4 | ta419-phishing-spoofs-anthropic-exec | https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595
 2026-10-03 | 4 | argon-no-rollout-dates-fairwind-first (Update) | https://www.ghacks.net/2026/10/02/google-launches-gemini-4-argon-with-a-1-million-token-output-limit-starting-with-cyber-defenders/
+2026-10-04 | 5 | gemini-app-tier-changes-oct-9-flash-lite-free-deep-think-pro | https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/
+2026-10-04 | 5 | gitlab-ai-gateway-cve-2026-90970 | https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html
+2026-10-04 | 5 | gemini-mac-full-access-mode-leak | https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/
+2026-10-04 | 5 | david-robinson-atlantic-essay-culture-broken (Update) | https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken
+2026-10-04 | 5 | pacing-the-frontier-petition-brockman-25m-coxon | https://www.axios.com/2026/10/02/openai-anthropic-ai-researchers-rebellion
+2026-10-04 | 5 | si-accord-no-penalties-no-reporting (Update) | https://www.techtimes.com/articles/328464/20261002/white-house-ai-safety-accord-has-no-penalties-no-breach-reporting-self-chosen-auditors.htm
+2026-10-04 | 5 | llama-cpp-decision-models-systemone | https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp
+2026-10-04 | 5 | cactus-whistle-16-9mb-stt | https://cactuscompute.com/blog/whistle
+2026-10-04 | 5 | cosmic-bans-llm-prs | https://linuxiac.com/cosmic-stops-accepting-llm-generated-content-in-pull-requests/
+2026-10-04 | 5 | copilot-code-review-api | https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level
+2026-10-04 | 5 | india-13000-gpu-cdac-uae-supercomputer | https://communicationstoday.co.in/centre-plans-10000-gpu-ai-compute-expansion
+2026-10-04 | 5 | broadcom-60b-financing-anthropic (Bloomberg via secondary) | https://stocktwits.com/news-articles/markets/equity/broadcom-reportedly-lines-up-60-b-ai-chip-financing-as-anthropic-expands-compute/cZDjajBRBK3
+2026-10-04 | 5 | meta-muse-spark-six-math-papers-disputed | https://research.meta.ai/blog/solving-open-research-problems-together
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
 - GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon").
-- Super Intelligence accord: who sits on the promised AI safety board; federal SI definition.
+- Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
+- Jay Clayton reportedly to be named AI czar (Quartz, Oct 2; CNBC Oct 3 headline seen but not fetched) - confirm.
 - OpenAI $30B round at ~$1.4T: close and investors.
 - FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
 - California AG subpoena to OpenAI: OpenAI's response; whether Anthropic is also subpoenaed (seen in one aggregator, unverified). Iowa-led 15-state records request (unverified).
@@ -61,8 +75,14 @@ The daily run reads this before writing and skips anything already here, unless 
 - Reddit API: Oct 31 (no new requests), Jan 12 (unregistered apps cut), Mar 2027 shutdown.
 - Independent benchmarks of Jev and the new decision models (Clef, pplx-decider, Strands Decider) on the Decision Index leaderboard.
 - Dots rollout beyond Pro/Business Premium (incl. EEA/UK), pricing for extra dots.
-- Broadcom-Anthropic financing (~$42B, Reuters) seen in roundups; not yet verified/covered.
+- Broadcom-Anthropic financing: ~$60B package reported by Bloomberg (covered via Stocktwits, Issue #5); watch syndication and S-1 details.
 - Apple Full Disk Access changes: which macOS version, date, developer guidance.
 - Nvidia DGX Spark 64GB ships Oct 23.
 - Claude Sonnet 4.5 API deprecation reportedly Nov 30, 2026 (seen on Releasebot; not verified from Anthropic yet).
 - Microsoft Digital Defense Report 2026 numbers (blog had none; full PDF not checked).
+- Gemini app plan changes take effect Oct 9; Indian pricing/availability for new line-up; Gemini Mac "Full Access" mode launch.
+- GitLab AI Gateway CVE-2026-90970: any exploitation reports.
+- Meta Muse Spark maths papers: outcome of novelty dispute (3 of 6 already solved, per Jason Dean Lee).
+- India 13,000-GPU expansion: pricing/subsidy decision (3-4 months), chip generation.
+- xAI v. Minnesota nudification law: 8th Circuit temporary injunction (Oct 2) - not yet covered.
+- Microsoft Windows/Surface event reportedly Oct 7 (unverified).
