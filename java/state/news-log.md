@@ -31,12 +31,19 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 2026-10-03 | 3 | spring-boot-4-2-rc1-notes-draft-ubuntu-resolute-builder | https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-4.2.0-RC1-Release-Notes
 2026-10-03 | 3 | jdk-26-oracle-premier-support-ended-sep-2026 | https://www.oracle.com/java/technologies/java-se-support-roadmap.html
 2026-10-03 | 3 | jakarta-ee-12-cdi-5-ballot-passed; leyden-aot-training-prototype | https://jvm-weekly.com/p/the-rest-of-the-story-september-edition
+2026-10-04 | 4 | spring-monthly-release-train-patch-thursday (first patch train 22 Oct; ~80 security reports/month; spring.io/security redesign) | https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges/
+2026-10-04 | 4 | jackson-cve-2026-68497-duration-xmlgregoriancalendar-dos (fixed 2.18.10/2.21.6/2.22.2, 3.1.6/3.2.2) | https://advisories.gitlab.com/maven/tools.jackson.core/jackson-databind/CVE-2026-68497/
+2026-10-04 | 4 | micronaut-5-2-0-python-graalpy-jakarta-el | https://micronaut.io/2026/09/27/micronaut-framework-5-2-0/
+2026-10-04 | 4 | micronaut-5-2-1-jackson-3-2-3-lz4 | https://micronaut.io/2026/10/01/micronaut-framework-5-2-1/
+2026-10-04 | 4 | spring-ai-2-1-0-m1 | https://spring.io/blog/2026/09/25/spring-ai-2-1-0-M1-available-now
+2026-10-04 | 4 | spring-cloud-2026-0-0-m1-paddington | https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released
+2026-10-04 | 4 | spring-boot-oss-support-dates (4.0 ends 31 Dec 2026, 4.1 ends 31 Jul 2027) | https://endoflife.date/spring-boot
 
 ## Version watch (re-verify every issue)
-- Current LTS: 25 (Sep 2025), Oracle NFTC free updates through Sep 2028. Next LTS: 29 (Sep 2027). (Oracle roadmap updated 15 Sep 2026, re-checked 3 Oct)
+- Current LTS: 25 (Sep 2025), Oracle NFTC free updates through Sep 2028. Next LTS: 29 (Sep 2027). (Oracle roadmap updated 15 Sep 2026, re-checked 4 Oct via oracle.com/au mirror)
 - Oracle JDK 21: updates from the 20 Oct 2026 CPU under OTN licence. JDK 26 Premier Support ended Sep 2026.
 - Latest JDK: 27 (GA Sep 2026). JDK 28 due March 2027.
-- Latest Spring Boot GA: 4.1.1 (20 Aug 2026); 4.0.8 and 3.5.16 also current. 4.2.0-M2 on 24/25 Sep 2026. No newer release as of 3 Oct (releasealert.dev / mvnrepository).
+- Latest Spring Boot GA: 4.1.1 (20 Aug 2026); 4.0.8 and 3.5.16 also current. 4.2.0-M2 on 25 Sep 2026. No newer release as of 4 Oct (spring.io releases, endoflife.date). Boot 4.0 OSS support ends 31 Dec 2026.
 
 ## Open threads to follow up
 - Maven 4.0 GA ("coming weeks" as of late Sep).
@@ -48,3 +55,6 @@ One line per story: `YYYY-MM-DD | Issue # | story key | source URL`. The daily r
 - Quarkus 4.0 GA (planned end of Nov 2026); Quarkus 4 CR releases.
 - Spring Boot 4.2.0-RC1 (release notes page drafted 26 Sep).
 - Note: openjdk.org pages returned 403 on 2 Oct and again for /projects/jdk/28/ on 3 Oct (jeps/180 loaded fine); JEP statuses came from inside.java, InfoWorld, JVM Weekly and the openjdk/jdk GitHub PR. Re-verify on openjdk.org when reachable.
+- Spring "Patch Thursday": first patch train 22 Oct 2026 (next ~19 Nov). Check which Jackson version it manages (CVE-2026-68497).
+- Jackson CVE-2026-68497: watch for Spring Boot / Quarkus patch releases picking up 2.22.2+/3.2.2+.
+- Note (4 Oct): openjdk.org/projects/jdk/28/ and jeps/544 returned 403; jeps/395 and jeps/440 loaded. JEP 544 PR #30778 still open, no JDK 28 targeting seen yet.
