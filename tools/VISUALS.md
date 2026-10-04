@@ -1,4 +1,4 @@
-# Visual toolkit: Java – Beautifully Broken & Storage Wars
+# Visual & text toolkit: Java – Beautifully Broken & Storage Wars
 
 `tools/build_newsletter.py` turns fenced ```` ```viz:<type> ```` blocks (with YAML inside) into diagrams and charts. Colours come from the folder's `settings.yml` theme, so never hard-code colours. Each folder's Issue #1 uses most of these blocks, so copy from it when in doubt.
 
@@ -80,21 +80,28 @@ interview: 5
 urgency: 2
 ```
 
-## HTML boxes and tags (write them straight in Markdown)
+## Text components (write them straight in Markdown)
 
-- `<div class="box realworld" markdown="1">`: **🌍 In the real world**, how a named company or a well-known system uses this, with a source link.
-- `<div class="box gotcha" markdown="1">`: **💥 Gotcha**, what breaks in production or trips people up.
-- `<div class="box devs" markdown="1">`: **🔬 Under the hood**, the deeper internals for when you want more.
-- `<div class="box jargon" markdown="1">`: **📖 Jargon buster**
-- `<div class="box tryit" markdown="1">`: **🧪 Try it**, a 10–15 minute hands-on exercise (jshell, docker run, psql, redis-cli…)
-- `<div class="box care" markdown="1">`: **👀 Should you care?**
-- `<div class="box revision" markdown="1">`: **📌 Revision card**, closes every issue: 6–8 crisp takeaways from the whole issue, shown in two columns.
-- `<div class="cards" markdown="1">` wrapping a bullet list: two-column quick-hit cards. Start each item with an emoji and a **bold title.**
-- Tags under a heading: `<span class="tag hot">BIG DEAL</span>`. Classes: `hot`, `try`, `dev`, `watch`, `learn`.
+- **Inline definition:** `{{term|plain-English definition}}` renders the term highlighted with its definition right beside it. Use it on the **first** use of every technical term.
+- **Footnotes for sources:** `fact.[^key]`, with `[^key]: [Title](url), publisher, date.` at the end of the file. They render as small superscript numbers and a sources list. Don't use inline `[(Source)](url)` links in the deep-dive format.
+- **Opener paragraph** (with drop cap): `<p class="opener" markdown="1">…</p>`, the first paragraph of each story.
+- **Byline** under a story heading: `<div class="byline">JDK 28 · OpenJDK · Announced 2 Oct · ~12 min read</div>`
+- **Story headings:** `# Story 1 · Title` renders as a pill "STORY 1" and starts a new page for story 2+.
+
+## Boxes (use sparingly, where they add something)
+
+- `<div class="box glossary" markdown="1">`: **📖 Words from this story**. Required at the end of each story; lists every term defined inline.
+- `<div class="box gotcha" markdown="1">`: **💥 Watch out for**, for caveats, preview status and common misunderstandings.
+- `<div class="box realworld" markdown="1">`: **🌍 In the real world**, a named company or project, with a source.
+- `<div class="box tryit" markdown="1">`: **🧪 Try it**, an optional hands-on snippet.
+- `<div class="box aside" markdown="1">`: a short side note or bit of history.
+- `<div class="box casefile" markdown="1">`: a dark, monospace "incident log", for stories that start from an outage or CVE.
+- `<div class="box brief" markdown="1">`: the **On the radar** list at the end of the issue.
+- `<div class="tldr" markdown="1">`: the opening summary box.
+- `meter` and `stats` blocks still work, but they're optional in this format.
 
 ## Rules
-- **No quiz** in these newsletters.
-- **At least 6 visuals per issue.** Include at least one `codecompare` (Java) or one `layers`/`flow` (Storage Wars) in Learn, a visual in What's new, and a meter on each top story.
-- Visuals must explain, not decorate. Never invent data. Label illustrative examples as illustrative.
-- For anything the blocks can't draw, you may write a small inline `<svg>` (width 640, fonts Poppins/Body).
+- **At least 2 visuals per deep-dive story**, each explaining something (a mechanism, a before/after, history, sourced numbers). Never decorative.
+- Never invent data. Label illustrative examples as illustrative. Vendor numbers are claims.
+- No quiz, no revision card.
 - After building, look at **every** page image. Fix clipped labels, overflowing code, half-empty pages and stranded headings.

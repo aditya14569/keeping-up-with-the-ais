@@ -4,28 +4,33 @@
 #  morning's issue follows them. Nothing else needs changing.
 # ─────────────────────────────────────────────────────────────
 
-# How long the issue should take to read, in minutes.
-# The writer aims for this; the hard cap is this + 5.
-read_time_minutes: 20
+# Format: every issue = 2 big deep-dive stories on the latest news,
+# each fully explained (context, how it works, definitions), plus a
+# short "On the radar" list of other news (one line each).
 
-# How deep to go, 1–5:
-#   1 = Refresher   – what it is and when to use it, minimal internals
-#   2 = Practical   – everyday usage, configs and commands you'd actually run
-#   3 = Working dev – how it works inside, trade-offs, failure modes  (default)
-#   4 = Senior      – internals, tuning, capacity planning, design decisions
-#   5 = Deep dive   – papers, source-level detail, benchmarks, edge cases
+# Length: there is NO cap. Each story is as long as it needs to be to
+# explain the news completely. Leave this as null. Set a number
+# (minutes) only if you ever want the writer to aim for a target.
+read_time_minutes: null
+
+# How much background to assume, 1–5:
+#   1 = Explain everything from scratch, assume little background
+#   2 = Explain most concepts, light internals
+#   3 = Working developer: explain new concepts fully, skip basics  (default)
+#   4 = Senior: go deep into internals, benchmarks, design trade-offs
+#   5 = Expert: spec/source-level detail, edge cases
 difficulty: 3
 
-# Share of the issue spent on Part 1 (Learn) vs Part 2 (What's new), in %.
-learn_share: 50
+# How many deep-dive stories per issue.
+deep_dives: 2
 
-# Optional: topics to lean towards for a while, e.g. [kafka, postgres]
-# Leave empty [] to follow the curriculum in order.
+# Optional: areas to prefer when choosing the deep dives, e.g. [kafka, postgres]
+# Leave empty [] to simply pick the most important news.
 focus: []
 
 # ── Branding (no need to touch) ──────────────────────────────
 name: "Storage Wars"
-kicker: "Daily data briefing · Databases, streams & platforms"
+kicker: "Daily data deep dives · the latest news, fully explained"
 words_per_minute: 200
 email_accent: "#0e7490"
 theme:

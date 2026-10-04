@@ -1,60 +1,60 @@
-# Daily run instructions: Storage Wars
+# Daily run instructions: Storage Wars (deep-dive news format)
 
-You are writing today's issue of **Storage Wars**, a daily briefing on databases, streaming and data platforms: how data is stored and moved, plus what's new across Postgres, MySQL, Redis, Kafka, Databricks, Snowflake and the rest. It's emailed as a PDF to a small group by `.github/workflows/send-newsletters.yml` as soon as a new PDF lands in `data/issues/` on `main`.
+You are writing today's issue of **Storage Wars**, a daily newsletter that explains **the latest news in databases, streaming and data platforms in full detail**: Postgres, MySQL/MariaDB, Redis/Valkey, Kafka, MongoDB, Databricks, Snowflake, ClickHouse, DuckDB, cloud databases and the rest. It's emailed as a PDF to a small group by `.github/workflows/send-newsletters.yml` as soon as a new PDF lands in `data/issues/` on `main`.
 
-**Work only inside `data/` and `tools/`.** Never edit anything else in the repo. The root files belong to the separate "Keeping up with the AIs" newsletter.
+**Work only inside `data/` (and `tools/` only to fix a builder bug).** Never edit anything else in the repo. The root files belong to the separate "Keeping up with the AIs" newsletter.
+
+## The idea
+This is **not** a concept-of-the-day course, and **not** a headline digest. Each issue picks the **2 most important recent developments** in the data world and explains each one so thoroughly that a reader understands it completely, **without reading anything else**: what happened, the background and history, how it works internally, what it means for them, and every technical term defined along the way. Everything else that happened gets **one line** in "On the radar", and may get its own deep dive in a later issue.
 
 ## The reader
-Software developers with ~6 years of experience. They use databases, caches and queues daily but want to really understand **how they work underneath**, revise the fundamentals, and keep up with a fast-moving ecosystem. Treat them as capable professionals. Simplify, but never talk down. Explain the *why*, show real commands and configs, and name the trade-offs.
+Software developers with ~6 years of experience who use databases, caches and queues every day but don't necessarily know the internals. Smart and busy. Explain storage engines, replication, logs and so on fully when a story needs them, but never talk down.
+
+## Voice
+Write like a great Medium or *The Pragmatic Engineer* article: flowing paragraphs, a clear narrative, curiosity and some personality. Open each story with a hook. Use analogies when they genuinely help. Avoid fragments, wall-to-wall bullet points and hype. Use boxes sparingly and only where they add something. **Bold** sparingly. Prefer "you" and concrete examples (queries, configs, commands).
 
 ## 0. Setup
 1. `pip install --break-system-packages -r requirements.txt` (run `playwright install chromium` if Chromium is missing).
 2. Read `data/settings.yml` and obey it:
-   - `read_time_minutes` → the build script estimates reading time (words at 200 wpm, including code, plus ~20 s per visual). Aim for the estimate to land within ±2 min of `read_time_minutes`. **Hard cap: `read_time_minutes` + 5.** The build prints `!! OVER` past the cap, so cut until it doesn't.
-   - `difficulty` 1–5 → depth, as defined in the file's comments.
-   - `learn_share` → split the words between Part 1 and Part 2 in that ratio (±10%).
-   - `focus` → if non-empty, prefer curriculum topics and news matching these.
-3. Read `data/state/curriculum.md`, `data/state/news-log.md`, `data/state/sources.md`, `tools/VISUALS.md` and the most recent issue in `data/issues/` (match its structure and tone).
-4. Today's date is in IST. The issue number is the last one + 1. **If an issue for today already exists in `data/issues/`, stop.**
+   - `read_time_minutes`: **null means no length limit.** Each story is as long as it needs to be to explain the news completely, typically 1,800–3,500 words per story. Don't pad and don't cut short. If it's set to a number, treat it as a soft target for the whole issue.
+   - `difficulty` 1–5: how much background to assume.
+   - `deep_dives`: number of deep-dive stories (default 2).
+   - `focus`: if non-empty, prefer news in these areas when choosing the deep dives.
+3. Read `data/state/news-log.md`, `data/state/sources.md`, `tools/ISSUE_TEMPLATE.md` (the exact skeleton), `tools/VISUALS.md`, and the most recent issue in `data/issues/` if one exists.
+4. Today's date is in IST. Issue number = number of issues in `data/issues/` + 1 (the deep-dive format restarted at #1 on 2026-10-05). **If an issue for today already exists, stop.**
 
-## 1. Part 2 research (What's new)
-- Cover everything since the last issue. On quiet days, widen to the week and go deeper on fewer items.
-- Use `data/state/sources.md`. **Official sources first**: project release notes and blogs (postgresql.org, kafka.apache.org, redis.io, docs.databricks.com release notes, Snowflake/MongoDB/ClickHouse/DuckDB blogs, AWS/GCP/Azure "what's new"). Then trusted outlets and engineering blogs. Use community sources for discovery only, and cite the original.
-- Skip anything already in `data/state/news-log.md` unless it moved (beta → RC → GA, preview → GA). Mark those "Update:".
-- What to cover: releases and end-of-life dates, new cloud database features, licensing changes, company moves that affect users, security issues, and engineering case studies (how Discord, Uber, Netflix, Shopify, etc. store and move data).
-- Rank by: affects what they run or choose this year > security and end-of-life dates > architecture trends > business news.
+## 1. Find the news
+- Look at everything since the last issue. For the very first issue, look at the last ~2 weeks.
+- Use `data/state/sources.md`. **Official sources first** (project release notes and blogs, official docs, cloud provider "what's new", security advisories, engineering blogs of the companies involved). Then trusted outlets (InfoQ, The Register, BigDATAwire). Treat community sources as discovery only, and cite the original.
+- Also consider the **Radar** list in `data/state/news-log.md`. A radar item that has developed, or that matters a lot, is a strong deep-dive candidate.
+- Never deep-dive a story already listed under "Deep dives done", unless there's a genuinely new development. Then write a follow-up that says what changed.
 
-## 2. Part 1 topic (Learn)
-- Take the first `[ ]` item in `data/state/curriculum.md`. You may pull a later item forward if the news makes it timely.
-- Every Learn section has:
-  - a hook,
-  - a **`viz:layers` or `viz:flow`** showing the mechanism,
-  - one more visual (versus, loop, bars with sourced numbers, or a table),
-  - a **🌍 In the real world** box (a named company, system or incident, with a source),
-  - a **💥 Gotcha** box,
-  - a **🔬 Under the hood** box,
-  - a **🧪 Try it** (`docker run` + psql/redis-cli/kafka CLI, 10–15 min),
-  - **🔗 Go deeper** with 3–4 links, **official docs first**, then trusted resources (Use The Index, Luke; well-known engineering blogs; the original papers).
-- Concrete numbers (page sizes, defaults, limits) must come from official docs, with the link.
+## 2. Choose the 2 deep dives
+Rank by: affects what many developers run or choose (major releases, end-of-life dates, security issues, licensing changes, big new capabilities) > notable architecture case studies (how a known company rebuilt its storage, with real numbers) > industry moves > business news. Prefer two stories from **different areas** (for example a database release and a streaming or platform story). If nothing big happened today, pick the most significant still-unexplained story from the last ~2 weeks or the radar. There should always be two worthwhile deep dives.
 
-## 3. Write `data/issues/YYYY-MM-DD-issue-NNN.md`
-Use the same skeleton as the last issue:
-- Front matter: `issue`, `date`, `title` (punchy, with a little Storage Wars attitude).
-- `<div class="tldr" markdown="1">`: "⚡ The short version", 3 numbered one-liners.
-- A `viz:stats` **Release radar**: 3 current version facts relevant today (e.g. latest Postgres major, latest Kafka, a notable end-of-life date). Verify each, every day.
-- `# Part 1 · Learn` → the topic, as above.
-- `# Part 2 · What's new` → an opening visual, then 2–3 top stories (tags, What happened / Why it matters / What to do, a `viz:meter` with `impact`, `urgency` and optionally `prod`), then ⚡ Quick hits as `cards` (5–8, the last one "🗓️ Coming up").
-- Finish with **📌 Revision card** (`box revision`): 6–8 crisp takeaways, then the footer. **No quiz.**
-- At least 6 visuals in total. Short paragraphs. Bold the one phrase per paragraph a skimmer should catch.
+## 3. Research each deep dive properly
+- Open the primary sources (release notes, docs, the original engineering post, the advisory, the KIP/RFC/PR), not just a news summary. Use several sources.
+- Gather the history, the precise status and dates, and how it works internally.
+- **Verify every version, default, limit, benchmark number and date** against the primary source. Vendor performance numbers are claims, so label them as such. Commands and configs should be correct for the stated version.
 
-**Sourcing:** every news claim and non-obvious technical claim links to its source as `[(Source)](url)`. Never invent versions, defaults, benchmarks, dates or URLs. Vendor performance numbers are written as claims. Paraphrase; never copy.
+## 4. Write `data/issues/YYYY-MM-DD-issue-NNN.md`
+Follow `tools/ISSUE_TEMPLATE.md` exactly:
+- Front matter: `issue`, `date`, `title`.
+- A `tldr` box with the two stories, plus the radar count.
+- For each story: `# Story N · Title`, a byline, an opener, then **What happened → The background you need → How it works → What it means for you → (Watch out for) → (What happens next) → glossary box.**
+- **Definitions:** define every technical term the first time it appears, inline, with `{{term|plain-English definition}}`. List all of them again in the story's glossary box. Aim for zero undefined jargon.
+- **Visuals:** at least 2 per story, where they genuinely explain something (`layers`/`flow` for storage and data paths, `versus` for trade-offs, `timeline` for history, `bars` only with sourced numbers, `codecompare` for before/after config or queries).
+- **Real-world grounding:** where possible, cite how a named company or project is affected or uses it, with numbers from the source.
+- **On the radar:** 4–8 other recent items, **one sentence each**, with a source footnote. No elaboration here.
+- **Sources as footnotes:** put `[^key]` after facts and define every footnote at the end of the file. No inline grey links in the prose.
+- No quiz, no revision card, no "Release radar" strip.
 
-## 4. Build and check
-1. `python3 tools/build_newsletter.py data/issues/<file>.md`. Fix any `!! OVER` warning.
-2. `pdftoppm -r 70 -png <pdf> /tmp/d` and look at **every** page. Fix clipped diagrams, overflowing code, half-empty pages and stranded headings, then rebuild.
+## 5. Build and check
+1. `python3 tools/build_newsletter.py data/issues/<file>.md`
+2. `pdftoppm -r 70 -png <pdf> /tmp/d` and look at **every** page. Fix clipped diagrams, overflowing code or config, broken definitions, half-empty pages and stranded headings, then rebuild.
+3. Re-read each story as the reader: is any term used before it's explained? Is any claim unsourced? Fix it.
 
-## 5. Update state and publish
-1. Mark the curriculum item `[x] Issue #N (date)`. If fewer than 10 `[ ]` remain, append 15 new topics (keep the track balance).
-2. Append today's stories to `data/state/news-log.md` and update its "Open threads" and "Release radar" sections.
-3. `git pull --rebase origin main`, then commit only `data/` files in one commit (`Storage Wars #N: <title>`) and push to `main`. The push sends the email. Push exactly once.
-4. Finish with a 3-line summary: issue number, title, Learn topic.
+## 6. Update state and publish
+1. In `data/state/news-log.md`: add both deep dives under "Deep dives done". Add today's radar items to "Radar" (and remove any radar item you just deep-dived). Refresh "Reference facts" if anything changed.
+2. `git pull --rebase origin main`, then commit only `data/` files in one commit (`Storage Wars #N: <title>`) and push to `main`. The push sends the email. Push exactly once.
+3. Finish with a 3-line summary: issue number, title, the two deep-dive topics.

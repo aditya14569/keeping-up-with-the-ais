@@ -314,7 +314,8 @@ a.src { font-size: 8.3pt; color: #9aa0ad; font-weight: 400; }
 h1 { font-family: Poppins; font-weight: 700; font-size: 20pt; margin: 24px 0 6px; line-height: 1.1; break-after: avoid; letter-spacing: -.01em; }
 h1 .pill { display: inline-block; font-size: 8.5pt; letter-spacing: .14em; vertical-align: middle; background: var(--v); color: #fff; border-radius: 99px; padding: 3px 11px; margin-right: 8px; position: relative; top: -3px; }
 h1.part2 .pill { background: var(--coral); }
-h1.part2 { break-before: page; margin-top: 0; }
+h1.part2, h1.part3 { break-before: page; margin-top: 0; }
+h1.part3 .pill { background: var(--ink); }
 h1 + p.lede { color: var(--muted); margin-top: 0; }
 h2 { font-family: Poppins; font-weight: 700; font-size: 15pt; margin: 20px 0 6px; line-height: 1.25; break-after: avoid; padding-left: 12px; border-left: 5px solid var(--v); }
 h3 { font-family: Poppins; font-weight: 500; font-size: 10.5pt; text-transform: uppercase; letter-spacing: .08em; color: var(--v); margin: 16px 0 3px; break-after: avoid; }
@@ -404,6 +405,32 @@ pre code { font-size: 8.2pt; line-height: 1.32; background: none; padding: 0; co
 .cc-pane.old .cc-code { background: #2a2c35; }
 .cc-pane.new .cc-code { box-shadow: inset 4px 0 0 var(--v); }
 .keep { break-inside: avoid; }
+/* learning-format additions */
+.dt { font-weight: 700; color: var(--v); border-bottom: 1.5px dotted var(--v); }
+.dd { font-size: 9.6pt; color: #4b5161; font-style: italic; background: var(--vsoft); border-radius: 5px; padding: 0 5px; margin-left: 4px; }
+.dd:before { content: "≈ "; font-style: normal; color: var(--v); font-weight: 700; }
+.box.glossary { background: #fbfaf7; border: 1px solid var(--line); border-top: 4px solid var(--v); break-inside: avoid; }
+.box.glossary > p:first-child strong:first-child { color: var(--v); font-family: Poppins; }
+.box.glossary ul { list-style: none; padding: 0; columns: 2; column-gap: 20px; font-size: 9.6pt; }
+.box.glossary li { break-inside: avoid; margin: 0 0 5px; }
+.box.aside { background: #f7f7fa; border-left: 4px solid #9aa0ad; font-size: 10.6pt; break-inside: avoid; }
+.box.aside > p:first-child strong:first-child { color: #3b4050; }
+.box.casefile { background: #16181d; color: #e9eaee; border-radius: 12px; padding: 12px 16px 8px; break-inside: avoid; font-family: Mono; font-size: 9pt; line-height: 1.5; }
+.box.casefile b, .box.casefile strong { color: #fff; }
+.box.casefile > p:first-child strong:first-child { color: #fbbf24; font-family: Poppins; font-size: 10pt; letter-spacing: .08em; }
+.box.casefile code { background: rgba(255,255,255,.1); color: #fff; }
+.box.steps { background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--v); break-inside: avoid; }
+.box.recap { background: var(--vsoft); border-radius: 12px; break-inside: avoid; }
+.box.recap > p:first-child strong:first-child { color: var(--v); font-family: Poppins; }
+.box.brief { background: #f4f5f8; border-radius: 12px; font-size: 10pt; break-inside: avoid; }
+.box.brief > p:first-child strong:first-child { font-family: Poppins; }
+p.opener { font-size: 12.4pt; line-height: 1.6; color: #22252c; }
+p.opener:first-letter { font-family: Poppins; font-weight: 700; font-size: 34pt; float: left; line-height: .9; margin: 4px 8px 0 0; color: var(--v); }
+.byline { font-family: Poppins; font-size: 8.5pt; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: -2px 0 10px; }
+.footnote { font-size: 8.4pt; color: var(--muted); margin-top: 18px; border-top: 1px solid var(--line); padding-top: 6px; }
+.footnote ol { padding-left: 18px; } .footnote li { margin: 1px 0; } .footnote hr { display: none; }
+.footnote a.footnote-backref { display: none; }
+sup a.footnote-ref, a.footnote-ref { font-size: 7.5pt; color: var(--v); font-weight: 700; }
 .footer { margin-top: 18px; padding: 10px 14px; border-radius: 12px; background: #f4f5f8; font-size: 8.8pt; color: var(--muted); }
 """
 
@@ -429,7 +456,10 @@ def render_body(body_md):
         return f"\n\nKVIZ{len(blocks) - 1}KVIZ\n\n"
 
     body_md = re.sub(r"```viz:(\w+)\n(.*?)```", stash, body_md, flags=re.S)
-    html = markdown.markdown(body_md, extensions=["tables", "fenced_code", "md_in_html", "sane_lists"])
+    # Inline definitions: {{term|plain-English definition}} -> term + a small definition right after it
+    body_md = re.sub(r"\{\{([^|{}]+)\|([^{}]+)\}\}",
+                     r'<span class="dt">\1</span><span class="dd">\2</span>', body_md)
+    html = markdown.markdown(body_md, extensions=["tables", "fenced_code", "md_in_html", "sane_lists", "footnotes"])
     html = re.sub(r'<a href="([^"]+)">\(', r'<a class="src" href="\1">(', html)
     for i, b in enumerate(blocks):
         html = html.replace(f"<p>KVIZ{i}KVIZ</p>", b).replace(f"KVIZ{i}KVIZ", b)
@@ -437,8 +467,15 @@ def render_body(body_md):
     html = re.sub(r'(<h([23])[^>]*>(?:(?!</h[23]>).)*</h\2>\s*(?:<p><span class="tag(?:(?!</p>).)*</p>\s*)?<p>(?:(?!</p>).)*</p>)',
                   r'<div class="keep">\1</div>', html, flags=re.S)
     # "# Part 1 · Learn" -> pill + title
-    html = re.sub(r"<h1>Part (\d) · (.*?)</h1>",
-                  lambda m: f'<h1 class="part{m.group(1)}"><span class="pill">PART {m.group(1)}</span>{m.group(2)}</h1>', html)
+    count = {"n": 0}
+
+    def pill(m):
+        count["n"] += 1
+        label, title = m.group(1), m.group(2)
+        if re.fullmatch(r"Part \d", label):
+            label = label.upper()
+        return f'<h1 class="part{count["n"]}"><span class="pill">{label.upper()}</span>{title}</h1>'
+    html = re.sub(r"<h1>([^<·]{1,30}) · (.*?)</h1>", pill, html)
     return html
 
 
@@ -484,10 +521,10 @@ def build(md_path: Path) -> Path:
     issue = meta.get("issue", "?")
     html = f"""<!doctype html><html><head><meta charset="utf-8"><style>{css.replace("FONTS", FONTS)}</style></head><body>
 <div class="mast">
-  <div class="kicker">{esc(KICKER)}</div>
+  <div class="kicker">{esc(meta.get("kicker", KICKER))}</div>
   <div class="name">{NAME}</div>
   <div class="headline">{esc(meta.get('title', ''))}</div>
-  <div class="meta"><span>Issue #{issue}</span><span>{d.strftime('%a, %d %b %Y')}</span><span>⏱️ ~{minutes} min read</span><span>Level {cfg.get("difficulty", 3)}/5</span></div>
+  <div class="meta"><span>{("Issue #" + str(issue)) if str(issue).isdigit() else ("Sample " + str(issue))}</span><span>{d.strftime('%a, %d %b %Y')}</span><span>⏱️ ~{minutes} min read</span><span>Level {cfg.get("difficulty", 3)}/5</span></div>
 </div>
 {body}
 </body></html>"""
@@ -506,10 +543,13 @@ def build(md_path: Path) -> Path:
                  margin={"top": "13mm", "bottom": "15mm", "left": "14mm", "right": "14mm"})
         browser.close()
     tmp.unlink(missing_ok=True)
-    target = int(cfg.get("read_time_minutes", 20))
-    cap = target + 5
-    flag = "" if minutes <= cap else f"  !! OVER the {cap}-min cap, cut it down"
-    print(f"Built {out} ({words} words + {visuals} visuals, ~{minutes} min; target {target}, cap {cap}){flag}")
+    target = cfg.get("read_time_minutes")
+    if target:
+        cap = int(target) + 5
+        flag = "" if minutes <= cap else f"  !! OVER the {cap}-min cap, cut it down"
+        print(f"Built {out} ({words} words + {visuals} visuals, ~{minutes} min; target {target}, cap {cap}){flag}")
+    else:
+        print(f"Built {out} ({words} words + {visuals} visuals, ~{minutes} min; no length cap)")
     return out
 
 

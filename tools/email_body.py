@@ -46,9 +46,9 @@ mins = setting("read_time_minutes", "20")
 body = f"""<div style="font-family:Segoe UI,Helvetica,Arial,sans-serif;max-width:600px;color:#16181d;line-height:1.5">
 <p style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:{accent};font-weight:700;margin:0">{html.escape(name)} · Issue #{issue}</p>
 <h2 style="font-family:Georgia,serif;margin:4px 0 12px">{html.escape(title)}</h2>
-<p style="margin:0 0 6px"><b>The short version:</b></p>
+<p style="margin:0 0 6px"><b>Today:</b></p>
 <ol style="padding-left:20px;margin:0 0 14px">{lis}</ol>
-<p>The full issue (Learn + What's new) is attached as a PDF, about {html.escape(mins)} minutes to read.</p>
+<p>The full issue, with both stories explained in depth and the rest of the news "on the radar", is attached as a PDF.</p>
 <p style="color:#8a8f9c;font-size:12px">{d.strftime('%A, %d %B %Y')} · Researched and written by Claude.</p>
 </div>"""
 Path("email.html").write_text(body, encoding="utf-8")
