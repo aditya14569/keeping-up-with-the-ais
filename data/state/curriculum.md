@@ -9,7 +9,7 @@ Rules for the daily run:
 - [x] [F] How a database stores a row: pages, heap files and the B-tree: Issue #1 (2026-10-01)
 - [x] [F] Indexes in depth: composite indexes, covering indexes, selectivity, when an index is ignored: Issue #2 (2026-10-02)
 - [x] [S] Redis I: data structures, single-threaded event loop, why it's fast: Issue #3 (2026-10-03)
-- [ ] [F] The write-ahead log: durability, crash recovery and fsync
+- [x] [F] The write-ahead log: durability, crash recovery and fsync: Issue #4 (2026-10-04)
 - [ ] [S] Kafka I: topics, partitions, offsets and the commit log
 - [ ] [D] Caching patterns: cache-aside, write-through, invalidation and stampedes
 - [ ] [F] Transactions and isolation levels: dirty reads to serializable, with examples
