@@ -11,7 +11,7 @@ Rules for the daily run:
 - [x] Context windows: the model's working memory: Issue #3 (2026-10-02)
 - [x] Temperature, sampling and why answers vary: Issue #4 (2026-10-03)
 - [x] Hallucinations: why models make things up and how to reduce it: Issue #5 (2026-10-04)
-- [ ] Reasoning models and "thinking" effort levels
+- [x] Reasoning models and "thinking" effort levels: Issue #6 (2026-10-05)
 - [ ] Multimodal models: images, audio, video in and out
 - [ ] Open-weight vs closed models (and running models locally)
 

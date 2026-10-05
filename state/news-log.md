@@ -61,13 +61,24 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-04 | 5 | india-13000-gpu-cdac-uae-supercomputer | https://communicationstoday.co.in/centre-plans-10000-gpu-ai-compute-expansion
 2026-10-04 | 5 | broadcom-60b-financing-anthropic (Bloomberg via secondary) | https://stocktwits.com/news-articles/markets/equity/broadcom-reportedly-lines-up-60-b-ai-chip-financing-as-anthropic-expands-compute/cZDjajBRBK3
 2026-10-04 | 5 | meta-muse-spark-six-math-papers-disputed | https://research.meta.ai/blog/solving-open-research-problems-together
+2026-10-05 | 6 | trump-super-intelligence-force-clayton-chair-120-day-report | https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
+2026-10-05 | 6 | altman-politico-accept-some-bad-things-anthropic-divide | https://www.tradingview.com/news/seekingalpha:0d20c8ab5094b:0-openai-s-altman-draws-regulatory-divide-with-anthropic-over-ai-risks-politico/
+2026-10-05 | 6 | mythos-found-rejetto-hfs-cve-2026-61500-exploited | https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933
+2026-10-05 | 6 | google-oss-vrp-pauses-product-reports-ai-slop | https://tech.yahoo.com/ai/articles/google-freezes-open-source-bug-120000127.html
+2026-10-05 | 6 | meta-muse-system-files-hourly-contact-profiles-wired | https://www.archyde.com/metas-ai-assistant-muse-creates-detailed-profiles-of-friends-and-family/
+2026-10-05 | 6 | claude-diary-threat-reported-to-police-florida | https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html
+2026-10-05 | 6 | openai-agent-review-50pb-500k-per-day (Update) | https://www.inkl.com/news/openai-says-its-review-into-hacks-including-on-australian-government-sites-is-costing-500-000-a-day
+2026-10-05 | 6 | openai-deprecations-gpt-5-3-codex-5-1-5-4-nano-apr-2027 | https://developers.openai.com/api/docs/deprecations
+2026-10-05 | 6 | pentagon-project-meridian-musk-luckey-gingrich | https://axios.com/2026/09/30/pentagon-hegseth-musk-gingrich-anduril
+2026-10-05 | 6 | livenerf-opus-5-5-drift-benchmark | https://explainx.ai/blog/livenerf-opus-5-5-post-launch-drift-benchmark-2026
+2026-10-05 | 6 | codex-0-160-claude-code-2-1-288 | https://releasebot.io/updates/anthropic/claude-code
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
 - GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon").
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
-- Jay Clayton reportedly to be named AI czar (Quartz, Oct 2; CNBC Oct 3 headline seen but not fetched) - confirm.
+- Super Intelligence Force (chair Jay Clayton; covered Issue #6): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
 - OpenAI $30B round at ~$1.4T: close and investors.
 - FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
 - California AG subpoena to OpenAI: OpenAI's response; whether Anthropic is also subpoenaed (seen in one aggregator, unverified). Iowa-led 15-state records request (unverified).
@@ -86,3 +97,8 @@ The daily run reads this before writing and skips anything already here, unless 
 - India 13,000-GPU expansion: pricing/subsidy decision (3-4 months), chip generation.
 - xAI v. Minnesota nudification law: 8th Circuit temporary injunction (Oct 2) - not yet covered.
 - Microsoft Windows/Surface event reportedly Oct 7 (unverified).
+- Rejetto HFS CVE-2026-61500 (Mythos-found): scale of exploitation; further Mythos/Glasswing CVEs exploited in the wild.
+- Google OSS VRP: reformatted program promised by Q1 2027.
+- Meta Muse contact profiles (Wired, Oct 3): any regulator response (EU/UK), Meta changes to memory/profile features.
+- Livenerf Opus 5.5 drift benchmark: first verdict ~Oct 24.
+- OpenAI model shutdowns: tts-1 family Jan 6, 2027; gpt-5.3-codex / gpt-5.1 / gpt-5.4-nano Apr 1, 2027.
