@@ -319,6 +319,7 @@ h1.part3 .pill { background: var(--ink); }
 h1 + p.lede { color: var(--muted); margin-top: 0; }
 h2 { font-family: Poppins; font-weight: 700; font-size: 15pt; margin: 20px 0 6px; line-height: 1.25; break-after: avoid; padding-left: 12px; border-left: 5px solid var(--v); }
 h3 { font-family: Poppins; font-weight: 500; font-size: 10.5pt; text-transform: uppercase; letter-spacing: .08em; color: var(--v); margin: 16px 0 3px; break-after: avoid; }
+h4 { break-after: avoid; }
 p { margin: 5px 0 8px; }
 ul, ol { margin: 4px 0 9px; padding-left: 20px; }
 li { margin: 3px 0; }
