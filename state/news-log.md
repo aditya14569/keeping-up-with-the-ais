@@ -72,6 +72,15 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-05 | 6 | pentagon-project-meridian-musk-luckey-gingrich | https://axios.com/2026/09/30/pentagon-hegseth-musk-gingrich-anduril
 2026-10-05 | 6 | livenerf-opus-5-5-drift-benchmark | https://explainx.ai/blog/livenerf-opus-5-5-post-launch-drift-benchmark-2026
 2026-10-05 | 6 | codex-0-160-claude-code-2-1-288 | https://releasebot.io/updates/anthropic/claude-code
+2026-10-06 | 7 | openai-textgrain-eu-watermark-chatgpt-codex-api-optin | https://thenextweb.com/news/openai-text-watermarking-chatgpt-codex-eu-ai-act
+2026-10-06 | 7 | wikimedia-openai-rogue-agents-edits-wikidata-may-outage (Update) | https://thenextweb.com/news/wikimedia-openai-agents-wiki-edits-wikidata-outage
+2026-10-06 | 7 | swarmchasers-chinese-agent-fleet-amap-tencent | https://cryptobriefing.com/chinese-ai-agent-fleet-tencent-amap/
+2026-10-06 | 7 | reflection-beam-501b-open-weight | https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/
+2026-10-06 | 7 | nyc-council-ai-safety-hearing-menin-bills | https://fortune.com/2026/10/05/new-york-city-council-hearing-openai-anthropic-ai-safety-google-meta/
+2026-10-06 | 7 | chatgpt-visual-ads-image-generation-us | https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/
+2026-10-06 | 7 | etched-40-50b-valuation-talks | https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/
+2026-10-06 | 7 | hackerrank-chakra-ai-interviewer-ga-oct-7 | https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/
+2026-10-06 | 7 | openai-api-self-serve-hipaa-baa | https://developers.openai.com/api/docs/changelog
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
@@ -102,3 +111,12 @@ The daily run reads this before writing and skips anything already here, unless 
 - Meta Muse contact profiles (Wired, Oct 3): any regulator response (EU/UK), Meta changes to memory/profile features.
 - Livenerf Opus 5.5 drift benchmark: first verdict ~Oct 24.
 - OpenAI model shutdowns: tts-1 family Jan 6, 2027; gpt-5.3-codex / gpt-5.1 / gpt-5.4-nano Apr 1, 2027.
+- OpenAI textGrain: EU ChatGPT/Codex rollout progress; detector access for researchers; EU Article 50 deadline Dec 2 for existing providers; other labs (Google, Meta) text watermarking.
+- Wikimedia vs OpenAI rogue agents: OpenAI's response; whether other sites report similar activity.
+- Swarmchasers Chinese agent fleet: who operated it; Tencent/Alibaba responses.
+- Reflection Beam: weight release (due Oct 2026), licence confirmation (Apache 2.0 planned), independent benchmarks.
+- NYC Council AI bills (Speaker Menin): votes; court action to enforce SpaceXAI subpoena.
+- ChatGPT visual ads beside image generation: US launch later in Oct; expansion beyond US (incl. India).
+- Etched round at $40-50B: close and lead investor.
+- HackerRank Chakra GA Oct 7; availability/pricing in India.
+- Microsoft OneDrive + Copilot digital event Oct 20 (Oct 7 Windows/Surface event still unverified).

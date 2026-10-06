@@ -12,7 +12,7 @@ Rules for the daily run:
 - [x] Temperature, sampling and why answers vary: Issue #4 (2026-10-03)
 - [x] Hallucinations: why models make things up and how to reduce it: Issue #5 (2026-10-04)
 - [x] Reasoning models and "thinking" effort levels: Issue #6 (2026-10-05)
-- [ ] Multimodal models: images, audio, video in and out
+- [x] Multimodal models: images, audio, video in and out: Issue #7 (2026-10-06)
 - [ ] Open-weight vs closed models (and running models locally)
 
 ## Module 2: Getting great results
