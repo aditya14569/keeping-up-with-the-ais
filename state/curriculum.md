@@ -13,7 +13,7 @@ Rules for the daily run:
 - [x] Hallucinations: why models make things up and how to reduce it: Issue #5 (2026-10-04)
 - [x] Reasoning models and "thinking" effort levels: Issue #6 (2026-10-05)
 - [x] Multimodal models: images, audio, video in and out: Issue #7 (2026-10-06)
-- [ ] Open-weight vs closed models (and running models locally)
+- [x] Open-weight vs closed models (and running models locally): Issue #8 (2026-10-07)
 
 ## Module 2: Getting great results
 - [ ] Prompting fundamentals: role, context, examples, format

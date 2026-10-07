@@ -81,6 +81,14 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-06 | 7 | etched-40-50b-valuation-talks | https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/
 2026-10-06 | 7 | hackerrank-chakra-ai-interviewer-ga-oct-7 | https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/
 2026-10-06 | 7 | openai-api-self-serve-hipaa-baa | https://developers.openai.com/api/docs/changelog
+2026-10-07 | 8 | mistral-large-4-le-chonk-1t-preview-weights-oct-27 | https://venturebeat.com/technology/mistral-debuts-large-4-le-chonk-a-1-trillion-parameter-text-output-model-with-high-benchmarks-planned-for-open-weights-release
+2026-10-07 | 8 | openai-722-math-manuscripts-lean | https://openai.com/index/sharing-ai-progress-in-mathematics/
+2026-10-07 | 8 | anthropic-cyber-verification-program-three-tiers-glasswing-merged | https://www.anthropic.com/news/cyber-verification-program
+2026-10-07 | 8 | underdog-on-device-assistant-sigil-wen | https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/
+2026-10-07 | 8 | claude-startups-program-free-team-1000-credits | https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/
+2026-10-07 | 8 | nano-banana-2-1-ai-mode-gemini-api | https://www.seroundtable.com/nano-banana-21-google-ai-mode-42246.html
+2026-10-07 | 8 | moonshot-hk-ipo-deepseek-raise-bloomberg | https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital
+2026-10-07 | 8 | atlassian-openai-partnership-codex-jira | https://openai.com/index/atlassian-partnership/
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
@@ -120,3 +128,9 @@ The daily run reads this before writing and skips anything already here, unless 
 - Etched round at $40-50B: close and lead investor.
 - HackerRank Chakra GA Oct 7; availability/pricing in India.
 - Microsoft OneDrive + Copilot digital event Oct 20 (Oct 7 Windows/Surface event still unverified).
+- Mistral Large 4: weights Oct 27; licence text; confirmed API pricing (MarkTechPost lists $1.36/$4.18 per M; VentureBeat says undisclosed); independent benchmarks; larger versions.
+- OpenAI 722 maths manuscripts: mathematicians' verification, errors found, model release; IAS-linked workshops.
+- Anthropic Cyber Verification Program: uptake, OpenAI/Google equivalents.
+- Underdog: wider rollout beyond invite-only, Linux/iPhone/Android versions.
+- Nano Banana 2.1: gemini-3.1-flash-image deprecated Oct 29.
+- Moonshot Hong Kong IPO (Q1 2027) and DeepSeek ¥80-100B round: confirmation.
