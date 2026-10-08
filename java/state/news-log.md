@@ -11,6 +11,8 @@ One line per story: `YYYY-MM-DD | Issue # | story key | main sources`. Never dee
 2026-10-06 | 2 | spring-patch-thursday-monthly-release-train (first train 22 Oct; AI-driven report flood 482 in Apr; 91 CVEs 20 Aug; spring.io/security redesign; support lines) | https://spring.io/blog/2026/09/21/releasing-spring-for-modern-challenges/, https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai/, https://securityboulevard.com/2026/08/91-spring-cves-the-ai-vulnerability-consumption-problem/
 2026-10-07 | 3 | jep-540-simple-json-api-incubator-targeted-jdk28 (targeted 2 Oct; JEP 198 history + Reinhold 2014 drop; Sandoz May 2025; Json.parse/JsonValue sealed, tryGet/tryValue, strict numbers, duplicate names rejected, toDisplayString, --add-modules; HN 'ceremony' critique) | https://inside.java/, https://www.infoq.com/news/2026/08/java-native-json-api/, https://mail.openjdk.org/pipermail/core-libs-dev/2025-May/145905.html, https://openjdk.org/jeps/198
 2026-10-07 | 3 | oracle-java-monthly-cspu (first Java CSPU 18 Aug: 26.0.2.1/25.0.4.1/21.0.12.1/17.0.20.1/11.0.32.1/8u503; none in Sep; next 17 Nov; third-Tuesday rule; Azul/Corretto/Temurin follow; JEP 322 $PATCH digit; JDK 21 NFTC end) | https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates, https://www.oracle.com/security-alerts/cspusep2026.html, https://www.azul.com/blog/azul-will-deliver-monthly-java-critical-security-patch-updates-increasing-patch-velocity-with-stability/, https://adoptium.net/news/2026/09/eclipse-temurin-8u504-110321-170201-210121-25041-26021-available
+2026-10-08 | 4 | jep-542-pem-encodings-final-targeted-jdk28 (targeted 6 Oct; 'finalize without further change'; previews 470/524/538 in JDK 25/26/27, third preview after late feedback; BinaryEncodable (was DEREncodable), PEM class (was PEMRecord), encrypt (was encryptKey), CryptoException, default PBEWithHmacSHA256AndAES_128; RFC 7468; keystore/Bouncy Castle/Spring SSL bundles workarounds; Modernizer #448 and SEC1/legacy caveats) | https://inside.java/tag/jdk-28/, https://openjdk.org/jeps/8376991, https://www.jvm-weekly.com/p/jdk-27-is-here-jvm-weekly-vol-192, https://github.com/gaul/modernizer-maven-plugin/issues/448
+2026-10-08 | 4 | quarkus-4-0-beta1-and-3-40-lts (Beta1 1 Oct, Final end Nov; Java 21 floor reasoning; Vert.x 5.1.8/Netty 4.2, HTTP/3/QUIC, epoll/io_uring; Jackson 3.1.4 and its default changes; Hibernate ORM 8/JPA 4/Jakarta Data 1.1; OTel 10% sampling; removals; 3.40 LTS to 30 Sep 2027) | https://quarkus.io/blog/quarkus-4-0-0-beta1-released/, https://quarkus.io/blog/java21/, https://quarkus.io/blog/quarkus-3-40-released/, https://quarkus.io/releases
 
 ## Radar: mentioned, not yet explained
 Candidates for a future deep dive. Add each issue's "On the radar" items here. Remove an item once it has had its deep dive, or once it's stale (>3 weeks with no development).
@@ -18,7 +20,6 @@ Candidates for a future deep dive. Add each issue's "On the radar" items here. R
 
 - 2026-10-05 | Jackson CVE-2026-68497 (Duration/XMLGregorianCalendar DoS) | widely used library; how the bug works | https://advisories.gitlab.com/maven/tools.jackson.core/jackson-databind/CVE-2026-68497/
 - 2026-10-05 | JEP 543 structured concurrency (final) Candidate for JDK 28 (PR #32602) | concurrency model change | https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/
-- 2026-10-05 | Quarkus 4.0 Beta1 (Java 21 baseline, Hibernate ORM 8, Jackson 3, HTTP/3; GA end Nov) | major framework version | https://quarkus.io/blog/quarkus-4-0-0-beta1-released/
 - 2026-10-05 | ZGC JEPs 545 (faster startup) and 546 (adaptive heap sizing) are Candidates | GC behaviour for latency-sensitive services | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
 - 2026-10-05 | Gradle 9.8.0 (Java 27 toolchains) and Maven 4.0.0-RC7 (Maven 4 GA near) | build tooling | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
 - 2026-10-05 | Java 27 (G1 default everywhere, compact object headers by default, PQC TLS) | released 15 Sep, only summarised so far | https://www.infoq.com/news/2026/09/java27-released/
@@ -28,12 +29,16 @@ Candidates for a future deep dive. Add each issue's "On the radar" items here. R
 - 2026-10-06 | JobRunr 9.0.0 | background jobs library major | https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/
 - 2026-10-06 | Lathe, a Java LSP built from Maven builds | tooling | https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/
 - 2026-10-06 | Spring Boot 4.2.0-M2 / Spring Cloud 2026.0.0-M1 "Paddington" (Nov feature releases) | next Boot minor | https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/
-- 2026-10-07 | JEP 542 PEM Encodings of Cryptographic Objects, final, targeted JDK 28 (DEREncodable -> BinaryEncodable) | security API goes final after 3 previews | https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/
 - 2026-10-07 | JEP 541 deprecate macOS/x64 port for removal, targeted JDK 28 | platform support change for Intel Macs | https://inside.java/
 - 2026-10-07 | Arena.ofConfined() pooling in JDK 28 (5-byte allocs 6.8–18.6x faster) | FFM API performance | https://inside.java/2026/10/05/confined-pools/
 - 2026-10-07 | PQC intrinsics JDK 27/28 (ML-KEM up to 218% faster); PQC backports to 25/21/17/11/8 by end 2027 | post-quantum crypto on LTS | https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/
 - 2026-10-07 | JDK 27 performance round-up (compact headers + G1 default, HashMap bulk ops 61–86% faster) | performance | https://inside.java/2026/09/28/performance-update-jdk27/
 - 2026-10-07 | Spring AI 2.1.0-M1, Spring Data 2026.1.0-M2, Batch 6.1.0-M2, Integration 7.2.0-M2 | November Spring feature releases | https://spring.io/blog/2026/09/29/this-week-in-spring-september-29th-2026
+
+- 2026-10-08 | Quarkus Desktop extension (AWT/Swing, native on Win/Linux/macOS) | desktop Java revival angle | https://quarkus.io/blog/quarkus-desktop/
+- 2026-10-08 | JetBrains Air EAP in IDEs (multi-agent tool window, 2026.3 EAP) | AI tooling for Java devs | https://blog.jetbrains.com/ai/2026/10/air-in-ides-eap/
+- 2026-10-08 | Agent Helidon: License to Scale (JavaOne session; virtual-thread MCP servers, LangChain4j) | Java for AI agents | https://inside.java/2026/10/01/agent-helidon-scale/
+- 2026-10-08 | Quarkus 3.39.5 fixes 32 CVEs, backported to 3.33/3.37 | framework security | https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/
 
 ## Reference facts (re-verify before using)
 - Current LTS 25 (Sep 2025); next LTS 29 (Sep 2027). Latest JDK 27 (GA 15 Sep 2026); JDK 28 due March 2027.
@@ -51,3 +56,5 @@ Candidates for a future deep dive. Add each issue's "On the radar" items here. R
 - Oracle JDK 21: NFTC covers updates through Sep 2026 (blog 14 Aug); OTN from Oct 2026 CPU. JDK 25 NFTC until Oct 2028 (same blog). 21.0.12.1 (18 Aug CSPU) appears to be last NFTC JDK 21.
 - Oracle roadmap: JDK 26 support ended Sep 2026, JDK 27 to Mar 2027; Premier: 21 to Sep 2028, 25 to Sep 2030.
 - Access notes (7 Oct): openjdk.org/jeps/540 and /projects/jdk/28 returned 403; inside.java post pages work only if they appear in a WebSearch result; mail.openjdk.org pipermail works; Oracle 21.0.12.1 relnotes blocked.
+- JEP 542 'PEM Encodings of Cryptographic Objects' Targeted to JDK 28 (Inside.java 6 Oct); finalises JEP 538 API unchanged. Quarkus 4.0.0.Beta1 1 Oct 2026 (Final end Nov); Quarkus 3.40 LTS 30 Sep 2026, community support to 30 Sep 2027; 3.33 LTS to 25 Mar 2027.
+- Access notes (8 Oct): openjdk.org/jeps/542 and /524 returned 403; infoq sep28 roundup, quarkus wiki migration guide and seanjmullan.org timed out (permission); JDK 21.0.12.1 available in sandbox for compiling pre-28 code.
