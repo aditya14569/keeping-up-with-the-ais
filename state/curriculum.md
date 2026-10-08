@@ -16,7 +16,7 @@ Rules for the daily run:
 - [x] Open-weight vs closed models (and running models locally): Issue #8 (2026-10-07)
 
 ## Module 2: Getting great results
-- [ ] Prompting fundamentals: role, context, examples, format
+- [x] Prompting fundamentals: role, context, examples, format: Issue #9 (2026-10-08)
 - [ ] Structured outputs and JSON mode
 - [ ] Prompt caching and cutting API costs
 - [ ] Picking the right model for the job (speed, cost, quality)

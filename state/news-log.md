@@ -89,11 +89,19 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-07 | 8 | nano-banana-2-1-ai-mode-gemini-api | https://www.seroundtable.com/nano-banana-21-google-ai-mode-42246.html
 2026-10-07 | 8 | moonshot-hk-ipo-deepseek-raise-bloomberg | https://www.euronews.com/2026/10/06/moonshot-ai-eyes-hong-kong-ipo-after-50-billion-valuation-as-deepseek-raises-capital
 2026-10-07 | 8 | atlassian-openai-partnership-codex-jira | https://openai.com/index/atlassian-partnership/
+2026-10-08 | 9 | claude-haiku-5-5-0-10-input-sonnet-cache-cut-max-team-credits | https://www.anthropic.com/claude-haiku-5-5
+2026-10-08 | 9 | gpt-6-intelligent-ui-all-chatgpt-free-go-oct-8 | https://openai.com/index/gpt-6-for-everyone/
+2026-10-08 | 9 | microsoft-rtx-spark-pcs-priced-execution-containers | https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/
+2026-10-08 | 9 | south-korea-bank-hacks-ai-agents-artex-68000 | https://therecord.media/south-korean-bank-hacks-ai-agents
+2026-10-08 | 9 | nous-research-90m-series-b-1-5b-hermes | https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/
+2026-10-08 | 9 | chatbots-upsell-wealthy-users-cisco-cmu-325k | https://qz.com/ai-chatbots-claude-chatgpt-wealth-pricing-study-100726
+2026-10-08 | 9 | lambda-4b-raise-14-5b-anthropic-35b-backlog | https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/
+2026-10-08 | 9 | openai-teens-study-tools-college-planner | https://openai.com/index/teens-learn-and-plan/
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
-- GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon").
+- GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon"). GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
 - Super Intelligence Force (chair Jay Clayton; covered Issue #6): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
 - OpenAI $30B round at ~$1.4T: close and investors.
@@ -113,7 +121,6 @@ The daily run reads this before writing and skips anything already here, unless 
 - Meta Muse Spark maths papers: outcome of novelty dispute (3 of 6 already solved, per Jason Dean Lee).
 - India 13,000-GPU expansion: pricing/subsidy decision (3-4 months), chip generation.
 - xAI v. Minnesota nudification law: 8th Circuit temporary injunction (Oct 2) - not yet covered.
-- Microsoft Windows/Surface event reportedly Oct 7 (unverified).
 - Rejetto HFS CVE-2026-61500 (Mythos-found): scale of exploitation; further Mythos/Glasswing CVEs exploited in the wild.
 - Google OSS VRP: reformatted program promised by Q1 2027.
 - Meta Muse contact profiles (Wired, Oct 3): any regulator response (EU/UK), Meta changes to memory/profile features.
@@ -127,10 +134,17 @@ The daily run reads this before writing and skips anything already here, unless 
 - ChatGPT visual ads beside image generation: US launch later in Oct; expansion beyond US (incl. India).
 - Etched round at $40-50B: close and lead investor.
 - HackerRank Chakra GA Oct 7; availability/pricing in India.
-- Microsoft OneDrive + Copilot digital event Oct 20 (Oct 7 Windows/Surface event still unverified).
+- Microsoft OneDrive + Copilot digital event Oct 20. (Oct 7 SF event confirmed and covered, Issue #9.)
 - Mistral Large 4: weights Oct 27; licence text; confirmed API pricing (MarkTechPost lists $1.36/$4.18 per M; VentureBeat says undisclosed); independent benchmarks; larger versions.
 - OpenAI 722 maths manuscripts: mathematicians' verification, errors found, model release; IAS-linked workshops.
 - Anthropic Cyber Verification Program: uptake, OpenAI/Google equivalents.
 - Underdog: wider rollout beyond invite-only, Linux/iPhone/Android versions.
 - Nano Banana 2.1: gemini-3.1-flash-image deprecated Oct 29.
 - Moonshot Hong Kong IPO (Q1 2027) and DeepSeek ¥80-100B round: confirmation.
+- Claude Haiku 5.5: independent benchmarks (Artificial Analysis), real cost after new tokenizer; Max/Team API credits rollout.
+- Windows Execution Containers: GA date for all Windows 11 users; Surface RTX Spark Dev Box ship date (reportedly November) and India pricing.
+- South Korea bank hacks: perpetrators, confirmation of Artex AI and which models it used, final count of affected people.
+- Chatbot wealth-upsell study (Cisco/CMU, arXiv 2609.24927): company responses.
+- Lambda $4B round close; 2027 IPO.
+- Nous Research Hermes business tier details; $100M ARR target by end-2026.
+- Unverified Oct 7 items seen only in aggregators: Musk says Grok Bot will route to Claude Opus/Midjourney/Suno (TNW); fired OpenAI safety trio letter (WSJ); Nikkei: China shipped 16 models in Sept; Samsung record Q3 profit (Bloomberg); Finland halts Google data-centre work (CNBC); Google SynthID website (TechCrunch).
