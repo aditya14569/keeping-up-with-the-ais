@@ -97,11 +97,21 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-08 | 9 | chatbots-upsell-wealthy-users-cisco-cmu-325k | https://qz.com/ai-chatbots-claude-chatgpt-wealth-pricing-study-100726
 2026-10-08 | 9 | lambda-4b-raise-14-5b-anthropic-35b-backlog | https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/
 2026-10-08 | 9 | openai-teens-study-tools-college-planner | https://openai.com/index/teens-learn-and-plan/
+2026-10-09 | 10 | google-gemini-agent-coworker-agents-claude-routing | https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026
+2026-10-09 | 10 | gpt-6-1-sol-ultrafast-api-12-60 (Update: Sol Ultrafast tier) | https://developers.openai.com/api/docs/changelog
+2026-10-09 | 10 | anthropic-cyber-mission-cidp-oss-scanner | https://www.anthropic.com/news/anthropic-cyber-mission
+2026-10-09 | 10 | anthropic-2026-usage-policy-nov-12 | https://www.anthropic.com/news/2026-usage-policy-update
+2026-10-09 | 10 | anthropic-genesis-mission-150m | https://www.anthropic.com/news/genesis-mission-commitment
+2026-10-09 | 10 | openai-revenue-50b-not-70b-ft | https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/
+2026-10-09 | 10 | manus-500m-round-after-meta-unwind | https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/
+2026-10-09 | 10 | lmcache-cve-2026-105192-unpatched-rce | https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html
+2026-10-09 | 10 | liquid-ai-open-d1-3b-omni-600m | https://www.liquid.ai/blog/d1-open
+2026-10-09 | 10 | meity-ai-regulation-consultation-paper-indigenous-gpus | https://www.outlookbusiness.com/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
-- GPT-6.1 Sol in regular ChatGPT; Sol Ultrafast tier ("coming soon"). GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
+- GPT-6.1 Sol in regular ChatGPT. (Sol Ultrafast in API at $12/$60 covered Issue #10; independent speed tests.) GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
 - Super Intelligence Force (chair Jay Clayton; covered Issue #6): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
 - OpenAI $30B round at ~$1.4T: close and investors.
@@ -148,3 +158,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Lambda $4B round close; 2027 IPO.
 - Nous Research Hermes business tier details; $100M ARR target by end-2026.
 - Unverified Oct 7 items seen only in aggregators: Musk says Grok Bot will route to Claude Opus/Midjourney/Suno (TNW); fired OpenAI safety trio letter (WSJ); Nikkei: China shipped 16 models in Sept; Samsung record Q3 profit (Bloomberg); Finland halts Google data-centre work (CNBC); Google SynthID website (TechCrunch).
+- Gemini agent (Google Cloud, Oct 8): preview/GA date, pricing, consumer rollout, independent reliability tests.
+- Anthropic OSS Scanner: first projects enrolled, false-positive reports from maintainers; CIDP cohort expansion.
+- Anthropic usage policy takes effect Nov 12.
+- OpenAI revenue (~$50B annualised per FT): any official figure; IPO pushed to early 2027 (CNBC).
+- Manus: valuation of $500M+ round; Hong Kong IPO.
+- LMCache CVE-2026-105192: patch release / advisory.
+- India MeitY AI regulation consultation paper (due ~early Nov); 5,000-GPU tender.
+- Not yet covered (seen Oct 8): OpenAI Russia/Iran "false front" influence ops (Category 5) - https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/; USA Today Co. $250M copyright suit vs OpenAI - https://www.mediapost.com/publications/article/418623/usa-today-files-250-million-copyright-lawsuit-aga.html; StepFun Step 5 Preview weights promised Oct 15 (aggregator only); Google AI Edge Foresight Mac note-taker; Goodfire agent monitors.
