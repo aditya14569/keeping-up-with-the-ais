@@ -108,12 +108,22 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-09 | 10 | liquid-ai-open-d1-3b-omni-600m | https://www.liquid.ai/blog/d1-open
 2026-10-09 | 10 | meity-ai-regulation-consultation-paper-indigenous-gpus | https://www.outlookbusiness.com/deeptech/govt-to-release-ai-regulation-consultation-paper-in-a-month-eyes-indigenous-gpus-in-3-4-years-vaishnaw
 
+2026-10-10 | 11 | anthropic-unintended-model-actions-report-philly-tip-haiku-4-5 | https://www.anthropic.com/research/investigating-unintended-model-actions
+2026-10-10 | 11 | white-house-si-force-incident-reporting-mandate-state-dept-visa-forms | https://www.axios.com/2026/10/09/anthropic-ai-security-white-house
+2026-10-10 | 11 | typesafe-870m-series-a-7-5b-a16z | https://cryptobriefing.com/a16z-leads-typesafe-ai-series-a/
+2026-10-10 | 11 | openai-math-370-problems-3-withdrawn-backlash (Update) | https://fortune.com/2026/10/07/openai-math-controversy-solutions-370-outstanding-challenges-published-criticisms-celebration/
+2026-10-10 | 11 | openai-expects-70b-annualised-end-2026-bloomberg (Update) | https://www.bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026
+2026-10-10 | 11 | gemini-4-argon-antigravity-context-tiers-carbon (Update) | https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/
+2026-10-10 | 11 | arena-200m-series-b-3-1b | https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/
+2026-10-10 | 11 | ecosia-drops-mistral-qwen-glm-kimi-melious | https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi
+2026-10-10 | 11 | google-ai-edge-foresight-mac-embeddinggemma-2 | https://www.notebookcheck.net/Google-AI-Edge-Foresight-Offline-AI-for-meeting-notes-on-Mac.1418337.0.html
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
-- Gemini 4 Argon: rollout date for AI Ultra and paid API; independent benchmarks (Vals Index reportedly #1, unverified).
+- Gemini 4 Argon: rollout date for AI Ultra and paid API (TestingCatalog: 'as soon as next week', Issue #11); 'Carbon' checkpoint; independent benchmarks (Vals Index reportedly #1, unverified).
 - GPT-6.1 Sol in regular ChatGPT. (Sol Ultrafast in API at $12/$60 covered Issue #10; independent speed tests.) GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
-- Super Intelligence Force (chair Jay Clayton; covered Issue #6): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
+- Super Intelligence Force (chair Jay Clayton; covered Issue #6; incident-reporting mandate covered Issue #11 - watch for formal rules/penalties): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
 - OpenAI $30B round at ~$1.4T: close and investors.
 - FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
 - California AG subpoena to OpenAI: OpenAI's response; whether Anthropic is also subpoenaed (seen in one aggregator, unverified). Iowa-led 15-state records request (unverified).
@@ -146,7 +156,7 @@ The daily run reads this before writing and skips anything already here, unless 
 - HackerRank Chakra GA Oct 7; availability/pricing in India.
 - Microsoft OneDrive + Copilot digital event Oct 20. (Oct 7 SF event confirmed and covered, Issue #9.)
 - Mistral Large 4: weights Oct 27; licence text; confirmed API pricing (MarkTechPost lists $1.36/$4.18 per M; VentureBeat says undisclosed); independent benchmarks; larger versions.
-- OpenAI 722 maths manuscripts: mathematicians' verification, errors found, model release; IAS-linked workshops.
+- OpenAI 722 maths manuscripts / 370+ problems: at least 3 withdrawn (Issue #11); further withdrawals, formal proofs, model release; IAS-linked workshops.
 - Anthropic Cyber Verification Program: uptake, OpenAI/Google equivalents.
 - Underdog: wider rollout beyond invite-only, Linux/iPhone/Android versions.
 - Nano Banana 2.1: gemini-3.1-flash-image deprecated Oct 29.
@@ -165,4 +175,9 @@ The daily run reads this before writing and skips anything already here, unless 
 - Manus: valuation of $500M+ round; Hong Kong IPO.
 - LMCache CVE-2026-105192: patch release / advisory.
 - India MeitY AI regulation consultation paper (due ~early Nov); 5,000-GPU tender.
-- Not yet covered (seen Oct 8): OpenAI Russia/Iran "false front" influence ops (Category 5) - https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/; USA Today Co. $250M copyright suit vs OpenAI - https://www.mediapost.com/publications/article/418623/usa-today-files-250-million-copyright-lawsuit-aga.html; StepFun Step 5 Preview weights promised Oct 15 (aggregator only); Google AI Edge Foresight Mac note-taker; Goodfire agent monitors.
+- Not yet covered (seen Oct 8): OpenAI Russia/Iran "false front" influence ops (Category 5) - https://cyberscoop.com/openai-disrupts-russia-iran-ai-influence-operations/; USA Today Co. $250M copyright suit vs OpenAI - https://www.mediapost.com/publications/article/418623/usa-today-files-250-million-copyright-lawsuit-aga.html; StepFun Step 5 Preview weights promised Oct 15 (aggregator only); Goodfire agent monitors. (Foresight covered Issue #11.)
+- Anthropic unintended-actions report (Oct 9): METR review; names of affected agencies; Philadelphia/Parker administration local rules; further periodic behaviour reports; other labs disclosing similar incidents.
+- TypeSafe: company/a16z confirmation of $870M round details (Sequoia reported by Bloomberg); next round talk ($1B+ at >$10B, The Information); Jev independent benchmarks.
+- OpenAI revenue: $70B expected end-2026 (Bloomberg) vs ~$50B now (FT).
+- StepFun Step 5 Preview open weights planned Oct 15; licence.
+- Arena $100M run-rate; any changes to leaderboard methodology after raise.

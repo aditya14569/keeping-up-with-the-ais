@@ -18,7 +18,7 @@ Rules for the daily run:
 ## Module 2: Getting great results
 - [x] Prompting fundamentals: role, context, examples, format: Issue #9 (2026-10-08)
 - [x] Structured outputs and JSON mode: Issue #10 (2026-10-09)
-- [ ] Prompt caching and cutting API costs
+- [x] Prompt caching and cutting API costs: Issue #11 (2026-10-10)
 - [ ] Picking the right model for the job (speed, cost, quality)
 - [ ] Vibe coding well: specs, small steps, tests
 - [ ] Reviewing AI-written code safely
