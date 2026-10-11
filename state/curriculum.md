@@ -19,7 +19,7 @@ Rules for the daily run:
 - [x] Prompting fundamentals: role, context, examples, format: Issue #9 (2026-10-08)
 - [x] Structured outputs and JSON mode: Issue #10 (2026-10-09)
 - [x] Prompt caching and cutting API costs: Issue #11 (2026-10-10)
-- [ ] Picking the right model for the job (speed, cost, quality)
+- [x] Picking the right model for the job (speed, cost, quality): Issue #12 (2026-10-11)
 - [ ] Vibe coding well: specs, small steps, tests
 - [ ] Reviewing AI-written code safely
 

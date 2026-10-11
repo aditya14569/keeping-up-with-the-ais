@@ -118,6 +118,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-10 | 11 | ecosia-drops-mistral-qwen-glm-kimi-melious | https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi
 2026-10-10 | 11 | google-ai-edge-foresight-mac-embeddinggemma-2 | https://www.notebookcheck.net/Google-AI-Edge-Foresight-Offline-AI-for-meeting-notes-on-Mac.1418337.0.html
 
+2026-10-11 | 12 | microsoft-decision-1-qwen3-5-9b-0-042-free-output | https://www.marktechpost.com/2026/10/09/microsoft-ai-releases-microsoft-decision-1-a-qwen3-5-9b-decision-scoring-model/
+2026-10-11 | 12 | openai-decisions-api-public-beta-oct-6-0-10-input (timeline mention) | https://letsdatascience.com/news/openai-opens-decisions-api-public-beta-b69a1e40
+2026-10-11 | 12 | cloudflare-acquires-deno-deploy-6-months-runtime-1-year | https://betanews.com/article/cloudflare-has-acquired-deno-and-will-use-it-to-boost-workers/
+2026-10-11 | 12 | berkeley-ai-assistance-reduces-persistence-1222 | https://www.eurekalert.org/news-releases/1147258
+2026-10-11 | 12 | memento-3-arc-agi-3-public-100-rhae | https://arxiv.org/abs/2610.11794
+2026-10-11 | 12 | perplexity-pplx-embed-v2-late-mit | https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/
+2026-10-11 | 12 | jetbrains-mellum2-1-12b-moe-apache | https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/
+2026-10-11 | 12 | techcrunch-22-texting-ai-agents | https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/
+2026-10-11 | 12 | atomic-machines-250m-matter-compiler | https://thenextweb.com/news/atomic-machines-250m-matter-compiler-micro-machines
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API (TestingCatalog: 'as soon as next week', Issue #11); 'Carbon' checkpoint; independent benchmarks (Vals Index reportedly #1, unverified).
@@ -181,3 +191,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - OpenAI revenue: $70B expected end-2026 (Bloomberg) vs ~$50B now (FT).
 - StepFun Step 5 Preview open weights planned Oct 15; licence.
 - Arena $100M run-rate; any changes to leaderboard methodology after raise.
+- Microsoft-Decision-1: independent JevBench results; H2O.ai latency dispute; rebase on MAI/OpenAI models; India availability/pricing in Foundry.
+- OpenAI Decisions API: general availability ("coming weeks"), more models beyond gpt-6-luna.
+- Cloudflare-Deno: official Cloudflare/Deno posts (not fetched; covered via BetaNews); exact Deno Deploy shutdown date (~Apr 2027); community fork of Deno runtime; celld-workerd merge timeline.
+- Berkeley persistence study: follow-ups on longer-term/daily use; lab responses (tutor/learning modes).
+- Memento 3: ARC-AGI-3 private-set result; ARC Prize final submissions Nov 2, winners Dec 4.
+- Atomic Machines PrimeSwitch at OCP Global Summit Oct 12-15.
+- Not yet covered (seen Oct 10): Axios on labs' 'day-after' AI-incident tabletop exercises; Bloomberg follow-up on Anthropic misbehaviour on government sites; Apple iPhone 18 Pro order cuts on memory costs (Nikkei, via aggregator); fired OpenAI safety trio open letter (TechCrunch Oct 8); Qwen-Image-2.1-Turbo (aggregator only); Kimi K3 on AMD MI355X (AMD blog).
