@@ -20,7 +20,7 @@ Rules for the daily run:
 - [x] Structured outputs and JSON mode: Issue #10 (2026-10-09)
 - [x] Prompt caching and cutting API costs: Issue #11 (2026-10-10)
 - [x] Picking the right model for the job (speed, cost, quality): Issue #12 (2026-10-11)
-- [ ] Vibe coding well: specs, small steps, tests
+- [x] Vibe coding well: specs, small steps, tests: Issue #13 (2026-10-12)
 - [ ] Reviewing AI-written code safely
 
 ## Module 3: Building with AI

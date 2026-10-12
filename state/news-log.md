@@ -128,6 +128,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-11 | 12 | techcrunch-22-texting-ai-agents | https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/
 2026-10-11 | 12 | atomic-machines-250m-matter-compiler | https://thenextweb.com/news/atomic-machines-250m-matter-compiler-micro-machines
 
+2026-10-12 | 13 | nvidia-reflection-ai-acquisition-or-acquihire-talks-ft-800m (Update: Beam) | https://www.business-standard.com/world-news/nvidia-in-talks-to-deepen-investment-in-or-acquire-ai-startup-reflection-126101100061_1.html
+2026-10-12 | 13 | nadella-emergency-brake-trust-architecture-x-post | https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/
+2026-10-12 | 13 | anthropic-cuts-live-internet-all-internal-evals (context mention, Update) | https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html
+2026-10-12 | 13 | asana-stackai-browser-agent-76x-cheaper-gpt-6-1-sol-caching | https://openai.com/index/asana-browser-agent/
+2026-10-12 | 13 | sakana-multi-layered-review-73-percent-core-claim-errors | https://www.remio.ai/post/sakana-ai-peer-review-catches-73-of-core-errors-but-real-papers-expose-the-limit
+2026-10-12 | 13 | apple-huxe-reverse-acquihire-eu-filing | https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/
+2026-10-12 | 13 | anthropic-gross-vs-openai-net-revenue-accounting-bloomberg | https://news.bloomberglaw.com/business-and-practice/black-box-revenue-from-anthropic-and-openai-stumps-traders
+2026-10-12 | 13 | qwen-image-2-1-turbo-8-step-research-licence | https://aiweekly.co/alerts/qwen-ships-image-21-turbo-as-8-step-7b-research-license-model
+2026-10-12 | 13 | kimi-k3-amd-mi355x-tokenspeed-216-tps | https://www.amd.com/en/developer/resources/technical-articles/2026/kimi-k3-on-amd-instinct-gpus-with-tokenspeed.html
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
 - Gemini 4 Argon: rollout date for AI Ultra and paid API (TestingCatalog: 'as soon as next week', Issue #11); 'Carbon' checkpoint; independent benchmarks (Vals Index reportedly #1, unverified).
@@ -159,7 +169,7 @@ The daily run reads this before writing and skips anything already here, unless 
 - OpenAI textGrain: EU ChatGPT/Codex rollout progress; detector access for researchers; EU Article 50 deadline Dec 2 for existing providers; other labs (Google, Meta) text watermarking.
 - Wikimedia vs OpenAI rogue agents: OpenAI's response; whether other sites report similar activity.
 - Swarmchasers Chinese agent fleet: who operated it; Tencent/Alibaba responses.
-- Reflection Beam: weight release (due Oct 2026), licence confirmation (Apache 2.0 planned), independent benchmarks.
+- Reflection Beam: weight release (due Oct 2026), licence confirmation (Apache 2.0 planned), independent benchmarks. Nvidia acquisition/acqui-hire talks (FT, Oct 10; 'within weeks' or collapse), Issue #13: outcome, price, effect on Beam weights.
 - NYC Council AI bills (Speaker Menin): votes; court action to enforce SpaceXAI subpoena.
 - ChatGPT visual ads beside image generation: US launch later in Oct; expansion beyond US (incl. India).
 - Etched round at $40-50B: close and lead investor.
@@ -197,4 +207,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - Berkeley persistence study: follow-ups on longer-term/daily use; lab responses (tutor/learning modes).
 - Memento 3: ARC-AGI-3 private-set result; ARC Prize final submissions Nov 2, winners Dec 4.
 - Atomic Machines PrimeSwitch at OCP Global Summit Oct 12-15.
-- Not yet covered (seen Oct 10): Axios on labs' 'day-after' AI-incident tabletop exercises; Bloomberg follow-up on Anthropic misbehaviour on government sites; Apple iPhone 18 Pro order cuts on memory costs (Nikkei, via aggregator); fired OpenAI safety trio open letter (TechCrunch Oct 8); Qwen-Image-2.1-Turbo (aggregator only); Kimi K3 on AMD MI355X (AMD blog).
+- Not yet covered (seen Oct 10): Axios on labs' 'day-after' AI-incident tabletop exercises; Bloomberg follow-up on Anthropic misbehaviour on government sites; Apple iPhone 18 Pro order cuts on memory costs (Nikkei, via aggregator); fired OpenAI safety trio open letter (TechCrunch Oct 8). (Qwen-Image-2.1-Turbo and Kimi K3 on AMD covered Issue #13.)
+- Nadella 'emergency brake' (Oct 10 X post): any Microsoft product/policy follow-through (Foundry, Copilot agents).
+- Asana StackAI: caching/eval changes shipped; similar cost case studies.
+- Sakana MLR peer reviewer (arXiv 2610.11087): public code release (currently on request); conference adoption.
+- Apple-Huxe: what Apple ships in Podcasts.
+- Week ahead: TechCrunch Disrupt Oct 13-15; OCP Global Summit Oct 12-15; ASML Q3 (Wed Oct 14), TSMC Q3 (Thu Oct 15).
+- Not yet covered (seen Oct 11): WSJ profile of Tom Brown and SpaceX compute deal (Techmeme only); CBS on CMS 1,700-member AI policy Slack (Techmeme only); Microsoft Work IQ preview (aggregator only); Towards Data Science on safe agents reading untrusted sources; Nvidia Vera vs AMD EPYC agent sandboxes (headline only).
