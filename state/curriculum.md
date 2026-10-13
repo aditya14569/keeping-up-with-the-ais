@@ -21,7 +21,7 @@ Rules for the daily run:
 - [x] Prompt caching and cutting API costs: Issue #11 (2026-10-10)
 - [x] Picking the right model for the job (speed, cost, quality): Issue #12 (2026-10-11)
 - [x] Vibe coding well: specs, small steps, tests: Issue #13 (2026-10-12)
-- [ ] Reviewing AI-written code safely
+- [x] Reviewing AI-written code safely: Issue #14 (2026-10-13)
 
 ## Module 3: Building with AI
 - [ ] Calling an LLM API from scratch

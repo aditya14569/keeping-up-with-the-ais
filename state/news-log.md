@@ -137,6 +137,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-12 | 13 | anthropic-gross-vs-openai-net-revenue-accounting-bloomberg | https://news.bloomberglaw.com/business-and-practice/black-box-revenue-from-anthropic-and-openai-stumps-traders
 2026-10-12 | 13 | qwen-image-2-1-turbo-8-step-research-licence | https://aiweekly.co/alerts/qwen-ships-image-21-turbo-as-8-step-7b-research-license-model
 2026-10-12 | 13 | kimi-k3-amd-mi355x-tokenspeed-216-tps | https://www.amd.com/en/developer/resources/technical-articles/2026/kimi-k3-on-amd-instinct-gpus-with-tokenspeed.html
+2026-10-13 | 14 | meta-muse-wonder-and-wonder-full-launch-4-20-api | https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/
+2026-10-13 | 14 | torvalds-claude-code-noref-filemap-read-kernel-patch | https://www.phoronix.com/news/Linus-Torvalds-Claude-Code
+2026-10-13 | 14 | anthropic-self-replicating-ai-iot-red-team-study | https://www.anthropic.com/research/self-replicating-ai
+2026-10-13 | 14 | microsoft-maia-300-inference-chip-2027 | https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/
+2026-10-13 | 14 | microsoft-anthropic-2b-year-copilot-lamanna-the-information | https://aiweekly.co/alerts/microsoft-on-track-to-pay-anthropic-2b-a-year-for-copilot
+2026-10-13 | 14 | hcltech-anthropic-global-premier-partnership | https://www.dqindia.com/news/hcltech-anthropic-partnership-enterprise-agentic-ai-12669779
+2026-10-13 | 14 | x-subscription-grok-cursor-x-premium-bundle | https://teslanorth.com/2026/10/12/x-subscription-grok-cursor-premium-plans/
+2026-10-13 | 14 | amazon-decart-7b-talks-wsj | https://www.business-standard.com/industry/news/amazon-talks-acquire-ai-startup-decart-7-billion-126101200176_1.html
+2026-10-13 | 14 | update-anthropic-false-police-tip-white-house-transparency | https://abc.net.au/news/2026-10-12/anthropic-claude-ai-model-false-murder-tip-off-explained/107254596
+2026-10-13 | 14 | yandex-vladimir-data-centre-drone-strike-third | https://aiweekly.co/alerts/yandex-shuts-vladimir-data-center-after-third-drone-strike
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
@@ -214,3 +224,12 @@ The daily run reads this before writing and skips anything already here, unless 
 - Apple-Huxe: what Apple ships in Podcasts.
 - Week ahead: TechCrunch Disrupt Oct 13-15; OCP Global Summit Oct 12-15; ASML Q3 (Wed Oct 14), TSMC Q3 (Thu Oct 15).
 - Not yet covered (seen Oct 11): WSJ profile of Tom Brown and SpaceX compute deal (Techmeme only); CBS on CMS 1,700-member AI policy Slack (Techmeme only); Microsoft Work IQ preview (aggregator only); Towards Data Science on safe agents reading untrusted sources; Nvidia Vera vs AMD EPYC agent sandboxes (headline only).
+- Meta Muse Wonder: full safety report ("soon"); independent benchmarks (Artificial Analysis 56/52 per AI Weekly); Muse app rollout and countries (India); Wonder Full API access; per-benchmark MemoryBench numbers.
+- Torvalds noref-filemap-read-with-llm branch: merged in Linux 7.4 merge window or not; single-thread regression discussion; assoc-array AI-assisted work (Phoronix follow-up, not covered).
+- Anthropic self-replication study (Oct 12): reactions from ISPs/device makers; other labs' replication evals.
+- Microsoft Maia 300: Reuters says possibly 1M+ chips deployed in 2027; first production racks; Azure customer access.
+- Microsoft-Anthropic $2B+/yr (The Information, single source): confirmation; agent mode on OpenAI models.
+- HCLTech-Anthropic: financial terms, Anthropic business unit headcount; other Indian IT firms (TCS, Infosys, Wipro) similar deals.
+- X Subscription (Grok + Cursor + X Premium): Indian pricing; Plus allowance size.
+- Amazon-Decart (~$7B, WSJ): deal confirmation.
+- Not yet covered (seen Oct 12): UK to restore AISI pre-release access to US models and draft mandatory frontier-AI reporting (Telegraph/FT, not fetched); Fields medalists statement vs OpenAI maths (28 medalists, 8,000+ signatories, Le Monde/Economist); OpenAI Sora revival talks with Katzenberg-backed startup (The Information); White House moving CAISSI officials under OSTP (The Information); AMD Helion rack (Nov configs); Z.ai GLM-Legal gated beta (19.2% Harvey LAB); DeepSeek leads ~$400M-valuation seed for Winverse AI (Bloomberg); IonQ-Elisity $1.3B; Undo/LeadDev survey 81% AI-code outages (cited in Learn); Brad Smith global AI rules call (BBC); OpenRouter: top-10 models' token share 14% vs 55% a year ago (The Information).
