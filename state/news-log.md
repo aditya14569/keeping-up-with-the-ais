@@ -147,10 +147,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-13 | 14 | amazon-decart-7b-talks-wsj | https://www.business-standard.com/industry/news/amazon-talks-acquire-ai-startup-decart-7-billion-126101200176_1.html
 2026-10-13 | 14 | update-anthropic-false-police-tip-white-house-transparency | https://abc.net.au/news/2026-10-12/anthropic-claude-ai-model-false-murder-tip-off-explained/107254596
 2026-10-13 | 14 | yandex-vladimir-data-centre-drone-strike-third | https://aiweekly.co/alerts/yandex-shuts-vladimir-data-center-after-third-drone-strike
+2026-10-14 | 15 | update-gemini-4-argon-broad-availability-2-10-intro-pricing | https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token
+2026-10-14 | 15 | anthropic-scion-replaces-git-30000-merges-day | https://www.anthropic.com/engineering/redesigning-source-control
+2026-10-14 | 15 | character-ai-chapter-11-disney-20m-licence | https://www.forbes.com/sites/siladityaray/2026/10/13/characterai-files-for-bankruptcy-disney-bids-20-million-after-copyright-dispute/
+2026-10-14 | 15 | google-play-private-ai-studio-apps-no-dev-account | https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/
+2026-10-14 | 15 | reuters-labs-sought-control-evaluator-publications | https://www.cp24.com/news/world/2026/10/13/behind-ai-industrys-call-for-independent-reviews-a-fight-over-what-gets-made-public-reuters-exclusive/
+2026-10-14 | 15 | update-india-cdac-rfe-10000-ai-compute-units | https://www.medianama.com/2026/10/223-meity-ai-compute-providers-gpus-indiaai-mission/
+2026-10-14 | 15 | workday-anthropic-claude-hr-finance | https://www.gurufocus.com/news/9121040/workday-wday-partners-with-anthropic-to-integrate-claude-ai-shares-rise-premarket
+2026-10-14 | 15 | update-muse-wonder-full-muse-code-50-200 | https://www.implicator.ai/llm-meter-week-of-oct-13-2026/
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
-- Gemini 4 Argon: rollout date for AI Ultra and paid API (TestingCatalog: 'as soon as next week', Issue #11); 'Carbon' checkpoint; independent benchmarks (Vals Index reportedly #1, unverified).
+- Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
 - GPT-6.1 Sol in regular ChatGPT. (Sol Ultrafast in API at $12/$60 covered Issue #10; independent speed tests.) GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
 - Super Intelligence Force (chair Jay Clayton; covered Issue #6; incident-reporting mandate covered Issue #11 - watch for formal rules/penalties): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
@@ -233,3 +241,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - X Subscription (Grok + Cursor + X Premium): Indian pricing; Plus allowance size.
 - Amazon-Decart (~$7B, WSJ): deal confirmation.
 - Not yet covered (seen Oct 12): UK to restore AISI pre-release access to US models and draft mandatory frontier-AI reporting (Telegraph/FT, not fetched); Fields medalists statement vs OpenAI maths (28 medalists, 8,000+ signatories, Le Monde/Economist); OpenAI Sora revival talks with Katzenberg-backed startup (The Information); White House moving CAISSI officials under OSTP (The Information); AMD Helion rack (Nov configs); Z.ai GLM-Legal gated beta (19.2% Harvey LAB); DeepSeek leads ~$400M-valuation seed for Winverse AI (Bloomberg); IonQ-Elisity $1.3B; Undo/LeadDev survey 81% AI-code outages (cited in Learn); Brad Smith global AI rules call (BBC); OpenRouter: top-10 models' token share 14% vs 55% a year ago (The Information).
+- Anthropic Scion: GitHub/GitLab collaboration on server-side RPCs / protocol changes; any public spec. (Not open source per Anthropic and The Register.)
+- Character.ai Chapter 11: rival bids vs Disney's $20M licence; sale close late Nov/early Dec; whether the app shuts down; user-data transfer.
+- Google Play private AI Studio apps: expansion beyond US (India); family sharing ("coming months").
+- Reuters evaluator-publication fight: final terms with Faculty (Accenture) and other evaluators; OpenAI's equivalent.
+- India C-DAC RFE for up to 10,000 AI compute units: submission deadline, empanelled providers, pricing.
+- Workday-Claude: details from Workday/Anthropic directly (covered only via GuruFocus); Sana Concierge Q1 2027.
+- Not yet covered (seen Oct 13): NTT Data in final talks to build Anthropic's first Japan data centre (Osaka, ~500 MW, ~$6.3B, Nikkei - not fetched); Anthropic distillation defenses post (claims 90-99% cut, not fetched); Meta GitHub breach ~1,500 people (SecurityWeek, not fetched); Apple HomeView withheld from EU; Decagon-ServiceNow talks (BI); Applied Intuition $30B offers (The Information); Jack Clark Import AI 476 RSI forecast moved to 2027; IMF Oct WEO AI capex downside; Graylark Raven interior-photo geolocation (404 Media); Pluto Security $42M; Apple 'Minions' distributed Mac GPU cloud paper; Cognition FrontierCode 1.1 results (conflicting numbers).

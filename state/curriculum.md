@@ -24,7 +24,7 @@ Rules for the daily run:
 - [x] Reviewing AI-written code safely: Issue #14 (2026-10-13)
 
 ## Module 3: Building with AI
-- [ ] Calling an LLM API from scratch
+- [x] Calling an LLM API from scratch: Issue #15 (2026-10-14)
 - [ ] Tool use / function calling
 - [ ] Embeddings: turning meaning into numbers
 - [ ] Vector databases
