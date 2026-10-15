@@ -25,7 +25,7 @@ Rules for the daily run:
 
 ## Module 3: Building with AI
 - [x] Calling an LLM API from scratch: Issue #15 (2026-10-14)
-- [ ] Tool use / function calling
+- [x] Tool use / function calling: Issue #16 (2026-10-15)
 - [ ] Embeddings: turning meaning into numbers
 - [ ] Vector databases
 - [ ] RAG: letting a model read your documents

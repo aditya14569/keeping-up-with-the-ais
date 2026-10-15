@@ -156,8 +156,17 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-14 | 15 | workday-anthropic-claude-hr-finance | https://www.gurufocus.com/news/9121040/workday-wday-partners-with-anthropic-to-integrate-claude-ai-shares-rise-premarket
 2026-10-14 | 15 | update-muse-wonder-full-muse-code-50-200 | https://www.implicator.ai/llm-meter-week-of-oct-13-2026/
 
+2026-10-15 | 16 | openai-api-deprecates-gpt-4o-4o-mini-4-1-4-1-mini-jan-14-2027-gpt-6-luna | https://developers.openai.com/api/docs/deprecations
+2026-10-15 | 16 | eight-states-sue-openai-chatgpt-young-users | https://kfgo.com/2026/10/14/eight-us-states-sue-openai-claiming-chatgpt-harms-children/
+2026-10-15 | 16 | anthropic-q3-revenue-16-8b-adjusted-profit-ipo-nov (Update: IPO) | https://finance.yahoo.com/technology/article/anthropic-q3-revenue-climbs-to-168-billion-report-221619202.html
+2026-10-15 | 16 | xai-grok-voice-3-0-8-cents-min | https://x.ai/news/grok-voice-3
+2026-10-15 | 16 | apple-homeview-299-india-39900-nov-13-no-eu | https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/
+2026-10-15 | 16 | claude-api-opentelemetry-export-beta | https://platform.claude.com/docs/en/release-notes/overview
+2026-10-15 | 16 | anthropic-singapore-office-mddi-mou | https://www.anthropic.com/news/singapore-office-opening
+2026-10-15 | 16 | anthropic-us-midterms-safeguards | https://www.anthropic.com/news/2026-us-midterms
+
 ## Open threads to follow up
-- Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T).
+- Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1.
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
 - GPT-6.1 Sol in regular ChatGPT. (Sol Ultrafast in API at $12/$60 covered Issue #10; independent speed tests.) GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
@@ -248,3 +257,6 @@ The daily run reads this before writing and skips anything already here, unless 
 - India C-DAC RFE for up to 10,000 AI compute units: submission deadline, empanelled providers, pricing.
 - Workday-Claude: details from Workday/Anthropic directly (covered only via GuruFocus); Sana Concierge Q1 2027.
 - Not yet covered (seen Oct 13): NTT Data in final talks to build Anthropic's first Japan data centre (Osaka, ~500 MW, ~$6.3B, Nikkei - not fetched); Anthropic distillation defenses post (claims 90-99% cut, not fetched); Meta GitHub breach ~1,500 people (SecurityWeek, not fetched); Apple HomeView withheld from EU; Decagon-ServiceNow talks (BI); Applied Intuition $30B offers (The Information); Jack Clark Import AI 476 RSI forecast moved to 2027; IMF Oct WEO AI capex downside; Graylark Raven interior-photo geolocation (404 Media); Pluto Security $42M; Apple 'Minions' distributed Mac GPU cloud paper; Cognition FrontierCode 1.1 results (conflicting numbers).
+- OpenAI GPT-4o/4o mini/4.1/4.1 mini API shutdown Jan 14, 2027 (Issue #16; only 3 months' notice vs 6-month policy): any reason given, extensions, Azure OpenAI timeline, ChatGPT model list changes.
+- Eight-state suits vs OpenAI (AZ, AR, ID, IA, KS, MT, NE, WV; Issue #16): more states joining, OpenAI's formal response, consolidation/settlement.
+- Not yet covered (seen Oct 14, unverified primary): OpenAI engineer arrested over hidden recording device (DOJ, aggregator only); 40 AGs on Character.ai user data in bankruptcy (The Verge); Nvidia $250M UK agentic safety compute; YouTube Music AI labels / Deezer AI filter; Claude dynamic workflows (Oct 9, release notes) and 66-bug claim; Fish Audio Drama 3 open TTS.
