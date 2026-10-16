@@ -26,7 +26,7 @@ Rules for the daily run:
 ## Module 3: Building with AI
 - [x] Calling an LLM API from scratch: Issue #15 (2026-10-14)
 - [x] Tool use / function calling: Issue #16 (2026-10-15)
-- [ ] Embeddings: turning meaning into numbers
+- [x] Embeddings: turning meaning into numbers: Issue #17 (2026-10-16)
 - [ ] Vector databases
 - [ ] RAG: letting a model read your documents
 - [ ] MCP (Model Context Protocol): plugging tools into any AI

@@ -165,14 +165,25 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-15 | 16 | anthropic-singapore-office-mddi-mou | https://www.anthropic.com/news/singapore-office-opening
 2026-10-15 | 16 | anthropic-us-midterms-safeguards | https://www.anthropic.com/news/2026-us-midterms
 
+2026-10-16 | 17 | meta-muse-spark-open-816b-a42b-open-weights-muse-model-license | https://www.unite.ai/metas-816b-parameter-muse-spark-open-weights-are-now-public/
+2026-10-16 | 17 | nvidia-nemotron-3-5-super-vl-120b-a12b-openmdw (in Muse story) | https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/
+2026-10-16 | 17 | update-ftc-cids-openai-anthropic-50-pages-safety-incidents | https://dailycaller.com/2026/10/15/openai-anthropic-ftc-civil-investigative-demand
+2026-10-16 | 17 | anthropic-metr-employee-like-access-three-evaluator-tiers (Update: evaluators) | https://www.anthropic.com/news/an-update-on-independent-evaluators
+2026-10-16 | 17 | github-ai-scan-pull-requests-ga-advisory | https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/
+2026-10-16 | 17 | openai-gpt-live-1-1-13-voices-hindi-quip | https://app.therundown.ai/guides/gpt-live-1-1-guide
+2026-10-16 | 17 | deepmind-icrisat-sorghum-genetic-atlas | https://blog.google/intl/en-in/company-news/from-lab-to-impact-advancing-ai-for-real-world-progress-in-india/
+2026-10-16 | 17 | anthropic-meity-indiaai-safety-institute-testing-talks | https://theprint.in/tech/anthropic-in-talks-with-meity-to-make-ai-models-available-for-safety-testing-wants-binding-transparency/3072966/
+2026-10-16 | 17 | update-anthropic-ipo-valuation-1-5t-reuters | https://wtvbam.com/2026/10/15/exclusive-investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say/
+2026-10-16 | 17 | nvidia-nemotron-3-5-bolt-74b-a9b-24gb-e4b-oct-23 | https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/
+
 ## Open threads to follow up
-- Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1.
+- Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
 - GPT-6.1 Sol in regular ChatGPT. (Sol Ultrafast in API at $12/$60 covered Issue #10; independent speed tests.) GPT-6 Sol/Luna + Intelligent UI rolled out to all ChatGPT tiers Oct 7-8 (Issue #9); any API access to Intelligent UI components.
 - Super Intelligence accord: who sits on the promised AI safety board; federal SI definition. (Covered: no penalties/no reporting, Issue #5.)
 - Super Intelligence Force (chair Jay Clayton; covered Issue #6; incident-reporting mandate covered Issue #11 - watch for formal rules/penalties): 120-day report due ~Feb 1, 2027; first actions; relationship to FTC rogue-agent probe.
 - OpenAI $30B round at ~$1.4T: close and investors.
-- FTC rogue-agent probe: civil investigative demands, executive testimony, any company responses.
+- FTC rogue-agent probe: CIDs sent (Issue #17); executive testimony, further company responses.
 - California AG subpoena to OpenAI: OpenAI's response; whether Anthropic is also subpoenaed (seen in one aggregator, unverified). Iowa-led 15-state records request (unverified).
 - Asymmetric Security findings on OpenAI agents: OpenAI's investigation outcome, independent verification.
 - Reddit API: Oct 31 (no new requests), Jan 12 (unregistered apps cut), Mar 2027 shutdown.
@@ -260,3 +271,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - OpenAI GPT-4o/4o mini/4.1/4.1 mini API shutdown Jan 14, 2027 (Issue #16; only 3 months' notice vs 6-month policy): any reason given, extensions, Azure OpenAI timeline, ChatGPT model list changes.
 - Eight-state suits vs OpenAI (AZ, AR, ID, IA, KS, MT, NE, WV; Issue #16): more states joining, OpenAI's formal response, consolidation/settlement.
 - Not yet covered (seen Oct 14, unverified primary): OpenAI engineer arrested over hidden recording device (DOJ, aggregator only); 40 AGs on Character.ai user data in bankruptcy (The Verge); Nvidia $250M UK agentic safety compute; YouTube Music AI labels / Deezer AI filter; Claude dynamic workflows (Oct 9, release notes) and 66-bug claim; Fish Audio Drama 3 open TTS.
+- Meta Muse Spark Open (Issue #17): full evaluation report ("coming soon"); independent Artificial Analysis score (Meta's card claims 39); hosted pricing on OpenRouter/Together; licence reactions; Muse Spark Open vs Chinese open models.
+- FTC CIDs to OpenAI/Anthropic (Issue #17): response deadlines, executive testimony, CIDs to other AI firms; EU AI Office information request (Euronews, not fetched).
+- Anthropic evaluator tiers (Issue #17): first METR publication from embedded access; SecureBio review of Aug 2026 Risk Report chem/bio chapter; Accenture/Faculty partnership; OpenAI/Google equivalents.
+- Anthropic-MeitY IndiaAI Safety Institute testing talks (Issue #17): agreement; India dedicated AI law.
+- GPT-Live-1.1 (Issue #17): API availability; Indian rollout/plan limits (explainx says Go gets Quip, 3h).
+- Nemotron 3.5 Bolt E4B (~4GB) due Oct 23.
+- GitHub Agentic Autofix GA (changelog links a GA post; details not fetched).
+- Not yet covered (seen Oct 15): Cohere LOI to acquire AISLE (Reuters, not fetched); Perplexity giving away SPACE sandbox (Semafor, not fetched); Accenture $29/month Claude cap (404 Media, not fetched); BofA 1,000 contractors for Mythos-found flaws (CNBC, not fetched); DeepSeek ~$14B round at ~$75B (Seoul Economic Daily); Meta commercial terms allowing news-site scraping from Oct 30 (Nieman Lab); Google News AI pilot 400+ publishers; FLUX 3 Image Klein open weights; Jais 3; Labelbox $100M Series E; Gartner $3.5T AI infra impairment warning; TSMC record Q3 (AP); CERN-Mistral Large Physics Model; Workday Sana Agent Harness GA; Fortune: anonymous backer predicts $2.3-2.4T Anthropic trading value; StepFun Step 5 weights missed Oct 15 date (Deep Gains).
