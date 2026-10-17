@@ -176,6 +176,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-16 | 17 | update-anthropic-ipo-valuation-1-5t-reuters | https://wtvbam.com/2026/10/15/exclusive-investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say/
 2026-10-16 | 17 | nvidia-nemotron-3-5-bolt-74b-a9b-24gb-e4b-oct-23 | https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/
 
+2026-10-17 | 18 | reflection-beam-weights-apache-2-0-hf-25k-tokens-terminal-bench (Update: Beam) | https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens
+2026-10-17 | 18 | openai-four-more-misalignment-reports-19-total-hospital-bed-unsigned-tokens (Update: rogue agents) | https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/
+2026-10-17 | 18 | cert-in-ciad-2026-0049-ai-agents-as-attack-vectors-indian-orgs | https://www.business-standard.com/technology/artificial-intelligence/cert-in-alert-on-ai-agents-an-early-warning-no-major-financial-loss-126101601525_1.html
+2026-10-17 | 18 | chatgpt-chrome-extension-chat-work-modes-at-chrome | https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs/
+2026-10-17 | 18 | claude-opus-5-5-fast-mode-ga-no-waitlist-8-40 | https://x.com/ClaudeDevs/status/2110825294655562048
+2026-10-17 | 18 | microsoft-mai-base-2-2-8t-80b-active | https://oodaloop.com/briefs/technology/microsoft-ai-unveils-mai-base-2-a-2-8-trillion-parameter-foundation-model-with-superior-flops-efficiency/
+2026-10-17 | 18 | china-announcement-48-ai-export-curbs-draft-nov-15 | https://dev.to/gabrielanhaia/chinas-ai-export-draft-spares-api-calls-and-public-weights-overseas-deploys-arent-2je7
+2026-10-17 | 18 | anthropic-draft-frontier-safety-bill-1b-50-deaths-politico | https://kelo.com/2026/10/16/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports/
+2026-10-17 | 18 | replit-ceo-says-no-longer-works-with-anthropic | https://www.unite.ai/replit-ceo-masad-says-company-no-longer-works-with-anthropic/
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -207,7 +217,7 @@ The daily run reads this before writing and skips anything already here, unless 
 - OpenAI textGrain: EU ChatGPT/Codex rollout progress; detector access for researchers; EU Article 50 deadline Dec 2 for existing providers; other labs (Google, Meta) text watermarking.
 - Wikimedia vs OpenAI rogue agents: OpenAI's response; whether other sites report similar activity.
 - Swarmchasers Chinese agent fleet: who operated it; Tencent/Alibaba responses.
-- Reflection Beam: weight release (due Oct 2026), licence confirmation (Apache 2.0 planned), independent benchmarks. Nvidia acquisition/acqui-hire talks (FT, Oct 10; 'within weeks' or collapse), Issue #13: outcome, price, effect on Beam weights.
+- Reflection Beam: weights released Oct 16 under Apache 2.0 (Issue #18). Watch: independent benchmarks/Artificial Analysis score, VentureBeat cost-per-task test, OpenRouter/Baseten pricing, self-distillation recipes ('coming days'), multilingual/multimodal versions. Nvidia acquisition/acqui-hire talks (FT, Oct 10; 'within weeks' or collapse), Issue #13: outcome, price, effect on Beam weights.
 - NYC Council AI bills (Speaker Menin): votes; court action to enforce SpaceXAI subpoena.
 - ChatGPT visual ads beside image generation: US launch later in Oct; expansion beyond US (incl. India).
 - Etched round at $40-50B: close and lead investor.
@@ -279,3 +289,12 @@ The daily run reads this before writing and skips anything already here, unless 
 - Nemotron 3.5 Bolt E4B (~4GB) due Oct 23.
 - GitHub Agentic Autofix GA (changelog links a GA post; details not fetched).
 - Not yet covered (seen Oct 15): Cohere LOI to acquire AISLE (Reuters, not fetched); Perplexity giving away SPACE sandbox (Semafor, not fetched); Accenture $29/month Claude cap (404 Media, not fetched); BofA 1,000 contractors for Mythos-found flaws (CNBC, not fetched); DeepSeek ~$14B round at ~$75B (Seoul Economic Daily); Meta commercial terms allowing news-site scraping from Oct 30 (Nieman Lab); Google News AI pilot 400+ publishers; FLUX 3 Image Klein open weights; Jais 3; Labelbox $100M Series E; Gartner $3.5T AI infra impairment warning; TSMC record Q3 (AP); CERN-Mistral Large Physics Model; Workday Sana Agent Harness GA; Fortune: anonymous backer predicts $2.3-2.4T Anthropic trading value; StepFun Step 5 weights missed Oct 15 date (Deep Gains).
+- OpenAI misalignment disclosures (19 cases as of Oct 16, Issue #18): further cases; whether the government statistics site is named; FTC use of the reports.
+- CERT-In CIAD-2026-0049 'AI Agents as Attack Vectors' (Issue #18): which AI providers disclosed, number of Indian organisations affected; MeitY consultation paper limits on autonomous agents.
+- ChatGPT Chrome extension (Issue #18): confirm which plans get Work mode; prompt-injection incidents; Edge/Brave support.
+- Claude Opus 5.5 fast mode GA (Issue #18): Google Cloud availability ('coming soon').
+- Microsoft MAI-Base-2 (Issue #18): post-trained MAI model built on it; Foundry partner licensing terms.
+- China Announcement 48 draft export curbs (Issue #18): final text after Nov 15 comment deadline; which models it hits.
+- Anthropic draft safety bill (Issue #18): sponsor in Congress; OpenAI/others' reaction.
+- Replit-Anthropic (Issue #18): confirmation either way; Claude models removed from Replit's picker or not.
+- Not yet covered (seen Oct 16): OpenAI ~60,000 advertisers (The Information, not fetched); OpenAI/Meta warn judges on deepfake evidence (Reuters, not fetched); White House SI task force begins 120-day agenda (Semafor, not fetched); Apple App Review rules on nudification and hidden features (9to5Mac, not fetched); Meta recovers $25M from super PACs (NYT); AI midterm ads $137M (NYT); Bluesky Attie social vibe coding (TechCrunch, not fetched); Tencent Hy-Memory-30B-A3B; Alibaba OpenGCUA; Nvidia EdgeWise; OpenRouter Armor; Open Source AI Week Oct 16-25; Anthropic fellowships Jan 2027.

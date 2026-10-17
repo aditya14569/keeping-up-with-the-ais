@@ -27,7 +27,7 @@ Rules for the daily run:
 - [x] Calling an LLM API from scratch: Issue #15 (2026-10-14)
 - [x] Tool use / function calling: Issue #16 (2026-10-15)
 - [x] Embeddings: turning meaning into numbers: Issue #17 (2026-10-16)
-- [ ] Vector databases
+- [x] Vector databases: Issue #18 (2026-10-17)
 - [ ] RAG: letting a model read your documents
 - [ ] MCP (Model Context Protocol): plugging tools into any AI
 - [ ] Skills, plugins and reusable instructions
