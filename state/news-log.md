@@ -186,6 +186,15 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-17 | 18 | anthropic-draft-frontier-safety-bill-1b-50-deaths-politico | https://kelo.com/2026/10/16/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports/
 2026-10-17 | 18 | replit-ceo-says-no-longer-works-with-anthropic | https://www.unite.ai/replit-ceo-masad-says-company-no-longer-works-with-anthropic/
 
+2026-10-18 | 19 | deepseek-v4-1-flash-1017-search-fetch-api-0-75-per-1k | https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/
+2026-10-18 | 19 | anthropic-employment-report-agent-hours-6-to-1-junior-hires-27-to-9 | https://www.anthropic.com/research/employment-at-anthropic
+2026-10-18 | 19 | opencode-console-breach-provider-keys-1-4-percent-distillation | https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html
+2026-10-18 | 19 | anthropic-everwind-nova-scotia-95mw-20yr-lease | https://thelogic.co/news/anthropic-data-centre-cape-breton-nova-scotia-everwind/
+2026-10-18 | 19 | chatgpt-slides-pro-business-enterprise | https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+2026-10-18 | 19 | musk-grok-bot-make-you-whole-pledge | https://thenextweb.com/news/musk-grok-bot-credit-card-spacex-make-you-whole
+2026-10-18 | 19 | indiaai-fellowship-2026-27-deadline-nov-30 | https://www.businesstoday.in/jobs/story/indiaai-fellowship-programme-opens-for-ay-2026-27-check-eligibility-funding-deadline-562251-2026-10-17
+2026-10-18 | 19 | gmail-live-workspace-gemini-app-skills | https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-16-2026.html
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -298,3 +307,9 @@ The daily run reads this before writing and skips anything already here, unless 
 - Anthropic draft safety bill (Issue #18): sponsor in Congress; OpenAI/others' reaction.
 - Replit-Anthropic (Issue #18): confirmation either way; Claude models removed from Replit's picker or not.
 - Not yet covered (seen Oct 16): OpenAI ~60,000 advertisers (The Information, not fetched); OpenAI/Meta warn judges on deepfake evidence (Reuters, not fetched); White House SI task force begins 120-day agenda (Semafor, not fetched); Apple App Review rules on nudification and hidden features (9to5Mac, not fetched); Meta recovers $25M from super PACs (NYT); AI midterm ads $137M (NYT); Bluesky Attie social vibe coding (TechCrunch, not fetched); Tencent Hy-Memory-30B-A3B; Alibaba OpenGCUA; Nvidia EdgeWise; OpenRouter Armor; Open Source AI Week Oct 16-25; Anthropic fellowships Jan 2027.
+- DeepSeek V4.1-Flash-1017 + Search/Fetch API (Issue #19): licence of 1017 weights (MIT per AI Weekly, undisclosed per MarkTechPost); independent benchmarks; free window via Harness/Claude Code/Codex ends Nov 1; search quality vs other search APIs; India availability.
+- Anthropic employment report (Issue #19): reactions; other labs publishing similar workforce data; junior-hiring data from Indian IT firms.
+- OpenCode Console breach (Issue #19): root cause, how 'distillation attack' links to the legacy system, total losses, provider refunds (Anthropic/OpenAI/Google).
+- Anthropic-EverWind Nova Scotia (Issue #19): First Nation ownership stake; 420 MW expansion approvals (2028); Google financing report (Seeking Alpha, not fetched).
+- Grok Bot 'make you whole' pledge (Issue #19): any formal policy or terms change.
+- Not yet covered (seen Oct 17): Replit-Anthropic split disputed by sources (LavX rewrite of TechCrunch); Claude quantum-circuit and NIST ECDSA seed research posts (Oct 16, not fetched); Apollo GLM-5.3 training-aware reasoning (RuntimeWire, not fetched); MONST3R-AI tool on stolen AI keys (Help Net Security, not fetched); Intern-Decision 4B beats Jev (arXiv 2610.22131); Zen Technologies buys 52% of Cogknit (₹135.15 cr); WSJ on AI liability vs insurance caps; SF 45-day data-centre moratorium; Taiwan AI chip smuggling law; TheoPhysEval fusion conjecture; Meta drops AI-training crawl clause from Oct 30 terms (Unite.AI, not fetched); OpenAI/Meta deepfake warning to judges (Breitbart).
