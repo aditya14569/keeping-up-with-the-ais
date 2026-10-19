@@ -29,7 +29,7 @@ Rules for the daily run:
 - [x] Embeddings: turning meaning into numbers: Issue #17 (2026-10-16)
 - [x] Vector databases: Issue #18 (2026-10-17)
 - [x] RAG: letting a model read your documents: Issue #19 (2026-10-18)
-- [ ] MCP (Model Context Protocol): plugging tools into any AI
+- [x] MCP (Model Context Protocol): plugging tools into any AI: Issue #20 (2026-10-19)
 - [ ] Skills, plugins and reusable instructions
 - [x] AI agents: what they are and why everyone is launching one: Issue #1 (2026-09-30)
 - [ ] Agent loops, memory and planning

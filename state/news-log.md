@@ -195,6 +195,19 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-18 | 19 | indiaai-fellowship-2026-27-deadline-nov-30 | https://www.businesstoday.in/jobs/story/indiaai-fellowship-programme-opens-for-ay-2026-27-check-eligibility-funding-deadline-562251-2026-10-17
 2026-10-18 | 19 | gmail-live-workspace-gemini-app-skills | https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-16-2026.html
 
+2026-10-19 | 20 | banks-sites-block-third-party-ai-agents-schwab-mcp-read-only | https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse
+2026-10-19 | 20 | amazon-yelp-delta-block-agents-verge (in agents story) | https://aiweekly.co/alerts/amazon-yelp-delta-join-banks-blocking-third-party-ai-agents
+2026-10-19 | 20 | anthropic-public-benefit-fund-5-percent-plus-2-per-50 | https://www.anthropic.com/news/public-benefit-fund
+2026-10-19 | 20 | openai-aurora-red-green-blue-alpha-api-ids | https://cryptobriefing.com/openai-aurora-alpha-models-api/
+2026-10-19 | 20 | altman-openai-humanoid-we-will-demo-2027-27-roles | https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/
+2026-10-19 | 20 | nasscom-indian-models-procurement-preference-l1 | https://www.medianama.com/2026/10/223-nasscom-public-procurement-ai-big-tech/
+2026-10-19 | 20 | update-disney-offers-jobs-66-character-ai-staff | https://letsdatascience.com/news/disney-offers-jobs-to-66-characterai-employees-ff9444bc
+2026-10-19 | 20 | nvidia-nemotron-labs-dory-1-0-4b-looped | https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16
+2026-10-19 | 20 | apollo-glm-5-3-update-aware-reasoning-10-of-6452 | https://www.techtimes.com/articles/329144/20261016/glm-53-becomes-first-frontier-ai-caught-reasoning-about-its-own-training-apollo-finds.htm
+2026-10-19 | 20 | claude-code-2-1-302-fork-subagents-default-claude-design-closes-dec-14 | https://code.claude.com/docs/en/changelog
+2026-10-19 | 20 | kimi-k3-coauthor-chen-guangyu-leaves-moonshot | https://news.sbs.co.kr/english/article.do?news_id=N1008803209
+2026-10-19 | 20 | doe-4-4b-loans-restart-three-nuclear-plants-ai | https://abcnews.com/US/wireStory/us-reviving-shuttered-nuclear-plants-meet-growing-electricity-137317832
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -313,3 +326,7 @@ The daily run reads this before writing and skips anything already here, unless 
 - Anthropic-EverWind Nova Scotia (Issue #19): First Nation ownership stake; 420 MW expansion approvals (2028); Google financing report (Seeking Alpha, not fetched).
 - Grok Bot 'make you whole' pledge (Issue #19): any formal policy or terms change.
 - Not yet covered (seen Oct 17): Replit-Anthropic split disputed by sources (LavX rewrite of TechCrunch); Claude quantum-circuit and NIST ECDSA seed research posts (Oct 16, not fetched); Apollo GLM-5.3 training-aware reasoning (RuntimeWire, not fetched); MONST3R-AI tool on stolen AI keys (Help Net Security, not fetched); Intern-Decision 4B beats Jev (arXiv 2610.22131); Zen Technologies buys 52% of Cogknit (₹135.15 cr); WSJ on AI liability vs insurance caps; SF 45-day data-centre moratorium; Taiwan AI chip smuggling law; TheoPhysEval fusion conjecture; Meta drops AI-training crawl clause from Oct 30 terms (Unite.AI, not fetched); OpenAI/Meta deepfake warning to judges (Breitbart).
+- Agent blocking (Issue #20): Schwab MCP servers launch date and which AI apps can connect; other banks (incl. Indian banks/RBI stance) following; Amazon-Meta Muse dispute; Bank of America human-authorisation rule.
+- Anthropic Public Benefit Fund (Issue #20): stockholder vote, baseline valuation, governance, first grants; public benefit report.
+- OpenAI aurora-red/green/blue-alpha (Issue #20): official launch, what they are (Codex speed variants rumoured).
+- Not yet covered (seen Oct 18-19): Anthropic outside input on Claude's values (NBC, not fetched); Claude quantum-circuit and ECDSA research posts (not fetched); Nscale IPO valuation pushback $16-19B and neocloud shakeout, SOX -3.83% (Bloomberg/The Information, aggregator only); Samsung TSMC 3nm HBM base dies (Seoul Economic Daily, aggregator); Korean publishers demand Anthropic disclose books (aggregator); Taiwan chip-smuggling crime plan (aggregator); StepFun Step 5 Preview weights reportedly released Oct 16 (MarkTechPost, not fetched); India AI startups ~$50M week (tech-insider roundup); Sarvam reportedly raising $250-300M at ~$3B (weak source); DPIIT ₹12.5 cr AI/ML GeM tender closes Oct 21; PostgreSQL 19 slips to ~Nov after LLM reviews (The Register); OpenAI festive ChatGPT Hindi voices campaign (Storyboard18, not fetched).
