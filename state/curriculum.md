@@ -30,7 +30,7 @@ Rules for the daily run:
 - [x] Vector databases: Issue #18 (2026-10-17)
 - [x] RAG: letting a model read your documents: Issue #19 (2026-10-18)
 - [x] MCP (Model Context Protocol): plugging tools into any AI: Issue #20 (2026-10-19)
-- [ ] Skills, plugins and reusable instructions
+- [x] Skills, plugins and reusable instructions: Issue #21 (2026-10-20)
 - [x] AI agents: what they are and why everyone is launching one: Issue #1 (2026-09-30)
 - [ ] Agent loops, memory and planning
 - [ ] Multi-agent systems and orchestration
