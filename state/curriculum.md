@@ -32,7 +32,7 @@ Rules for the daily run:
 - [x] MCP (Model Context Protocol): plugging tools into any AI: Issue #20 (2026-10-19)
 - [x] Skills, plugins and reusable instructions: Issue #21 (2026-10-20)
 - [x] AI agents: what they are and why everyone is launching one: Issue #1 (2026-09-30)
-- [ ] Agent loops, memory and planning
+- [x] Agent loops, memory and planning: Issue #22 (2026-10-21)
 - [ ] Multi-agent systems and orchestration
 - [ ] Computer-use and browser agents
 - [ ] Decision models and classifiers vs chat models (e.g. Jev)

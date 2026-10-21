@@ -219,6 +219,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-20 | 21 | cloudflare-clairic-extraction-model-workers-ai | https://aiweekly.co/alerts/cloudflare-launches-clairic-a-system-one-extraction-model-32x-faster-and-49
 2026-10-20 | 21 | meta-prometheus-supercluster-1m-gpus-99pct-fewer-interruptions | https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/
 
+2026-10-21 | 22 | microsoft-365-e7-project-perception-agent-risk-dynamic-permissions-guardian-agents-60-agent-types | https://www.geekwire.com/2026/microsoft-unveils-tools-to-monitor-and-corral-rogue-ai-agents/
+2026-10-21 | 22 | minimax-m3-1-flash-428b-a23b-0-15-0-60-1m-weights-oct-23-space-bunny | https://www.marktechpost.com/2026/10/19/minimax-m3-1-flash-release/
+2026-10-21 | 22 | openai-30b-raise-1-4t-ahead-anthropic-ipo-mid-nov (Update: OpenAI/Anthropic money) | https://www.thestar.com.my/tech/tech-news/2026/10/20/exclusive-openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-sources-say
+2026-10-21 | 22 | deepseek-deepinfer-open-source-apache-sm100-ascend-950 | https://github.com/deepseek-ai/DeepInfer
+2026-10-21 | 22 | openai-12-hour-prompt-caching-responses-api-2-5x-write | https://developers.openai.com/api/docs/changelog
+2026-10-21 | 22 | anthropic-oss-scanner-first-week-77-critical-803-high (Update: OSS Scanner) | https://alphasignal.ai/news/anthropic-s-oss-scanner-finds-880-critical-vulnerabilities-in-open-source-code
+2026-10-21 | 22 | canadian-publishers-postmedia-torstar-globe-cp-sue-anthropic-ontario | https://mobilesyrup.com/2026/10/19/canadian-publishers-launch-copyright-suit-against-ai-company-anthropic/
+2026-10-21 | 22 | meta-muse-10m-us-downloads-40-days-sensor-tower | https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps
+2026-10-21 | 22 | figma-config-india-20-mcp-partners-sarvam-field-mcp-not-perfect | https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/
+2026-10-21 | 22 | fal-bfl-flux-3-max-video-10s-in-11s-22x-seedance | https://www.prnewswire.com/news-releases/fal-launches-flux-3-max-delivering-1-tier-image-to-video-quality-at-industry-leading-speeds-302913033.html
+2026-10-21 | 22 | memt-1-0-memory-native-66x-storage (in Learn) | https://huggingface.co/papers/2610.26825
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -347,3 +359,9 @@ The daily run reads this before writing and skips anything already here, unless 
 - DHS DeepSeek FASCSA order (Issue #21): Federal Register text (Oct 20); guidance on 'developed using'; gateways (OpenRouter/Vercel) changes for gov customers; DeepSeek response.
 - TorchNeuron (Issue #21): public beta details from pytorch.org post (not fetched directly); benchmarks vs CUDA.
 - Not yet covered (seen Oct 19-20): Nscale-Anthropic ~$45B/460 MW West Virginia (Bloomberg via AI Weekly calls it a 'second deal'; Aug 27 reports already described a $45B WV deal - unclear if new); The Information: Anthropic readying model that 'reads intentions' better; OfficeTown benchmark (GPT-6 Astra 74.4%, Opus 5.5 50.7%, arXiv 2610.23194); DeepSeek to pre-train on Huawei Ascend 950DT (The Information); Modal adds Nvidia Vera CPUs (Reuters); Dream Labs $90M seed; Town $108M Series B unicorn; Tolan $30M; Idealab.ai 1.2M ideas (Axios); 39 AGs on Character.AI sale terms; Deloitte Australia ~170 cuts; doubleAI Maxwell (WSJ); Microsoft reportedly exits Nscale Essex (BBC, not verified); Accenture ~$29/employee/month Claude budget (Reddit only); Anthropic consulting lawyers on negotiating agents (India Today); Laminar flow-1; Claude Code used to 'dumb' smart TVs (TechCrunch); AngelBot TeamSync (India); Google Harness² open-source.
+- Microsoft agent controls (Issue #22): Ignite Nov 17-19 GA details; pricing beyond E7 $99; Guardian Agents in practice; Google/AWS/Okta equivalents.
+- MiniMax M3.1 Flash (Issue #22): weights Oct 23 and licence; independent benchmarks (Artificial Analysis); OpenRouter free window end; Pro model.
+- OpenAI $30B at $1.4T+ (Issue #22): commitments signed, SoftBank/MGX amounts; Anthropic IPO pricing (mid-Nov), S-1 revenue accounting dispute.
+- DeepSeek DeepInfer (Issue #22): KV cache / PD disaggregation release; benchmarks vs vLLM/SGLang.
+- Canadian publishers v Anthropic (Issue #22): Anthropic response, damages sought (FourWeekMBA claims up to $20K per work, not verified).
+- Not yet covered (seen Oct 20-21): OpenAI acquires Orchestra Bio (Rosalind; TechCrunch); Eric Schmidt ~1% of Anthropic (Bloomberg via TechCrunch); Otter.ai $320M non-dilutive from General Catalyst; Yelp calls restaurants for wait times (TechCrunch, not fetched); Eka $1.45B physical AI (TechCrunch, not fetched); Blackwall $2.2B; Reliable Robotics $115M; Stanford Halcyon T2I (275x less compute); SemiAnalysis ~50 GW new DC capacity in 2027; Nace AI Drex Max decision model; Skyfall SKY-001; AWS CFO AI-cost recording (BI); Claude Code finds hidden crypto miner (Yahoo anecdote).
