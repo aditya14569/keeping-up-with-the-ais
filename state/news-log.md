@@ -231,6 +231,17 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-21 | 22 | fal-bfl-flux-3-max-video-10s-in-11s-22x-seedance | https://www.prnewswire.com/news-releases/fal-launches-flux-3-max-delivering-1-tier-image-to-video-quality-at-industry-leading-speeds-302913033.html
 2026-10-21 | 22 | memt-1-0-memory-native-66x-storage (in Learn) | https://huggingface.co/papers/2610.26825
 
+2026-10-22 | 23 | php2shell-cve-2026-109618-109619-cvss-9-2-ai-found-calif-gpt-5-6-sol-wiz-patched-oct-21 | https://thenextweb.com/news/php2shell-php-rce-ai-openai-wiz
+2026-10-22 | 23 | litellm-1-107-0-pypi-docker-compromise-cook-pth-stealer-backdoor-stolen-github-tokens | https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html
+2026-10-22 | 23 | railway-env-vars-breach-builds-paused-ai-inference-attack-series | https://blog.railway.com/p/security-disclosure-wednesday-october-21st
+2026-10-22 | 23 | anthropic-claude-duet-proactive-agent-research-preview-us-pro-max | https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/
+2026-10-22 | 23 | claude-api-version-2026-10-21-no-temperature-bearer-auth-sdk-majors | https://alphasignal.ai/news/anthropic-rewrites-claude-api-after-3-years-removing-temperature-controls
+2026-10-22 | 23 | openai-agents-disabled-misalignment-monitoring-sol-astra (Update: rogue agents) | https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/
+2026-10-22 | 23 | anthropic-s1-public-filing-as-early-as-oct-23-h1-revenue-16-3b-loss-80b (Update: Anthropic IPO) | https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html
+2026-10-22 | 23 | anthropic-claude-scorpion-toxin-binders-64h-17-of-211 | https://www.anthropic.com/research/claude-scorpion-toxin-binder-design
+2026-10-22 | 23 | legora-550m-series-e-8-8b-arr-200m | https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/
+2026-10-22 | 23 | microsoft-research-kls-conjecture-proof-agentic-search (in Learn) | https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -365,3 +376,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - DeepSeek DeepInfer (Issue #22): KV cache / PD disaggregation release; benchmarks vs vLLM/SGLang.
 - Canadian publishers v Anthropic (Issue #22): Anthropic response, damages sought (FourWeekMBA claims up to $20K per work, not verified).
 - Not yet covered (seen Oct 20-21): OpenAI acquires Orchestra Bio (Rosalind; TechCrunch); Eric Schmidt ~1% of Anthropic (Bloomberg via TechCrunch); Otter.ai $320M non-dilutive from General Catalyst; Yelp calls restaurants for wait times (TechCrunch, not fetched); Eka $1.45B physical AI (TechCrunch, not fetched); Blackwall $2.2B; Reliable Robotics $115M; Stanford Halcyon T2I (275x less compute); SemiAnalysis ~50 GW new DC capacity in 2027; Nace AI Drex Max decision model; Skyfall SKY-001; AWS CFO AI-cost recording (BI); Claude Code finds hidden crypto miner (Yahoo anecdote).
+- PHP2Shell (Issue #23): mass exploitation reports; WordPress/Laravel host patch status; Indian hosting providers; OpenAI Patch the Planet dashboard numbers (68 codebases/1,995 issues per AI Weekly, not fetched).
+- LiteLLM 1.107.0 (Issue #23): how GitHub tokens were stolen; download counts; link to Railway/OpenCode inference-provider attack series; TeamPCP attribution.
+- Railway breach (Issue #23): builds restored; number of affected accounts; attack method; upstream provider key revocations.
+- Claude Duet (Issue #23): waitlist expansion beyond US (India), Team/Enterprise, 1Password sign-in, usage-limit complaints.
+- Claude API 2026-10-21 (Issue #23): 2023-06-01 deprecation date; gateway (LiteLLM/OpenRouter) compatibility with Bearer auth. Official migration guide not fetched directly.
+- Anthropic S-1 (Issue #23): public filing (as early as Oct 23); verified revenue/loss figures; listing date and raise size.
+- Not yet covered (seen Oct 21-22): OpenAI acquires Orchestra Bio (Neuron digest, not fetched); Trail of Bits patching-bugs/regression-hunt plugins (AI Weekly, not fetched); Mistral Voxtral 3 and ElevenLabs Eleven Realtime (X posts only); Nvidia DSX POD at GTC Berlin (DCD, not fetched); DeepMind engineer Sofia Liguori resigns over military contracts (The Intercept, not fetched); Meta ordered to pay New Mexico $25B (CNBC, not fetched); China MOFCOM objects to DHS DeepSeek ban (NBC, not fetched); Recursive Flint 39.8B Apache coding model; Flapping Airplanes $1B at $6B; Gemini Personal Intelligence on Android Auto; Beacon $5.5M seed; Ornith-1.5-122B MIT.

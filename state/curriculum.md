@@ -33,7 +33,7 @@ Rules for the daily run:
 - [x] Skills, plugins and reusable instructions: Issue #21 (2026-10-20)
 - [x] AI agents: what they are and why everyone is launching one: Issue #1 (2026-09-30)
 - [x] Agent loops, memory and planning: Issue #22 (2026-10-21)
-- [ ] Multi-agent systems and orchestration
+- [x] Multi-agent systems and orchestration: Issue #23 (2026-10-22)
 - [ ] Computer-use and browser agents
 - [ ] Decision models and classifiers vs chat models (e.g. Jev)
 
