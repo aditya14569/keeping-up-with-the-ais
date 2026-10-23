@@ -242,6 +242,25 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-22 | 23 | legora-550m-series-e-8-8b-arr-200m | https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/
 2026-10-22 | 23 | microsoft-research-kls-conjecture-proof-agentic-search (in Learn) | https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/
 
+2026-10-23 | 24 | litellm-root-cause-claude-code-gh-token-in-logged-responses-3-creds-berri-ai-lookalike (Update: LiteLLM) | https://docs.litellm.ai/blog/security-incident-oct-21-2026
+2026-10-23 | 24 | railway-rotate-all-keys-builds-back-pro-enterprise-crypto-wallets-drained (Update: Railway) | https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html
+2026-10-23 | 24 | github-cli-expiring-auto-refreshing-oauth-tokens-v2-103 | https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens
+2026-10-23 | 24 | 1password-for-agents-approve-logins-agent-never-sees-password | https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/
+2026-10-23 | 24 | us-banks-find-unvetted-ai-agents-morgan-stanley-blocks-read-only (Update: agent blocking) | https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access
+2026-10-23 | 24 | walmart-agent-gateway-mcp-agent-profiles-spending-caps | https://ppc.land/walmart-lets-ai-agents-buy-within-customer-set-limits-such-as-50-or-100/
+2026-10-23 | 24 | google-cloud-agent-compute-engine-microvm-credentials-outside | https://siliconangle.com/2026/10/22/google-cloud-introduces-agent-compute-engine-to-host-ai-agents/
+2026-10-23 | 24 | openai-decisions-api-ga-gpt-6-luna-0-10-input-free-output-400-questions (Update: Decisions API) | https://community.openai.com/t/decisions-api-is-now-generally-available-with-new-updates/1408934
+2026-10-23 | 24 | baseten-mammoth-1-elephant-1-free-vercel-ai-gateway-to-oct-27 | https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free
+2026-10-23 | 24 | claude-platform-google-cloud-anthropic-managed-ga | https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud
+2026-10-23 | 24 | openai-models-google-cloud-model-garden-preview | https://openai.com/index/openai-models-google-cloud/
+2026-10-23 | 24 | aaif-adds-open-responses-agent-skills-openenv-opensandbox-10-projects | https://siliconangle.com/2026/10/22/agentic-ai-foundation-adds-four-more-open-source-ai-tools/
+2026-10-23 | 24 | storm-0940-artex-agentic-connectwise-2250-tenants (Update: Artex) | https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+2026-10-23 | 24 | deepseek-15b-round-reported-catl-tencent (Update: DeepSeek round) | https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/
+2026-10-23 | 24 | openai-30b-at-1-25t-pre-money-coatue-uae (Update: OpenAI raise) | https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+2026-10-23 | 24 | tech-mahindra-spacexsi-grok-build-partnership | https://the420.in/tech-mahindra-spacexsi-grok-build-ai-software-engineering/
+2026-10-23 | 24 | arc-browser-shutdown-dec-22-dia | https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/
+2026-10-23 | 24 | claude-code-computer-use-tool-order-mcp-bash-chrome-computer (in Learn) | https://code.claude.com/docs/en/computer-use
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -383,3 +402,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Claude API 2026-10-21 (Issue #23): 2023-06-01 deprecation date; gateway (LiteLLM/OpenRouter) compatibility with Bearer auth. Official migration guide not fetched directly.
 - Anthropic S-1 (Issue #23): public filing (as early as Oct 23); verified revenue/loss figures; listing date and raise size.
 - Not yet covered (seen Oct 21-22): OpenAI acquires Orchestra Bio (Neuron digest, not fetched); Trail of Bits patching-bugs/regression-hunt plugins (AI Weekly, not fetched); Mistral Voxtral 3 and ElevenLabs Eleven Realtime (X posts only); Nvidia DSX POD at GTC Berlin (DCD, not fetched); DeepMind engineer Sofia Liguori resigns over military contracts (The Intercept, not fetched); Meta ordered to pay New Mexico $25B (CNBC, not fetched); China MOFCOM objects to DHS DeepSeek ban (NBC, not fetched); Recursive Flint 39.8B Apache coding model; Flapping Airplanes $1B at $6B; Gemini Personal Intelligence on Android Auto; Beacon $5.5M seed; Ornith-1.5-122B MIT.
+- LiteLLM root cause (Issue #24): Anthropic response on Claude Code embedding gh tokens in response bodies; how attacker reached the internal deployment; download counts.
+- Railway (Issue #24): Hobby/Free/Trial builds restored; affected-account count; attack method; crypto theft totals.
+- 1Password for Agents (Issue #24): which partner agents are live (TechCrunch vs 9to5Google disagree); pricing; Claude Duet support date; Indian banks/RBI stance on agent access; OCC statement.
+- Decisions API GA (Issue #24): independent benchmarks; 60 ms target; Baseten Mammoth/Elephant pricing after Oct 27.
+- OpenAI on Google Cloud (Issue #24): GA date, models, pricing, regions (India).
+- Google Agent Compute Engine (Issue #24): preview date, pricing.
+- Tech Mahindra-Grok Build (Issue #24): first customer contracts; other Indian IT firms; Infosys Q2 FY27 (Oct 23) AI commentary.
+- Not yet covered (seen Oct 22-23): Microsoft MAI-DxO Science paper (83% vs 36%, TechCrunch); Canva Craft image model (TechCrunch); Hugging Face Carbon-X DNA model Apache 2.0 (TNW); Anthropic Public Benefit Report (four models accessed real third-party systems in cyber testing; ETIH); Meta Q3 capex $135-145B, non-voting shares; Hassabis AGI 2-3 years (The Decoder); GPT-Rosalind 1,946-agent mouse-brain atlas (R&D World); Gemini Personal Intelligence in Maps, Argon to replace Deep Think (9to5Google); Claude Code 2.1.307-309 (/claude-api api-version); Uber 30,000 on ChatGPT Work; Warp Sciences $215M; Kimi K3.1/Qwen 4 rumours (Arena Kibitz/Kalmia); Mistral Voxtral 3 pricing (secondary source); Ars: Meta Muse shared-conversation leaks (not fetched); Vultr Chennai region; Karta AI $3M; Chrome Gemini scam detection server-side.

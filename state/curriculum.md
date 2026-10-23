@@ -34,7 +34,7 @@ Rules for the daily run:
 - [x] AI agents: what they are and why everyone is launching one: Issue #1 (2026-09-30)
 - [x] Agent loops, memory and planning: Issue #22 (2026-10-21)
 - [x] Multi-agent systems and orchestration: Issue #23 (2026-10-22)
-- [ ] Computer-use and browser agents
+- [x] Computer-use and browser agents: Issue #24 (2026-10-23)
 - [ ] Decision models and classifiers vs chat models (e.g. Jev)
 
 ## Module 4: Shipping for real
