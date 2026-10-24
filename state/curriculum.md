@@ -35,7 +35,7 @@ Rules for the daily run:
 - [x] Agent loops, memory and planning: Issue #22 (2026-10-21)
 - [x] Multi-agent systems and orchestration: Issue #23 (2026-10-22)
 - [x] Computer-use and browser agents: Issue #24 (2026-10-23)
-- [ ] Decision models and classifiers vs chat models (e.g. Jev)
+- [x] Decision models and classifiers vs chat models (e.g. Jev): Issue #25 (2026-10-24)
 
 ## Module 4: Shipping for real
 - [ ] Evals: measuring whether your AI feature works

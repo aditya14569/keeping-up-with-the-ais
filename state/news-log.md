@@ -261,6 +261,20 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-23 | 24 | arc-browser-shutdown-dec-22-dia | https://techcrunch.com/2026/10/22/arc-browser-sunsets-december-22-as-the-browser-company-doubles-down-on-dia/
 2026-10-23 | 24 | claude-code-computer-use-tool-order-mcp-bash-chrome-computer (in Learn) | https://code.claude.com/docs/en/computer-use
 
+2026-10-24 | 25 | openai-frontier-training-no-live-internet-cached-web-sep-20-dns-escape-11-day-pause | https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+2026-10-24 | 25 | openai-containment-red-team-kata-gvisor-docker-kernel-fixes | https://www.unite.ai/openai-details-training-containment-overhaul-after-september-model-incident/
+2026-10-24 | 25 | anthropic-ukaisi-mythos-5-alignment-assessment-9-of-43-momentum-83-vs-0-13 | https://www.anthropic.com/research/alignment-assessment-ukaisi
+2026-10-24 | 25 | kimi-k3-1-pro-1m-context-terminal-bench-65-7-weights-by-nov-4-cyber-data-removed | https://www.kimi.ai/blog/kimi-k3-1-pro
+2026-10-24 | 25 | minimax-m3-1-flash-weights-hf-428b-23b-active-community-licence-20m (Update: MiniMax M3.1 Flash) | https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash/tree/main
+2026-10-24 | 25 | infosys-q2-fy27-guidance-cut-1-2-ai-deflation-ai-10-5-pct-revenue | https://www.business-standard.com/companies/quarterly-results/infosys-q2-results-net-profit-rises-6-2-to-7-823-cr-revenue-up-10-2-126102300941_1.html
+2026-10-24 | 25 | amex-cuts-3500-jobs-ai-336m-charge | https://www.bankingdive.com/news/amex-american-express-cut-3500-employees-ai-squeri/833861/
+2026-10-24 | 25 | anthropic-formal-verification-123-libraries-180m-lines-rocq | https://www.unite.ai/anthropic-says-claude-proved-security-properties-across-123-libraries/
+2026-10-24 | 25 | metr-redwood-embedded-openai-monitor-flaws-hundreds-of-actions | https://www.ksl.com/article/51639721/external-evaluators-find-flaws-in-openais-ai-monitoring-system-in-pilot-review
+2026-10-24 | 25 | fortinet-ai-found-flaws-fortios-fortimanager-fortianalyzer-patches | https://channellife.co.uk/story/fortinet-urges-urgent-patching-after-ai-found-flaws
+2026-10-24 | 25 | gradium-phonon-31m-on-device-tts-apache-2 | https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/
+2026-10-24 | 25 | vultr-amd-chennai-20mw-mi355x-supercluster | https://www.businesswire.com/news/home/20261020586292/en/Vultr-and-AMD-Expand-Global-Collaboration-with-New-AI-Infrastructure-in-India
+2026-10-24 | 25 | promptfoo-openai-decisions-provider-predicate-choice-score (in Learn) | https://www.promptfoo.dev/docs/providers/openai-decisions/
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -410,3 +424,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Google Agent Compute Engine (Issue #24): preview date, pricing.
 - Tech Mahindra-Grok Build (Issue #24): first customer contracts; other Indian IT firms; Infosys Q2 FY27 (Oct 23) AI commentary.
 - Not yet covered (seen Oct 22-23): Microsoft MAI-DxO Science paper (83% vs 36%, TechCrunch); Canva Craft image model (TechCrunch); Hugging Face Carbon-X DNA model Apache 2.0 (TNW); Anthropic Public Benefit Report (four models accessed real third-party systems in cyber testing; ETIH); Meta Q3 capex $135-145B, non-voting shares; Hassabis AGI 2-3 years (The Decoder); GPT-Rosalind 1,946-agent mouse-brain atlas (R&D World); Gemini Personal Intelligence in Maps, Argon to replace Deep Think (9to5Google); Claude Code 2.1.307-309 (/claude-api api-version); Uber 30,000 on ChatGPT Work; Warp Sciences $215M; Kimi K3.1/Qwen 4 rumours (Arena Kibitz/Kalmia); Mistral Voxtral 3 pricing (secondary source); Ars: Meta Muse shared-conversation leaks (not fetched); Vultr Chennai region; Karta AI $3M; Chrome Gemini scam detection server-side.
+- OpenAI offline training (Issue #25): size/coverage of cached web; effect on model capabilities/timelines; GPT-6 Astra Cyber release; other labs (Google, Meta, xAI) adopting no-internet training; Anthropic's own internet limits (TechCrunch says began ~2 weeks earlier).
+- Anthropic/UK AISI Mythos 5 assessment (Issue #25): AISI's own follow-up; whether AISI gets Mythos 5.1 access; new automatic evals results; other labs' CTF-offline commitments.
+- Kimi K3.1 Pro (Issue #25): weights by Nov 4 and licence; API pricing; independent Terminal-Bench/Artificial Analysis scores; OpenRouter availability.
+- MiniMax M3.1 Flash weights (Issue #25): full licence text; independent benchmarks; quantized versions for smaller hardware.
+- Infosys/IT services AI deflation (Issue #25): TCS/Wipro/HCLTech Q2 commentary on AI pricing; fresher hiring trends.
+- METR/Redwood OpenAI embed (Issue #25): public summary; verification of OpenAI's patches.
+- Fortinet (Issue #25): PSIRT advisories/CVE details; exploitation reports.
+- Not yet covered (seen Oct 23): Block Dessa full-duplex voice model (waitlist); Sweden blocks ChatGPT/Claude on gov computers (Daily Northern, not fetched); Okta Access Gateway CVE-2026-115547; HeyGen Video 1 tops AA text-to-video (X only); Ideogram vector model (X only); Claude auto mode default on web/desktop/mobile for Pro/Max/Team next week (X only; Claude Code version was Aug 7); Agent Skills donation to AAIF (covered Issue #24); Finland halts Google EUR13B data centres (Fortune); Firebird 45,000 GB GPUs Kazakhstan; Google Cloud Vera Rubin A5X GA; Konkuk University AI cheating retest; WSJ on three OpenAI safety researchers fired over Signal chats; Bill Gates 'two turbulent decades' (The Verge); IQuest-Q1 320B MoE; MCP handshake 230 ms vs A2A 61 ms (arXiv 2610.30151); agentic RAG vs plain search 96.87% vs 95.64% (TDS).
