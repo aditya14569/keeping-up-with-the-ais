@@ -38,7 +38,7 @@ Rules for the daily run:
 - [x] Decision models and classifiers vs chat models (e.g. Jev): Issue #25 (2026-10-24)
 
 ## Module 4: Shipping for real
-- [ ] Evals: measuring whether your AI feature works
+- [x] Evals: measuring whether your AI feature works: Issue #26 (2026-10-25)
 - [ ] Observability and tracing for LLM apps
 - [ ] Guardrails, prompt injection and AI security
 - [ ] Latency: streaming, fast tiers and small models

@@ -275,6 +275,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-24 | 25 | vultr-amd-chennai-20mw-mi355x-supercluster | https://www.businesswire.com/news/home/20261020586292/en/Vultr-and-AMD-Expand-Global-Collaboration-with-New-AI-Infrastructure-in-India
 2026-10-24 | 25 | promptfoo-openai-decisions-provider-predicate-choice-score (in Learn) | https://www.promptfoo.dev/docs/providers/openai-decisions/
 
+2026-10-25 | 26 | shandong-harness-study-claude-code-opencode-mini-swe-agent-3x-cost-same-accuracy-71pct-fetched-fix | https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds
+2026-10-25 | 26 | convovo-grok-4-7-92pct-republican-gpt-6-1-sol-97pct-democrat-500-races | https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/
+2026-10-25 | 26 | typesafe-jev-all-customer-noul-outputs-leaked-suspected-idor | https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/
+2026-10-25 | 26 | replit-100m-yearly-ai-spend-to-openai-30pct-discount (Update: Replit-Anthropic) | https://aiweekly.co/alerts/replit-shifts-100m-ai-spend-to-openai-after-30-price-cut
+2026-10-25 | 26 | texas-paxton-sues-openai-altman-minors-court-evaluator | https://www.kbtx.com/2026/10/23/texas-attorney-general-ken-paxton-sues-chatgpt-maker-openai/
+2026-10-25 | 26 | cursor-computer-use-desktop-apps-ios-simulator | https://flaviocopes.com/cursor-computer-use/
+2026-10-25 | 26 | general-reasoning-avalon-m1-rlcr-agent-orgs-reporting-drops-to-zero | https://www.gr.inc/releases/avalon-m1
+2026-10-25 | 26 | nvidia-171-5b-neocloud-exposure-coreweave-nebius-iren-down-30pct | https://aiweekly.co/alerts/nvidias-1715b-neocloud-backstop-faces-first-real-market-test
+2026-10-25 | 26 | evals-openai-best-practices-anthropic-develop-tests-hamel-faq (in Learn) | https://developers.openai.com/api/docs/guides/evaluation-best-practices
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -432,3 +442,9 @@ The daily run reads this before writing and skips anything already here, unless 
 - METR/Redwood OpenAI embed (Issue #25): public summary; verification of OpenAI's patches.
 - Fortinet (Issue #25): PSIRT advisories/CVE details; exploitation reports.
 - Not yet covered (seen Oct 23): Block Dessa full-duplex voice model (waitlist); Sweden blocks ChatGPT/Claude on gov computers (Daily Northern, not fetched); Okta Access Gateway CVE-2026-115547; HeyGen Video 1 tops AA text-to-video (X only); Ideogram vector model (X only); Claude auto mode default on web/desktop/mobile for Pro/Max/Team next week (X only; Claude Code version was Aug 7); Agent Skills donation to AAIF (covered Issue #24); Finland halts Google EUR13B data centres (Fortune); Firebird 45,000 GB GPUs Kazakhstan; Google Cloud Vera Rubin A5X GA; Konkuk University AI cheating retest; WSJ on three OpenAI safety researchers fired over Signal chats; Bill Gates 'two turbulent decades' (The Verge); IQuest-Q1 320B MoE; MCP handshake 230 ms vs A2A 61 ms (arXiv 2610.30151); agentic RAG vs plain search 96.87% vs 95.64% (TDS).
+- TypeSafe Jev leak (Issue #26): postmortem and root cause (IDOR suspected); how long exposed; customer count; regulator notices; HiddenLayer manipulation findings (Oct 15).
+- Convovo election test (Issue #26): SpaceXAI response; Grok's ~1,240 hidden API input tokens explained; other models (Claude, Gemini) tested; Indian election equivalents.
+- Harness cost study (Issue #26): arXiv 2610.04433 paper; Berkeley/Arena HarnessTax results; harness vendors' responses (Anthropic, OpenCode).
+- Texas v OpenAI (Issue #26): statutes cited, OpenAI response, court-appointed evaluator demand.
+- Replit/OpenAI (Issue #26): Anthropic pricing/discount policy changes; Rippling share shift (The Information).
+- Not yet covered (seen Oct 24-25): Node2Shell Node.js Brotli RCE CVE-2026-111497 found by OpenAI Codex Security (patched Oct 21; Crypto Briefing via AI Weekly); AWS Multi Model Server CVE-2026-115812 (EOL, no patch); Unit 42 agentic AI in PHP attacks on European government; fired OpenAI researchers Balesni/Korbak on NPR; SEC FY27 exam priorities name super intelligence; Apollo's Slok: no AI payoff outside tech; Nieman Lab: ChatGPT signs fake New Yorker cartoons with real names; TechCrunch: Block voice model, AI agents in text messages, AI graveyard list; Daytona $1B valuation; UMG-Tyger catalog licence; Alpha School NYT investigation; SK Hyper $350B for 5 GW; AWS sold out through 2027 (Jassy); ARC Prize 62.7% verified Astra score (Sep, Startup Fortune).
