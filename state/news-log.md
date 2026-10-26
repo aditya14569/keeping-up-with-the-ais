@@ -285,6 +285,17 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-25 | 26 | nvidia-171-5b-neocloud-exposure-coreweave-nebius-iren-down-30pct | https://aiweekly.co/alerts/nvidias-1715b-neocloud-backstop-faces-first-real-market-test
 2026-10-25 | 26 | evals-openai-best-practices-anthropic-develop-tests-hamel-faq (in Learn) | https://developers.openai.com/api/docs/guides/evaluation-best-practices
 
+2026-10-26 | 27 | claude-georgia-aggregate-vote-counts-paywall-bypass-training-run (Update: Anthropic unintended-actions, Issue #11) | https://www.thestar.com.my/tech/tech-news/2026/10/26/anthropic039s-claude-accessed-georgia-state-vote-count-data-behind-paywall
+2026-10-26 | 27 | max-woolf-llm-price-cuts-up-to-80pct-cache-reads-96-99pct | https://minimaxir.com/2026/10/cheap-llms/
+2026-10-26 | 27 | nanbeige4-3-33b-apache-dense-512k-agentic-coding | https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/
+2026-10-26 | 27 | india-startup-funding-week-oct19-23-184m-ai-93-9m | https://the420.in/india-startup-funding-ai-1747-crore/
+2026-10-26 | 27 | apollo-slok-zero-financial-payoff-sp493 | https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/
+2026-10-26 | 27 | meta-business-ai-terms-customer-liability-oct-30 | https://www.cio.com/article/4237395/metas-new-enterprise-contract-says-if-its-ai-makes-a-mistake-it-will-legally-be-the-customers-fault.html
+2026-10-26 | 27 | block-dessa-speech-only-full-duplex-voice-model | https://winbuzzer.com/2026/10/25/block-says-dessa-voice-ai-learned-from-speech-alone-xcxwbn
+2026-10-26 | 27 | gemini-apps-export-to-google-sites | https://www.sammyfans.com/2026/10/24/google-makes-it-easier-to-share-apps-created-with-gemini/
+2026-10-26 | 27 | grok-imagine-odyssey-episode-1-seven-minutes | https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/
+2026-10-26 | 27 | llm-observability-langfuse-phoenix-agents-sdk-otel (in Learn) | https://langfuse.com/docs/observability/get-started
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -448,3 +459,7 @@ The daily run reads this before writing and skips anything already here, unless 
 - Texas v OpenAI (Issue #26): statutes cited, OpenAI response, court-appointed evaluator demand.
 - Replit/OpenAI (Issue #26): Anthropic pricing/discount policy changes; Rippling share shift (The Information).
 - Not yet covered (seen Oct 24-25): Node2Shell Node.js Brotli RCE CVE-2026-111497 found by OpenAI Codex Security (patched Oct 21; Crypto Briefing via AI Weekly); AWS Multi Model Server CVE-2026-115812 (EOL, no patch); Unit 42 agentic AI in PHP attacks on European government; fired OpenAI researchers Balesni/Korbak on NPR; SEC FY27 exam priorities name super intelligence; Apollo's Slok: no AI payoff outside tech; Nieman Lab: ChatGPT signs fake New Yorker cartoons with real names; TechCrunch: Block voice model, AI agents in text messages, AI graveyard list; Daytona $1B valuation; UMG-Tyger catalog licence; Alpha School NYT investigation; SK Hyper $350B for 5 GW; AWS sold out through 2027 (Jassy); ARC Prize 62.7% verified Astra score (Sep, Startup Fortune).
+- Claude Georgia paywall case (Issue #27): which model, how the paywall was bypassed, Georgia secretary of state response, other named targets from Anthropic's Oct 9 report, link to Axios original (not fetched).
+- Nanbeige4.3-33B (Issue #27): independent benchmarks; hosted providers/OpenRouter; Nanbeige4.3-3B distilled model.
+- Meta Business AI terms (Issue #27): final text on Oct 30; crawling clause changes.
+- Not yet covered (seen Oct 25-26): SpaceX ~$40B GPU debt closed, Musk predicts 200+ neoclouds die off (TipRanks, not fetched); Musk forecasts SpaceX AI unit $500B-1T revenue by 2027 (Motley Fool); Amazon drops Ashburn data centre plan (Oct 21, Bisnow); 10-year-old CNN beats GPT-6 Astra/Fable 5.1 on 200 skin lesions (lynchlab.net, not fetched); r/opensource bans AI-built projects (PPC Land, not fetched); Texas suspends 17 data-centre permits (HWBusters); data-centre late fees $5M/day (The Information); Rhode Island sues Meta over scam ads; Storm-1516 Talarico deepfakes; Brazil 1,423 AI election posts; Israel/Spain election deepfakes; US-China AI blocs Pax Silica/WAICO (AP); Naveen Rao $10T inference (20VC); Stellantis/Bolt Paris robotaxi 2028; Baba $40M Series A; LFM 2.5 2.6B (Liquid AI); Sweden gov blocks ChatGPT/Claude from Oct 26 (Daily Northern, not fetched).
