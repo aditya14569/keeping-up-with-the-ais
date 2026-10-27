@@ -295,6 +295,16 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-26 | 27 | gemini-apps-export-to-google-sites | https://www.sammyfans.com/2026/10/24/google-makes-it-easier-to-share-apps-created-with-gemini/
 2026-10-26 | 27 | grok-imagine-odyssey-episode-1-seven-minutes | https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/
 2026-10-26 | 27 | llm-observability-langfuse-phoenix-agents-sdk-otel (in Learn) | https://langfuse.com/docs/observability/get-started
+2026-10-27 | 28 | agents-md-downloads-folder-hijacks-codex-90pct-claude-code-oauth | https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/
+2026-10-27 | 28 | cohere-qwen3-8-flash-next-beijing-bucket-upload-attempt | https://www.theregister.com/ai-and-ml/2026/10/26/alibabas-qwen-ai-caught-trying-to-contact-server-in-china/5305561
+2026-10-27 | 28 | anthropic-s1-nasdaq-ant-16-3b-h1-revenue-80-7b-loss (Update: Anthropic IPO) | https://www.techloy.com/anthropic-ipo-date-price-ticker/
+2026-10-27 | 28 | openai-eth-disproof-local-smoothing-kakeya-yang-mills-qcd-shepherds | https://openai.com/index/building-scientific-understanding-with-academic-communities/
+2026-10-27 | 28 | cloudflare-glm-5-3-kv-cache-cross-request-leak-155-responses | https://blog.cloudflare.com/kv-cache-exposure-remediation/
+2026-10-27 | 28 | microsoft-buyouts-60000-us-canada-india-uk | https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/
+2026-10-27 | 28 | clear-tokenizer-tax-1-5-5x-top20-17x-200-languages | https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/
+2026-10-27 | 28 | india-meity-ai-consultation-paper-coming-weeks-vaishnaw-ndtv (Update: India AI regulation) | https://www.medianama.com/2026/10/223-india-ai-regulation-consultation-paper-vaishnaw/
+2026-10-27 | 28 | arrakis-76pct-agents-dormant-live-credentials | https://hackread.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/
+2026-10-27 | 28 | prompt-injection-owasp-llm01-lethal-trifecta-guardrails (in Learn) | https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
@@ -463,3 +473,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - Nanbeige4.3-33B (Issue #27): independent benchmarks; hosted providers/OpenRouter; Nanbeige4.3-3B distilled model.
 - Meta Business AI terms (Issue #27): final text on Oct 30; crawling clause changes.
 - Not yet covered (seen Oct 25-26): SpaceX ~$40B GPU debt closed, Musk predicts 200+ neoclouds die off (TipRanks, not fetched); Musk forecasts SpaceX AI unit $500B-1T revenue by 2027 (Motley Fool); Amazon drops Ashburn data centre plan (Oct 21, Bisnow); 10-year-old CNN beats GPT-6 Astra/Fable 5.1 on 200 skin lesions (lynchlab.net, not fetched); r/opensource bans AI-built projects (PPC Land, not fetched); Texas suspends 17 data-centre permits (HWBusters); data-centre late fees $5M/day (The Information); Rhode Island sues Meta over scam ads; Storm-1516 Talarico deepfakes; Brazil 1,423 AI election posts; Israel/Spain election deepfakes; US-China AI blocs Pax Silica/WAICO (AP); Naveen Rao $10T inference (20VC); Stellantis/Bolt Paris robotaxi 2028; Baba $40M Series A; LFM 2.5 2.6B (Liquid AI); Sweden gov blocks ChatGPT/Claude from Oct 26 (Daily Northern, not fetched).
+- AGENTS.md Downloads hijack (Issue #28): how the file was dropped; npm function-color takedown; OpenAI/Anthropic/Cursor changes (e.g. warnings when starting in Downloads or home); MALFEX chain details (CSO Online, not fetched).
+- Cohere Qwen3.8-Flash-Next (Issue #28): Alibaba response; tests on US models; root cause (training-log artifact?).
+- Anthropic S-1 (Issue #28): price range and share count; raise size; listing date (Fortune: week of Nov 23); net revenue retention (CNBC headline says 900%, not verified); Broadcom $63B SPV financing (Bloomberg, not fetched); DOJ Ninth Circuit appeal of agency-ban ruling (Bloomberg, not fetched).
+- OpenAI ETH/Kakeya/Yang-Mills claims (Issue #28): expert verification; whether Lean statements match the conjectures; ETH conference; physics group write-up; 700+ AI preprints claim (Crypto Briefing).
+- Cloudflare GLM-5.3 leak (Issue #28): affected-account count; other providers running SGLang disaggregated mode.
+- Mistral Large 4 weights (due end of Oct, reportedly Oct 27): licence.
+- Not yet covered (seen Oct 26-27): Meta up to $95B stock sale ($35B now, $60B ATM; SiliconANGLE); Intel to buy Classiq ~$2.2B (Globes); vLLM 0.31 --tool-strict-level 92%->100% (Ubicloud); Proton AI re-interviews Nov 4-11 (404 Media); Accenture $29/month Claude cap (404 Media); Nvidia $2,000/GPU agent software fee (Tom's Hardware); Amap lambda0 humanoid model Apache 2.0 (TechNode); Kapa.ai reranking bottleneck; ChatGPT sends support askers to 404 Media; iOS 27.2 Siri memory (MacRumors, not fetched); Verizon $2B+ AWS fiber; highway thefts of data-centre servers (NBC); sFNX Qwen on V100s; Gemini On-Brand Visuals (Oct 20, Design Compass); India multimodal AI daily usage 43% by 2030 report (IANS).

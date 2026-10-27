@@ -40,7 +40,7 @@ Rules for the daily run:
 ## Module 4: Shipping for real
 - [x] Evals: measuring whether your AI feature works: Issue #26 (2026-10-25)
 - [x] Observability and tracing for LLM apps: Issue #27 (2026-10-26)
-- [ ] Guardrails, prompt injection and AI security
+- [x] Guardrails, prompt injection and AI security: Issue #28 (2026-10-27)
 - [ ] Latency: streaming, fast tiers and small models
 - [ ] Fine-tuning: when it's worth it
 - [ ] Distillation and small language models
