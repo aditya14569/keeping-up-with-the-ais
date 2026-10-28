@@ -306,6 +306,19 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-27 | 28 | arrakis-76pct-agents-dormant-live-credentials | https://hackread.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/
 2026-10-27 | 28 | prompt-injection-owasp-llm01-lethal-trifecta-guardrails (in Learn) | https://genai.owasp.org/llmrisk/llm01-prompt-injection/
 
+2026-10-28 | 29 | openai-gpt-6-1-terra-1-5-per-m-3x-faster-claim-aa-cost-per-task-0-40 | https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price
+2026-10-28 | 29 | anthropic-claude-eth-seth-refutation-14m-tokens-oct-16-lean (Update: AI maths claims) | https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/
+2026-10-28 | 29 | apple-creator-studio-mcp-keynote-pages-numbers-openai-assistant-keyx | https://www.apple.com/newsroom/2026/10/apple-creator-studio-adds-powerful-new-ai-features-and-even-more-creative-tools/
+2026-10-28 | 29 | apple-m6-macbook-pro-imac-ttft-1-2-1-3x-ship-nov-6 | https://www.popsci.com/gear/apple-m6-chip-macbook-pro-imac-specs-details/
+2026-10-28 | 29 | deepmind-genie-4-world-model-audio-dialogue-2-min | https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/
+2026-10-28 | 29 | oracle-ai-world-chatgpt-codex-oracle-apps-oci-tpus-cerebras-2027 | https://www.oracle.com/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/
+2026-10-28 | 29 | simplismart-14m-series-b-nvidia-bengaluru-inference | https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus
+2026-10-28 | 29 | litellm-root-cause-master-key-public-repo-may-27-49k-downloads (Update: LiteLLM) | https://www.theregister.com/security/2026/10/26/litellm-supply-chain-attack-started-with-an-exposed-master-key/5305544
+2026-10-28 | 29 | meta-97-5b-equity-raise-nvidia-3b-amd-1b | https://americanbazaaronline.com/2026/10/27/meta-ai-fundraising-plan-97-5-billion-nvidia-amd-490881/
+2026-10-28 | 29 | anthropic-drug-development-six-partners-preclinical | https://www.unite.ai/anthropic-reports-early-drug-development-progress-with-claude/
+2026-10-28 | 29 | mistral-large-4-weights-missed-oct-27-hf-countdown-oct-31 (Update) | https://forkast.news/the-reported-date-arrived-and-the-weights-did-not/
+2026-10-28 | 29 | latency-ttft-prefill-decode-streaming-fast-tiers (in Learn) | https://developers.openai.com/api/docs/guides/latency-optimization
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -480,3 +493,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - Cloudflare GLM-5.3 leak (Issue #28): affected-account count; other providers running SGLang disaggregated mode.
 - Mistral Large 4 weights (due end of Oct, reportedly Oct 27): licence.
 - Not yet covered (seen Oct 26-27): Meta up to $95B stock sale ($35B now, $60B ATM; SiliconANGLE); Intel to buy Classiq ~$2.2B (Globes); vLLM 0.31 --tool-strict-level 92%->100% (Ubicloud); Proton AI re-interviews Nov 4-11 (404 Media); Accenture $29/month Claude cap (404 Media); Nvidia $2,000/GPU agent software fee (Tom's Hardware); Amap lambda0 humanoid model Apache 2.0 (TechNode); Kapa.ai reranking bottleneck; ChatGPT sends support askers to 404 Media; iOS 27.2 Siri memory (MacRumors, not fetched); Verizon $2B+ AWS fiber; highway thefts of data-centre servers (NBC); sFNX Qwen on V100s; Gemini On-Brand Visuals (Oct 20, Design Compass); India multimodal AI daily usage 43% by 2030 report (IANS).
+- GPT-6.1 Terra (Issue #29): independent speed tests (TTFT, tokens/s); India pricing/plan availability; Fast/Flex tier details; Terminal-Bench 50.3% replication.
+- ETH refutations (Issue #29): human check of Claude's Lean code; Williams/Impagliazzo/Paturi working-group findings; Sussman public repo; OpenAI vs Anthropic priority dispute; crypto implications.
+- Apple MCP in iWork (Issue #29): which agents work at launch (November); India/other-language availability of assistants; .keyx spec.
+- Genie 4 (Issue #29): AI Ultra and Gemini API access dates; India availability; pricing.
+- Oracle-OpenAI (Issue #29): availability dates for ChatGPT plugins/Codex App Composer; OCI TPU/Cerebras/SambaNova timing.
+- Mistral Large 4 weights: now ~Oct 31 (HF countdown); licence.
+- Not yet covered (seen Oct 27): Stanford professors' Cruz v. Anthropic suit seeking up to $150K/work (Stanford Daily, not fetched); Anthropic-GSA expanded federal deal (anthropic.com, not fetched); Machenta $40M seed one-demo robot learning; DeepSeek ~150 harness-team roles (TechNode, not fetched); General Compute $100M Series A at $800M; Disruptive $10B fund; Hyphenate $45M (Nexus); Baidu Unlimited OCR 2 3B MIT (AlphaSignal, not fetched); South Korea arrests 7 over AI-assisted hacks (8.2M records); China STAR 50 AI-chip index -40%; Roblox-linked crawler 145GB from Open3DLab; AI political groups $78.5M (CNBC); Ben Mann not a 'continuing founder' in S-1 (SF Standard); Guidewire buys Hyperexponential $1.7B; Agility-GXO Digit expansion; 22one ~$400M (FT); engineer essay 'AI agents increased my workload' (HN 196 pts).

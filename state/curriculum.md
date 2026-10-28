@@ -41,7 +41,7 @@ Rules for the daily run:
 - [x] Evals: measuring whether your AI feature works: Issue #26 (2026-10-25)
 - [x] Observability and tracing for LLM apps: Issue #27 (2026-10-26)
 - [x] Guardrails, prompt injection and AI security: Issue #28 (2026-10-27)
-- [ ] Latency: streaming, fast tiers and small models
+- [x] Latency: streaming, fast tiers and small models: Issue #29 (2026-10-28)
 - [ ] Fine-tuning: when it's worth it
 - [ ] Distillation and small language models
 - [ ] Cost modelling for AI products
