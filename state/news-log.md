@@ -319,6 +319,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-28 | 29 | mistral-large-4-weights-missed-oct-27-hf-countdown-oct-31 (Update) | https://forkast.news/the-reported-date-arrived-and-the-weights-did-not/
 2026-10-28 | 29 | latency-ttft-prefill-decode-streaming-fast-tiers (in Learn) | https://developers.openai.com/api/docs/guides/latency-optimization
 
+2026-10-29 | 30 | anthropic-agents-judgment-calls-86pct-coin-flip-lean-50-analysts | https://www.unite.ai/anthropic-finds-analysts-defer-to-ai-agents-in-judgment-study/
+2026-10-29 | 30 | google-gemini-4-carbon-aa-59-cyber-defenders-fairwind-2-10-intro | https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+2026-10-29 | 30 | alphabet-q3-2026-cloud-30-7b-103pct-gemini-1b-users-32b-tokens-min | https://www.stocktitan.net/articles/alphabet-q3-2026-earnings-google-cloud-doubles-search-slows
+2026-10-29 | 30 | microsoft-fy27-q1-azure-48pct-rpo-677b-openai-10b | https://news.microsoft.com/source/2026/10/28/microsoft-announces-first-quarter-results-2/
+2026-10-29 | 30 | openai-plans-to-buy-google-tpus-the-information | https://www.thestar.com.my/tech/tech-news/2026/10/28/openai-plans-to-buy-google039s-ai-chips-the-information-reports
+2026-10-29 | 30 | liquid-ai-lfm3-six-2b-models-licence-10m-revenue | https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices
+2026-10-29 | 30 | axiom-cfsg-lean-43-1m-lines-24-days | https://kingy.ai/blog/axiom-ai-math-proof-15000-pages-24-days/
+2026-10-29 | 30 | gsa-anthropic-onegov-40pct-claude-discount (Update) | https://www.executivegov.com/articles/gsa-anthropic-onegov-claude-discount
+2026-10-29 | 30 | tracxn-indic-ai-399m-2026-sarvam-87pct | https://cxotoday.com/others/tracxn-report-sarvam-ai-captures-87-of-indic-ai-capital-as-sector-raises-399m-in-2026/
+2026-10-29 | 30 | codex-0-165-vertex-provider-chatgpt-icloud-mail-calendar | https://releasebot.io/updates/openai
+2026-10-29 | 30 | openai-fine-tuning-wind-down-jan-6-2027-lora-peft (in Learn) | https://developers.openai.com/api/docs/deprecations
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -500,3 +512,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Oracle-OpenAI (Issue #29): availability dates for ChatGPT plugins/Codex App Composer; OCI TPU/Cerebras/SambaNova timing.
 - Mistral Large 4 weights: now ~Oct 31 (HF countdown); licence.
 - Not yet covered (seen Oct 27): Stanford professors' Cruz v. Anthropic suit seeking up to $150K/work (Stanford Daily, not fetched); Anthropic-GSA expanded federal deal (anthropic.com, not fetched); Machenta $40M seed one-demo robot learning; DeepSeek ~150 harness-team roles (TechNode, not fetched); General Compute $100M Series A at $800M; Disruptive $10B fund; Hyphenate $45M (Nexus); Baidu Unlimited OCR 2 3B MIT (AlphaSignal, not fetched); South Korea arrests 7 over AI-assisted hacks (8.2M records); China STAR 50 AI-chip index -40%; Roblox-linked crawler 145GB from Open3DLab; AI political groups $78.5M (CNBC); Ben Mann not a 'continuing founder' in S-1 (SF Standard); Guidewire buys Hyperexponential $1.7B; Agility-GXO Digit expansion; 22one ~$400M (FT); engineer essay 'AI agents increased my workload' (HN 196 pts).
+- Anthropic agent-deferral study (Issue #30): number of decisions (Unite.AI says four open, AI Weekly says five); replications in everyday settings; product changes (agents presenting both sides); OpenAI/Google equivalents.
+- Gemini 4 Carbon (Issue #30): developer/API access date (AndroidHeadlines says 1-2 weeks, unconfirmed); India availability; independent cyber benchmarks; API model id; intro pricing end date.
+- OpenAI-Google TPU purchase (Issue #30): confirmation, volumes/terms; Alphabet 10-Q backlog figure.
+- Microsoft OpenAI revenue $10B/quarter (Issue #30, Unite.AI from filing): verify in 10-Q.
+- LFM3 (Issue #30): independent benchmarks; OpenRouter availability; India-relevant languages in Audio-2B.
+- Axiom CFSG (Issue #30): independent audit of Lean statements; Unbalanced Group Theorem repair paper review.
+- OpenAI fine-tuning wind-down (Issue #30): any replacement offering before Jan 6, 2027; migration paths.
+- Not yet covered (seen Oct 28): Anthropic Elvis Presley lawsuit (274 songs, Authentic Brands, up to ~$41.5M; AV Club Oct 25); Anthropic-Theorem verified 123 libraries/239 entry points, ~180M lines Rocq proofs (Interesting Engineering Oct 22); Anthropic energy warning, ~$400B commitments (Semafor via The Neuron, not fetched); Netherlands civil-service AI cuts (Semafor says 25,000; DutchNews Oct 15 says no target yet); GPT-6.1 Terra peer-agent authorization issues (The Neuron, not fetched); Opera WebAI local standard (TechCrunch, not fetched); Ant LingGuang 2.0; ByteDance Jimeng short-drama studio; Giotto Alto/Solo Swiss models; Overmind continuous learning; UK vape consultation 90,835 bot submissions (Guardian, not fetched); Claude for Legal artifacts (Law.com); Trump 'Super Intelligence' naming post; WaPo ~$10T AI infra financing through 2032.
