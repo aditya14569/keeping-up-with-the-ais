@@ -43,7 +43,7 @@ Rules for the daily run:
 - [x] Guardrails, prompt injection and AI security: Issue #28 (2026-10-27)
 - [x] Latency: streaming, fast tiers and small models: Issue #29 (2026-10-28)
 - [x] Fine-tuning: when it's worth it: Issue #30 (2026-10-29)
-- [ ] Distillation and small language models
+- [x] Distillation and small language models: Issue #31 (2026-10-30)
 - [ ] Cost modelling for AI products
 
 ## Module 5: Under the hood
