@@ -44,7 +44,7 @@ Rules for the daily run:
 - [x] Latency: streaming, fast tiers and small models: Issue #29 (2026-10-28)
 - [x] Fine-tuning: when it's worth it: Issue #30 (2026-10-29)
 - [x] Distillation and small language models: Issue #31 (2026-10-30)
-- [ ] Cost modelling for AI products
+- [x] Cost modelling for AI products: Issue #32 (2026-10-31)
 
 ## Module 5: Under the hood
 - [ ] Transformers and attention, intuitively
