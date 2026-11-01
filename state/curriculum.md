@@ -47,7 +47,7 @@ Rules for the daily run:
 - [x] Cost modelling for AI products: Issue #32 (2026-10-31)
 
 ## Module 5: Under the hood
-- [ ] Transformers and attention, intuitively
+- [x] Transformers and attention, intuitively: Issue #33 (2026-11-01)
 - [ ] How models are trained: pretraining, RLHF, RL
 - [ ] Mixture-of-experts models
 - [ ] Quantization: fitting big models on small hardware
@@ -59,3 +59,20 @@ Rules for the daily run:
 - [ ] AI regulation around the world (incl. India)
 - [ ] AI and jobs: what's changing for developers
 - [ ] Copyright, data and AI
+
+## Module 7: Newer techniques from the news
+- [ ] Positional encodings and how models handle very long context
+- [ ] The KV cache, grouped-query and sparse attention
+- [ ] Speculative decoding: how fast tiers get faster
+- [ ] Synthetic data: training models on model-written data
+- [ ] Reward models and LLM-as-judge
+- [ ] Interpretability: looking inside a model (neurons, features, steering)
+- [ ] Model monitors and classifiers as safety layers
+- [ ] Watermarking and detecting AI-written text
+- [ ] Context compaction and long-running agent sessions
+- [ ] Voice agents: speech-to-speech and full-duplex models
+- [ ] World models and video generation
+- [ ] On-device AI: running models on phones and laptops
+- [ ] Securing AI apps: sandboxed previews, extensions and supply chain
+- [ ] Trusted-access and tiered model releases
+- [ ] AI for science: biology, maths proofs and lab agents

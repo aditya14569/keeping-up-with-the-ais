@@ -352,6 +352,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-10-31 | 32 | claude-no-recreation-of-existing-games-rule | https://kotaku.com/anthropic-nerfs-claude-again-to-stop-users-from-making-ai-slop-out-of-any-specific-existing-game-2000751665
 2026-10-31 | 32 | ollie-shutting-down-nov-6 | https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/
 2026-10-31 | 32 | cost-modelling-cloudzero-metabase-llmgateway (in Learn) | https://www.cloudzero.com/blog/llm-cost-calculator/
+2026-11-01 | 33 | anthropic-claude-red-teams-own-monitor-5000-example-datasets-fiction | https://aiweekly.co/alerts/anthropic-has-claude-generate-data-that-beats-its-own-monitor
+2026-11-01 | 33 | openai-gpt-rosalind-6-trusted-access-astra-weights-medchem-49-6 | https://aiweekly.co/alerts/openai-ships-gpt-rosalind-6-biology-model-to-trusted-users
+2026-11-01 | 33 | chatgpt-share-link-mathlive-postmessage-account-takeover-parameter-5k | https://aiweekly.co/alerts/openai-patches-chatgpt-share-link-flaw-that-hijacked-sessions
+2026-11-01 | 33 | openai-round-trimmed-20b-at-1-25t-ft | https://aiweekly.co/alerts/openai-trims-round-to-20b-at-125t-valuation-ft-says
+2026-11-01 | 33 | volta-infostealer-llm-victim-ranking-talos | https://aiweekly.co/ai-news-today
+2026-11-01 | 33 | usage-ai-training-robots-txt-signal-openai-microsoft-feb-2027 | https://samonai.substack.com/p/ai-brief-october-31-2026
+2026-11-01 | 33 | openai-python-sdk-3-42-0-context-compaction | https://aiweekly.co/alerts/openai-python-sdk-3420-adds-agent-context-compaction-controls
+2026-11-01 | 33 | kimi-k2-closed-to-new-api-users-oct-31 | https://aiweekly.co/ai-news-today
+2026-11-01 | 33 | india-boutique-ai-firms-parallel-loop-6-6m | https://analyticsindiamag.com/it-services/are-boutique-ai-firms-indias-next-big-thing
+2026-11-01 | 33 | apple-acquihires-ascend-io-eu-dma | https://aiweekly.co/alerts/apple-acquihires-agentic-data-startup-ascendio-via-eu-dma
+2026-11-01 | 33 | transformers-attention-3b1b-transformer-explainer-dlai (in Learn) | https://www.3blue1brown.com/lessons/attention
+
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
 - Gemini 4 Argon: broadly available Oct 13 (Issue #15); intro API $2/$10 ends Nov 30, then $4/$20 from Dec 1; Indian availability/pricing in Gemini app; 'Carbon'/'Barium' successors (Business Insider); Antigravity access beyond Ultra.
@@ -552,3 +564,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - Claude Ultra (Issue #32): verification process; India pricing; official Anthropic post (X, not fetched).
 - DEPA for AI Training (Issue #32): consultation timeline; pilot partners.
 - Not yet covered (seen Oct 30): OpenAI four-layer misalignment monitors, DNS escape flagged in 15 min (unite.ai/openai.com, not fetched); Vapor Panda ARTEX DeepSeek campaign 200+ orgs/14 countries (CrowdStrike, not fetched; timeline only); robots.txt `__usage_ai-training` token backed by OpenAI/Google/Microsoft/Anthropic (The Verge, not fetched); OpenAI teen weapons limits (Reuters, not fetched); Nvidia guarantees Nscale debt for Anthropic 460MW (The Information via Crypto Briefing); Thrive buys ADT $15.3B (go-shop to Nov 28); UBS 12,700 agents; MaxRL unified training paper (arXiv 2610.40564); LeCun JEPA Platonic paper; Tesla Optimus reservations Dec $20K+; Wikimedia amicus NYT v OpenAI (RAG not fair use); Crosby bids for Weil Gotshal; Comcast 912 jobs to AI agents; Salesforce buys Rune $375M; UK CMA probes Meta publisher terms; Dartmouth provost resigns over AI op-ed; Nesformer NES in Qwen weights; Anthropic AI for Science 20 orgs; ElevenLabs SFX v3; dot agent texting (US Pro); OpenAI Aura blocks risky sites; Runware 30 MW/day pod factory (TechCrunch); Alphabet Q3 Gemini 1B users, 32B tokens/min (dev.to).
+- Anthropic monitor stress test (Issue #33): primary post alignment.anthropic.com/2026/automated-em-search (not fetched; facts via AI Weekly); small model identity; pass rates; changes to Anthropic's data filters.
+- GPT-Rosalind-6 (Issue #33): system card not fetched directly; pricing; India/global-south trusted-access eligibility (Pharma Now headline, unverified); biosecurity red-team results.
+- ChatGPT share-link flaw (Issue #33): THN original not fetched; MathLive fix/CVE; other apps embedding MathLive.
+- OpenAI round (Issue #33): first close size; investors.
+- usage_ai-training signal (Issue #33): Google's and Anthropic's adoption; OpenAI implementation date.
+- Not yet covered (seen Oct 31): Apple passes Nvidia at $5.03T, Intel -28.6% (FourWeekMBA via AI Weekly); Meta-Fourier humanoid 'Max' (The Information); Anthropic watermark loophole on Opus/Sonnet 4.6 (The Decoder, not fetched); Northflank breach abusing customers' AI keys (BleepingComputer, not fetched); xAI NAACP pollution suit proceeds (TechCrunch, not fetched); Big Tech buybacks fall 83% (TNW/Reuters, not fetched); S&P negative outlook on Meta AA-; WSJ neoclouds shut out of bond market; DoorDash only several hundred agent orders; Cognizant 25,000 staff on OpenAI delivery; Lyra two-neuron Qwen3.5-4B steering (VentureBeat); Tencent WorkBuddy traffic; Blanchett coalition amicus vs OpenAI; Victorian councils data-centre moratorium; Arizona data-centre opposition (The Verge); Pangram/em-dash detectors (Bloomberg); G2 agent reviews 7% want full autonomy; mischief 1 neuron-derived video model; DeepSeek parallel GitHub-issues agent (FourWeekMBA, not fetched); IIT Kharagpur AI school Rs 35 crore; AMD MI350X beat B200 on 4 of 10 Meta models; Altman on PC RAM.
+- Research note (Issue #33): many news domains were blocked for fetching in this run (permission prompts timed out); most items were sourced via AI Weekly alerts.
