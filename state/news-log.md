@@ -363,6 +363,17 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-11-01 | 33 | india-boutique-ai-firms-parallel-loop-6-6m | https://analyticsindiamag.com/it-services/are-boutique-ai-firms-indias-next-big-thing
 2026-11-01 | 33 | apple-acquihires-ascend-io-eu-dma | https://aiweekly.co/alerts/apple-acquihires-agentic-data-startup-ascendio-via-eu-dma
 2026-11-01 | 33 | transformers-attention-3b1b-transformer-explainer-dlai (in Learn) | https://www.3blue1brown.com/lessons/attention
+2026-11-02 | 34 | cornell-yale-9-of-10-agents-raise-circle-wallet-cap-emailed-code-countersign | https://unchainedcrypto.com/circles-emailed-passcode-is-no-barrier-for-ai-agents-with-inbox-access-study-finds/
+2026-11-02 | 34 | deepseek-dsh-superagent-mit-github-feishu-router-workers | https://github.com/deepseek-ai/dsh-superagent-prototype
+2026-11-02 | 34 | apple-intelligence-china-qwen-ios-27-3-dev-beta-nov-4 | https://www.unite.ai/apple-brings-first-apple-intelligence-features-to-china-in-ios-27-3/
+2026-11-02 | 34 | vercel-agent-desktop-accessibility-tree-cli | https://agent-browser.dev/desktop
+2026-11-02 | 34 | karpathy-hackertube-6454-videos-2-hours-claude | https://aiweekly.co/alerts/karpathy-ships-hackertube-in-2-hours-with-claude-opus-55
+2026-11-02 | 34 | chatgpt-codex-shared-allowance-december | https://aiweekly.co/ai-news-today
+2026-11-02 | 34 | openai-mandatory-speed-limits-lame-duck-axios | https://aiweekly.co/alerts/openai-pitches-mandatory-ai-speed-limits-in-post-midterm-push
+2026-11-02 | 34 | chainalysis-breach-offensive-agentic-techniques | https://aiweekly.co/alerts/chainalysis-breach-blamed-on-offensive-agentic-techniques
+2026-11-02 | 34 | Update: claude-code-game-rule-confirmed-osmani | https://engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games
+2026-11-02 | 34 | tencent-weviscut-9b-video-agent-apache | https://aiweekly.co/alerts/tencent-open-sources-9b-video-agent-weviscut-rivals-opus-5
+2026-11-02 | 34 | llm-training-pretraining-sft-rlhf-rl-karpathy-hf-rlhfbook (in Learn) | https://huggingface.co/blog/rlhf
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
@@ -571,3 +582,10 @@ The daily run reads this before writing and skips anything already here, unless 
 - usage_ai-training signal (Issue #33): Google's and Anthropic's adoption; OpenAI implementation date.
 - Not yet covered (seen Oct 31): Apple passes Nvidia at $5.03T, Intel -28.6% (FourWeekMBA via AI Weekly); Meta-Fourier humanoid 'Max' (The Information); Anthropic watermark loophole on Opus/Sonnet 4.6 (The Decoder, not fetched); Northflank breach abusing customers' AI keys (BleepingComputer, not fetched); xAI NAACP pollution suit proceeds (TechCrunch, not fetched); Big Tech buybacks fall 83% (TNW/Reuters, not fetched); S&P negative outlook on Meta AA-; WSJ neoclouds shut out of bond market; DoorDash only several hundred agent orders; Cognizant 25,000 staff on OpenAI delivery; Lyra two-neuron Qwen3.5-4B steering (VentureBeat); Tencent WorkBuddy traffic; Blanchett coalition amicus vs OpenAI; Victorian councils data-centre moratorium; Arizona data-centre opposition (The Verge); Pangram/em-dash detectors (Bloomberg); G2 agent reviews 7% want full autonomy; mischief 1 neuron-derived video model; DeepSeek parallel GitHub-issues agent (FourWeekMBA, not fetched); IIT Kharagpur AI school Rs 35 crore; AMD MI350X beat B200 on 4 of 10 Meta models; Altman on PC RAM.
 - Research note (Issue #33): many news domains were blocked for fetching in this run (permission prompts timed out); most items were sourced via AI Weekly alerts.
+- Circle wallet-cap study (Issue #34): paper arXiv 2610.35835 not fetched; per-model results; Circle changes to the approval flow; Countersign adoption; CoinDesk original not fetched.
+- DeepSeek Super-agent (Issue #34): official DeepSeek announcement; models used; star count (ShiftDelete via AI Weekly, not fetched); Harness availability outside China.
+- Apple Intelligence China (Issue #34): Apple newsroom post not fetched directly; Nov 4 beta; iOS 27.3 December release; Siri AI timing.
+- ChatGPT/Codex shared allowance (Issue #34): official OpenAI help-centre text and exact December date (Crypto Briefing not fetched).
+- OpenAI speed limits (Issue #34): Axios original not fetched; actual proposal text after Nov 9.
+- Not yet covered (seen Nov 1): Aramco 49% of HUMAIN $2.6B; Prefab UI CVE-2026-120338 CVSS 10 Pyodide sandbox escape (JFrog); Exin Therapeutics Claude Sonnet 5 mouse-brain injection (Crypto Briefing, not fetched; Opus 5.5 reportedly refused first); Musk denies Optimus December orders; data-centre moratorium candidates in 15 of 36 governor races (The Information); ServiceNow buys Sweep; NPR Pangram detector 37/40; Google: space data centres up to 100x cost (The Information); Santander EUR194M AI value, Novartis P&L (CNBC); Kratsios OSTP profile (Colossus); AMD MI355X Kimi K3 2.3x cheaper per token (SemiAnalysis InferenceX); hyperscaler CDS highest since 2021 (WSJ); memory makers outearn 5 US tech giants (Nikkei); Sema4.ai 3.0; Microsoft real-time speech-rewrite patent (Futurism); WorkFactory/WorkPilot-35B GDPval 879->1565; ABF-Bench Binance trace agent; Lumaril $66M; CNN on Anthropic AUP cruelty clause (not fetched; AUP itself covered as open thread).
+- Research note (Issue #34): WebFetch permission prompts timed out for many hosts (huggingface.co, youtube.com, openai.com, coindesk, cryptobriefing, cgtn, cnn); Learn links were confirmed via search results only.

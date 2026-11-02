@@ -48,7 +48,7 @@ Rules for the daily run:
 
 ## Module 5: Under the hood
 - [x] Transformers and attention, intuitively: Issue #33 (2026-11-01)
-- [ ] How models are trained: pretraining, RLHF, RL
+- [x] How models are trained: pretraining, RLHF, RL: Issue #34 (2026-11-02)
 - [ ] Mixture-of-experts models
 - [ ] Quantization: fitting big models on small hardware
 - [ ] GPUs, TPUs and inference chips (why Cerebras is fast)
