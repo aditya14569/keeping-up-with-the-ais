@@ -374,6 +374,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-11-02 | 34 | Update: claude-code-game-rule-confirmed-osmani | https://engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games
 2026-11-02 | 34 | tencent-weviscut-9b-video-agent-apache | https://aiweekly.co/alerts/tencent-open-sources-9b-video-agent-weviscut-rivals-opus-5
 2026-11-02 | 34 | llm-training-pretraining-sft-rlhf-rl-karpathy-hf-rlhfbook (in Learn) | https://huggingface.co/blog/rlhf
+2026-11-03 | 35 | Update: anthropic-amended-s1-q3-17b-loss-23-29b-895b-commitments-ipo-1-5t-wsj | https://aiweekly.co/alerts/anthropic-amended-s-1-discloses-q3-revenue-near-17b-and-8954b-in-compute
+2026-11-03 | 35 | anthropic-internal-claude-usage-retail-exceeds-payroll-bi | https://aiweekly.co/alerts/anthropics-internal-claude-usage-at-retail-rates-now-exceeds-its-employee
+2026-11-03 | 35 | meituan-longcat-2-5-preview-1-6t-48b-active-moe-1m-context | https://aiweekly.co/alerts/meituan-ships-longcat-25-a-16t-param-multimodal-agent-model
+2026-11-03 | 35 | mit-weight-space-programming-gpt6-astra-edits-qwen3-5-0-8b | https://aiweekly.co/ai-news-today
+2026-11-03 | 35 | semianalysis-gdpx-opus-5-5-12pct | https://aiweekly.co/alerts/semianalysis-launches-gdpx-best-frontier-model-hits-12
+2026-11-03 | 35 | goldman-limits-claude-code-copilot-to-12000-engineers | https://aiweekly.co/alerts/goldman-sachs-pulls-claude-code-and-github-copilot-from-traders-and-bankers
+2026-11-03 | 35 | squarespace-cuts-19pct-300-jobs-forma | https://aiweekly.co/alerts/squarespace-cuts-19-of-staff-about-300-jobs-as-it-pivots-around-ai-vibe-coding
+2026-11-03 | 35 | openai-paid-chatgpt-device-card-limit | https://aiweekly.co/alerts/openai-caps-paid-chatgpt-accounts-per-device-and-payment-card
+2026-11-03 | 35 | momentic-mo-qa-bench-269-of-1396 | https://aiweekly.co/alerts/momentic-launches-yc-w24-mo-qa-agent-finds-84-of-real-bugs-at-267-each-across
+2026-11-03 | 35 | marvell-lumentum-115b-all-stock | https://aiweekly.co/alerts/marvell-agrees-to-115b-all-stock-deal-for-lumentum-biggest-public-tech-ma-ever
+2026-11-03 | 35 | Update: chatgpt-codex-shared-allowance-help-page-instant-exempt | https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-2-2026/
+2026-11-03 | 35 | mixture-of-experts-hf-grootendorst-makemoe-mixtral (in Learn) | https://huggingface.co/blog/moe
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
@@ -589,3 +601,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - OpenAI speed limits (Issue #34): Axios original not fetched; actual proposal text after Nov 9.
 - Not yet covered (seen Nov 1): Aramco 49% of HUMAIN $2.6B; Prefab UI CVE-2026-120338 CVSS 10 Pyodide sandbox escape (JFrog); Exin Therapeutics Claude Sonnet 5 mouse-brain injection (Crypto Briefing, not fetched; Opus 5.5 reportedly refused first); Musk denies Optimus December orders; data-centre moratorium candidates in 15 of 36 governor races (The Information); ServiceNow buys Sweep; NPR Pangram detector 37/40; Google: space data centres up to 100x cost (The Information); Santander EUR194M AI value, Novartis P&L (CNBC); Kratsios OSTP profile (Colossus); AMD MI355X Kimi K3 2.3x cheaper per token (SemiAnalysis InferenceX); hyperscaler CDS highest since 2021 (WSJ); memory makers outearn 5 US tech giants (Nikkei); Sema4.ai 3.0; Microsoft real-time speech-rewrite patent (Futurism); WorkFactory/WorkPilot-35B GDPval 879->1565; ABF-Bench Binance trace agent; Lumaril $66M; CNN on Anthropic AUP cruelty clause (not fetched; AUP itself covered as open thread).
 - Research note (Issue #34): WebFetch permission prompts timed out for many hosts (huggingface.co, youtube.com, openai.com, coindesk, cryptobriefing, cgtn, cnn); Learn links were confirmed via search results only.
+
+- Anthropic IPO (Issue #35): final price range/share count; roadshow start; exact listing date (WSJ: week before Thanksgiving); CNBC primary not fetched; TechCrunch report that S-1 says Anthropic may 'imminently meet' its RSI threshold (not fetched, not covered).
+- LongCat-2.5 (Issue #35): expert count/top-k; benchmarks; HF/GitHub weights date and licence; accelerator used; API pricing.
+- Weight-space programming (Issue #35): project blog not fetched (rikiyat.github.io); paper/code; independent replication.
+- GDPx (Issue #35): SemiAnalysis original not fetched; safety-classifier sandbagging claim.
+- Kimi K3.1 Pro weights due Nov 4: licence, total/active params.
+- Not yet covered (seen Nov 2): Palantir Q3 $2.31B +96%; Apple Q4 $114.48B; Oracle $20B raise; Meta $20B+ bond; Alphabet EUR6B bond; Abu Dhabi four OpenAI deals at ADIPEC; South Korea 21.3T won AI budget; SUSE cuts 10%; Tutor Intelligence $75M; Trajectory $45M at $300M (Sequoia); OpenAI Pando git backend (Planet AI, not fetched); Apple J595 tabletop robot (The Information); Subvocal silent-speech glasses; Microsoft live speech-rewrite patent; Amazon GPU order cancellations (Wccftech); Putin 10% data-centre capacity decree; Tao blog egoless mathematics; REA runtime and LARC papers; Omen AI buys Aquatic Labs $16M; OpenAI merging ChatGPT chat and Work tabs (TechCrunch, not fetched); JEPA alignment paper (LeCun); Pope on AI decisions; Microsoft school AI privacy standard; fake Mythos leak on HF was random weights (cellcog).
+- Research note (Issue #35): WebFetch permission prompts timed out for most hosts (cnbc, technode, huggingface, rikiyat.github.io, semianalysis, techcrunch article pages, maartengrootendorst, mistral); items sourced via AI Weekly alerts and The Neuron; Learn links confirmed via search results; toy MoE code could not be executed (torch unavailable in sandbox).
