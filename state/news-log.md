@@ -386,6 +386,18 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-11-03 | 35 | marvell-lumentum-115b-all-stock | https://aiweekly.co/alerts/marvell-agrees-to-115b-all-stock-deal-for-lumentum-biggest-public-tech-ma-ever
 2026-11-03 | 35 | Update: chatgpt-codex-shared-allowance-help-page-instant-exempt | https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-2-2026/
 2026-11-03 | 35 | mixture-of-experts-hf-grootendorst-makemoe-mixtral (in Learn) | https://huggingface.co/blog/moe
+2026-11-04 | 36 | postman-desktop-12-33-4-auto-installs-claude-code-codex-plugins-self-approves-hook-issue-14370 | https://aiweekly.co/alerts/postman-desktop-silently-installs-plugins-into-codex-claude-code
+2026-11-04 | 36 | anthropic-flashprove-zksnark-provable-inference-apache-epfl-mit-19mb-proof | https://aiweekly.co/alerts/anthropic-opens-flashprove-with-epfl-and-mit-cryptographically-verifying-ai
+2026-11-04 | 36 | apple-siri-ai-developer-preview-app-intents-ios-27-3-eu-blocked | https://developer.apple.com/news/?id=gdk2umrf
+2026-11-04 | 36 | Update: willison-qwen-3-8-27b-q4-reads-game-net-weights (weight-space programming, in Learn) | https://aiweekly.co/alerts/willison-qwen-38-27b-names-3-of-4-game-nets-on-laptop
+2026-11-04 | 36 | codex-training-toggle-re-enabled-hn | https://aiweekly.co/alerts/codex-users-say-openai-re-enabled-training-toggle-silently
+2026-11-04 | 36 | crowdstrike-fiddler-400m-dreadnode-95m | https://aiweekly.co/alerts/crowdstrike-reportedly-to-pay-495m-for-fiddler-ai-dreadnode
+2026-11-04 | 36 | fal-1-3b-at-16b-bessemer | https://aiweekly.co/alerts/fal-doubles-valuation-to-16b-on-13b-round-led-by-bessemer
+2026-11-04 | 36 | google-k12-block-ai-lose-search-early-2027 | https://aiweekly.co/alerts/google-tells-k-12-schools-block-ai-lose-search-access
+2026-11-04 | 36 | chatgpt-1-2b-wau-20pct-google-search-big-technology | https://aiweekly.co/ai-news-today
+2026-11-04 | 36 | deepseek-v5-160k-ascend-950dt-ulanqab | https://aiweekly.co/ai-news-today
+2026-11-04 | 36 | amd-q3-data-center-8-5b-up-97pct | https://aiweekly.co/ai-news-today
+2026-11-04 | 36 | quantization-sanseviero-hf-4bit-bnb-hf-selecting-gguf (in Learn) | https://huggingface.co/blog/4bit-transformers-bitsandbytes
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
@@ -609,3 +621,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Kimi K3.1 Pro weights due Nov 4: licence, total/active params.
 - Not yet covered (seen Nov 2): Palantir Q3 $2.31B +96%; Apple Q4 $114.48B; Oracle $20B raise; Meta $20B+ bond; Alphabet EUR6B bond; Abu Dhabi four OpenAI deals at ADIPEC; South Korea 21.3T won AI budget; SUSE cuts 10%; Tutor Intelligence $75M; Trajectory $45M at $300M (Sequoia); OpenAI Pando git backend (Planet AI, not fetched); Apple J595 tabletop robot (The Information); Subvocal silent-speech glasses; Microsoft live speech-rewrite patent; Amazon GPU order cancellations (Wccftech); Putin 10% data-centre capacity decree; Tao blog egoless mathematics; REA runtime and LARC papers; Omen AI buys Aquatic Labs $16M; OpenAI merging ChatGPT chat and Work tabs (TechCrunch, not fetched); JEPA alignment paper (LeCun); Pope on AI decisions; Microsoft school AI privacy standard; fake Mythos leak on HF was random weights (cellcog).
 - Research note (Issue #35): WebFetch permission prompts timed out for most hosts (cnbc, technode, huggingface, rikiyat.github.io, semianalysis, techcrunch article pages, maartengrootendorst, mistral); items sourced via AI Weekly alerts and The Neuron; Learn links confirmed via search results; toy MoE code could not be executed (torch unavailable in sandbox).
+
+- Postman plugin auto-install (Issue #36): Postman response/fix version; independent reproduction; Windows/Linux behaviour; Anthropic/OpenAI changes to hook trust stores.
+- FlashProve (Issue #36): Anthropic post not fetched directly (facts via AI Weekly); repo link; longer contexts/sampling support; any provider adoption.
+- Apple Siri AI (Issue #36): fee/pricing for server-side features; Indian-language support; EU launch.
+- Codex training toggle (Issue #36): OpenAI acknowledgement; bug vs intentional.
+- Kimi K3.1 Pro weights (promised by Nov 4): not seen by Issue #36 press time; confirm HF repo, licence, precision (K3 was native MXFP4, ~1.56TB).
+- Not yet covered (seen Nov 3): Nvidia 51% non-Chinese revenue rule for Asian clouds (Crypto Briefing); Fiserv 3,000 cuts, $1B AI savings (PYMNTS); Traversal $120M at $1B; OpenAI hires Jill Hazelbaker (Bloomberg); SK Hynix $45B NY NAND stalled; Mamdani AI bubble/NY data-centre pause (Wired); Shopify AI traffic 2.6x, Meta Muse via Shop Pay (CNBC); jet engines as data-centre power (NYT); DeepMind UK staff vs non-disparagement (WaPo); Anthropic 15-person chip team uses Claude (The Information); Drax/Brookfield/Radiant 1GW Yorkshire; Corridian $38M; 404 Media AI 'I Voted' sticker; OpenAI LifeVal benchmark and Grid Protectors Program (Deep Gains, no details); Deep Principle Hydrogen-1.0; Salesforce-Cresta; Agility Robotics listing; Anthropic S-1 'may imminently meet' RSI definition (TechCrunch/Deep Gains, not fetched).
+- Research note (Issue #36): WebFetch permission prompts timed out for github.com, anthropic.com, simonwillison.net, news.ycombinator.com, huggingface.co, osanseviero.github.io, newsletter.maartengrootendorst.com; theneuron.ai and samonai returned client errors. Items sourced via AI Weekly alerts; Learn links confirmed via search results; NumPy quantization demo was run in the sandbox and its output is printed in the issue.

@@ -50,7 +50,7 @@ Rules for the daily run:
 - [x] Transformers and attention, intuitively: Issue #33 (2026-11-01)
 - [x] How models are trained: pretraining, RLHF, RL: Issue #34 (2026-11-02)
 - [x] Mixture-of-experts models: Issue #35 (2026-11-03)
-- [ ] Quantization: fitting big models on small hardware
+- [x] Quantization: fitting big models on small hardware: Issue #36 (2026-11-04)
 - [ ] GPUs, TPUs and inference chips (why Cerebras is fast)
 - [ ] Scaling laws and benchmarks: how to read model launch charts
 
