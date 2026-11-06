@@ -52,7 +52,7 @@ Rules for the daily run:
 - [x] Mixture-of-experts models: Issue #35 (2026-11-03)
 - [x] Quantization: fitting big models on small hardware: Issue #36 (2026-11-04)
 - [x] GPUs, TPUs and inference chips (why Cerebras is fast): Issue #37 (2026-11-05)
-- [ ] Scaling laws and benchmarks: how to read model launch charts
+- [x] Scaling laws and benchmarks: how to read model launch charts: Issue #38 (2026-11-06)
 
 ## Module 6: The bigger picture
 - [ ] AI safety and alignment in plain English
