@@ -55,7 +55,7 @@ Rules for the daily run:
 - [x] Scaling laws and benchmarks: how to read model launch charts: Issue #38 (2026-11-06)
 
 ## Module 6: The bigger picture
-- [ ] AI safety and alignment in plain English
+- [x] AI safety and alignment in plain English: Issue #39 (2026-11-07)
 - [ ] AI regulation around the world (incl. India)
 - [ ] AI and jobs: what's changing for developers
 - [ ] Copyright, data and AI
