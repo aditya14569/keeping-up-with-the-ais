@@ -57,7 +57,7 @@ Rules for the daily run:
 ## Module 6: The bigger picture
 - [x] AI safety and alignment in plain English: Issue #39 (2026-11-07)
 - [x] AI regulation around the world (incl. India): Issue #40 (2026-11-08)
-- [ ] AI and jobs: what's changing for developers
+- [x] AI and jobs: what's changing for developers: Issue #41 (2026-11-09)
 - [ ] Copyright, data and AI
 
 ## Module 7: Newer techniques from the news
