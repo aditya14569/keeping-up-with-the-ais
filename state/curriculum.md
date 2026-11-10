@@ -58,7 +58,7 @@ Rules for the daily run:
 - [x] AI safety and alignment in plain English: Issue #39 (2026-11-07)
 - [x] AI regulation around the world (incl. India): Issue #40 (2026-11-08)
 - [x] AI and jobs: what's changing for developers: Issue #41 (2026-11-09)
-- [ ] Copyright, data and AI
+- [x] Copyright, data and AI: Issue #42 (2026-11-10)
 
 ## Module 7: Newer techniques from the news
 - [ ] Positional encodings and how models handle very long context
