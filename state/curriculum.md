@@ -61,7 +61,7 @@ Rules for the daily run:
 - [x] Copyright, data and AI: Issue #42 (2026-11-10)
 
 ## Module 7: Newer techniques from the news
-- [ ] Positional encodings and how models handle very long context
+- [x] Positional encodings and how models handle very long context: Issue #43 (2026-11-11)
 - [ ] The KV cache, grouped-query and sparse attention
 - [ ] Speculative decoding: how fast tiers get faster
 - [ ] Synthetic data: training models on model-written data
