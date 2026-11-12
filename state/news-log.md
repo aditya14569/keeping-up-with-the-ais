@@ -490,6 +490,19 @@ The daily run reads this before writing and skips anything already here, unless 
 2026-11-11 | 43 | openai-q3-revenue-10b-up-50pct-the-information | https://aiweekly.co/alerts/the-information-openai-tells-investors-q3-revenue-hit-roughly-10b-up-50-from-q2
 2026-11-11 | 43 | australia-ai-safety-regulator-after-openai-medicare-portal | https://aiweekly.co/ai-news-today
 2026-11-11 | 43 | positional-encodings-rope-yarn-lost-in-middle (in Learn) | https://blog.eleuther.ai/rotary-embeddings/
+2026-11-12 | 44 | google-gemini-decisions-api-decision-1-1000-questions-0-10-input-free-output | https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+2026-11-12 | 44 | railway-breach-740k-ai-charges-100k-workspaces-1852-users | https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html
+2026-11-12 | 44 | gpustack-cve-2026-102895-kev-loopback-admin | https://securityonline.info/gpustack-authentication-bypass-cve-2026-102895-exploited/
+2026-11-12 | 44 | microsoft-lazarus-backdoor-under-10-neurons | https://samonai.substack.com/p/ai-brief-november-11-2026
+2026-11-12 | 44 | Update: anthropic-ipo-roadshow-825m-shares-64-4b-20pct-retail-lambda-terminable-msft-49-2b | https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/
+2026-11-12 | 44 | deepmind-alphagenome-2 | https://aiweekly.co/ai-news-today
+2026-11-12 | 44 | gemini-robotics-2-5-96pct-mercedes-apptronik | https://aiweekly.co/ai-news-today
+2026-11-12 | 44 | qwen4-max-preview-1m-context-ends-nov-25 | https://aiweekly.co/ai-news-today
+2026-11-12 | 44 | claude-one-time-usage-reset-before-dec-10 | https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-november-11-2026/
+2026-11-12 | 44 | united-blocks-personal-ai-agents-booking | https://aiweekly.co/ai-news-today
+2026-11-12 | 44 | bessent-us-china-superintelligence-dialogue-shenzhen-apec | https://aiweekly.co/ai-news-today
+2026-11-12 | 44 | alibaba-mnn-pocket-173mb-466-tps | https://samonai.substack.com/p/ai-brief-november-11-2026
+2026-11-12 | 44 | kv-cache-gqa-pagedattention-sparse-attention (in Learn) | https://www.together.ai/blog/kv-cache
 
 ## Open threads to follow up
 - Anthropic public S-1 / IPO pricing (reported target: marketing week of Nov 9, trading before Nov 26, $1.8-2T). Q3 revenue $16.8B, adjusted profit covered Issue #16; watch audited figures in S-1. Reuters Oct 15: some investors now weigh ~$1.5T (Issue #17).
@@ -782,3 +795,11 @@ The daily run reads this before writing and skips anything already here, unless 
 - Fireworks AI breach (Issue #43): other downstream customers affected, attribution, Fireworks funding round (>$30B) outcome.
 - Not yet covered (seen Nov 10): Nvidia 51% non-Chinese quota for overseas GPU rentals (Tom's Hardware); Meta global AI age detection (Engadget); Qantas 850 jobs to Accenture, mostly to India (BBC); OpenAI Control Room (35s halt); OpenAI acquires Odessia; Graphon $35M; CoreWeave Q3 $3.66B; Rackspace-Together $380M GB300; Nvidia GR00T 2 (weights Dec); SpaceX Starbase $24B compute; ChatGPT Standard/Advanced Voice retire Dec 11; Cubist v ex-analyst over Claude/Codex; Synaptics kills Claude-written DisplayLink driver; Adobe MCP for Photoshop/Premiere; AMD Instinct Coder 355; DeepMind MKA benchmark; OpenAI-Upwork freelance study.
 - Fetch note (Issue #43): most WebFetch calls timed out on permissions this run; several items rely on AI Weekly / The Neuron summaries rather than primary pages.
+
+- Gemini Decisions API (Issue #44): GA vs preview status; integrations rollout (OpenRouter/LangChain/Vercel); Google Cloud availability; independent accuracy (AA Decision Index 9th/18 at launch, Implicator).
+- Railway breach (Issue #44): attacker identity; Anthropic refund outcome; IOCs public; claim deadline. BleepingComputer original not fetched (facts via The Hacker News).
+- Anthropic IPO (Issue #44): pricing ~Nov 18, trading Nov 19 (reported); anthropic.com/news/roadshow-launch not fetched (facts via The Neuron, AI Frontier Daily citing CNBC); Lambda termination notice.
+- US-China superintelligence dialogue (Issue #44): Shenzhen meeting outcome at APEC Nov 18-19.
+- India AI consultation paper: still not seen published as of Nov 12.
+- Not yet covered (seen Nov 11): Nvidia/Huang second affair (NYT via CNBC) and board inquiry (Wachtell's Joon Kim, FBI); Bessent-Lutnick Megaspeed (Axios); Silent Lynx used Hermes agents to steal 2,000+ Tajik docs (CloudSek via teiss); VulnCheck Glasswing 442 CVEs, 2 exploited; Maya site rediscovery by 48 agents; Karp pivot; IBM Nighthawk r3; Spotify AI remix add-on 2027; Applied Intuition $1.5B at $30B; AWS Emulator (Vogels); Edelbyte $70M; Plurai $13M; Rox $100M at $1.3B; Semafor Huang China talk; Meta Janardhan leaving 2027; OfS England AI grading; PLA-linked NWPU bought H200s (Al Jazeera); Grok Build 35K apps exposed (Claroc); Stanford AI100 report; AMD Venice reviews; NY RAISE Act registration portal (deadline Jan 1 2027); NY state AI testing (Binghamton); Google-Spirit data safeguards; NYC pension AI exposure; EIA power forecast; MiniMax H3-Image (licence bars US/EU/UK/KR); ElevenLabs Scribe v3; Adobe agents + MCP; Reddit Reviews; Spotify DJ voices; Oura buys Counsel Health $625M; Mercor $750M Series D at $20B; IBM+Microsoft Imagine Enterprise; OpenShell to CNCF; Grok 4.8 RL; SoftBank-Grab Malaysia 5GW; GSA Llama OneGov; HF decision-model classes; Meta TLX; Ollama 0.40.16; OpticalRAG; Cloudflare Markdown for Agents GA; OpenAI education guidance gap.
+- Research note (Issue #44): WebFetch PROVENANCE_REQUIRED for URLs not first surfaced by WebSearch (blog.google, anthropic.com, huggingface.co, arxiv, deepmind.google, skift, vulncheck, cnbc, bleepingcomputer, CSA labs, microsoft.com); roic.ai client error. After search surfacing, fetched OK: blog.google (Decisions API), the-decoder, implicator, thehackernews, securityonline, together.ai, huggingface docs, arxiv (GQA, PagedAttention, NSA). Also fetched: theneuron digest, aiweekly index, samonai, aiagentsdirectory, deepgains, kellyabbott. add_repo tool not available; repo already attached. KV-cache size snippet run in sandbox; output printed in issue.
