@@ -64,7 +64,7 @@ Rules for the daily run:
 - [x] Positional encodings and how models handle very long context: Issue #43 (2026-11-11)
 - [x] The KV cache, grouped-query and sparse attention: Issue #44 (2026-11-12)
 - [x] Speculative decoding: how fast tiers get faster: Issue #45 (2026-11-13)
-- [ ] Synthetic data: training models on model-written data
+- [x] Synthetic data: training models on model-written data: Issue #46 (2026-11-14)
 - [ ] Reward models and LLM-as-judge
 - [ ] Interpretability: looking inside a model (neurons, features, steering)
 - [ ] Model monitors and classifiers as safety layers
