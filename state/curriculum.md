@@ -65,7 +65,7 @@ Rules for the daily run:
 - [x] The KV cache, grouped-query and sparse attention: Issue #44 (2026-11-12)
 - [x] Speculative decoding: how fast tiers get faster: Issue #45 (2026-11-13)
 - [x] Synthetic data: training models on model-written data: Issue #46 (2026-11-14)
-- [ ] Reward models and LLM-as-judge
+- [x] Reward models and LLM-as-judge: Issue #47 (2026-11-15)
 - [ ] Interpretability: looking inside a model (neurons, features, steering)
 - [ ] Model monitors and classifiers as safety layers
 - [ ] Watermarking and detecting AI-written text
