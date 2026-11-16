@@ -66,7 +66,7 @@ Rules for the daily run:
 - [x] Speculative decoding: how fast tiers get faster: Issue #45 (2026-11-13)
 - [x] Synthetic data: training models on model-written data: Issue #46 (2026-11-14)
 - [x] Reward models and LLM-as-judge: Issue #47 (2026-11-15)
-- [ ] Interpretability: looking inside a model (neurons, features, steering)
+- [x] Interpretability: looking inside a model (neurons, features, steering): Issue #48 (2026-11-16)
 - [ ] Model monitors and classifiers as safety layers
 - [ ] Watermarking and detecting AI-written text
 - [ ] Context compaction and long-running agent sessions
@@ -76,3 +76,20 @@ Rules for the daily run:
 - [ ] Securing AI apps: sandboxed previews, extensions and supply chain
 - [ ] Trusted-access and tiered model releases
 - [ ] AI for science: biology, maths proofs and lab agents
+
+## Module 8: Building and running AI in the real world
+- [ ] Chain-of-thought monitoring and faithfulness: when the notes don't match the work
+- [ ] Data poisoning and backdoors in fine-tuning
+- [ ] Multi-agent systems: coordinators vs peer teams
+- [ ] Robot foundation models: from language models to robot arms
+- [ ] Memory for LLMs: latent memory tokens vs RAG vs long context
+- [ ] Embeddings and vector search, revisited: multimodal embeddings
+- [ ] Hybrid models: state-space layers (Mamba) mixed with attention
+- [ ] Inference serving: prefill vs decode, batching and disaggregation
+- [ ] Quantisation formats: FP8, NVFP4 and MXFP8 explained
+- [ ] Formal verification with AI: Lean proofs and verified code
+- [ ] AI chips beyond GPUs: TPUs, Trainium and custom silicon
+- [ ] Export controls and the AI chip supply chain
+- [ ] Agent payments and agentic commerce: tokenised cards and approvals
+- [ ] Cost control for AI apps: budgets, caching and spend limits
+- [ ] Evaluating agents: long-horizon benchmarks and hidden verifiers
