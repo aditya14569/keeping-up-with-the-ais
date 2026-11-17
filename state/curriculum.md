@@ -67,7 +67,7 @@ Rules for the daily run:
 - [x] Synthetic data: training models on model-written data: Issue #46 (2026-11-14)
 - [x] Reward models and LLM-as-judge: Issue #47 (2026-11-15)
 - [x] Interpretability: looking inside a model (neurons, features, steering): Issue #48 (2026-11-16)
-- [ ] Model monitors and classifiers as safety layers
+- [x] Model monitors and classifiers as safety layers: Issue #49 (2026-11-17)
 - [ ] Watermarking and detecting AI-written text
 - [ ] Context compaction and long-running agent sessions
 - [ ] Voice agents: speech-to-speech and full-duplex models
