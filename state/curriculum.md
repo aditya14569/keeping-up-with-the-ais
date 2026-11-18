@@ -68,7 +68,7 @@ Rules for the daily run:
 - [x] Reward models and LLM-as-judge: Issue #47 (2026-11-15)
 - [x] Interpretability: looking inside a model (neurons, features, steering): Issue #48 (2026-11-16)
 - [x] Model monitors and classifiers as safety layers: Issue #49 (2026-11-17)
-- [ ] Watermarking and detecting AI-written text
+- [x] Watermarking and detecting AI-written text: Issue #50 (2026-11-18)
 - [ ] Context compaction and long-running agent sessions
 - [ ] Voice agents: speech-to-speech and full-duplex models
 - [ ] World models and video generation
