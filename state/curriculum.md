@@ -69,7 +69,7 @@ Rules for the daily run:
 - [x] Interpretability: looking inside a model (neurons, features, steering): Issue #48 (2026-11-16)
 - [x] Model monitors and classifiers as safety layers: Issue #49 (2026-11-17)
 - [x] Watermarking and detecting AI-written text: Issue #50 (2026-11-18)
-- [ ] Context compaction and long-running agent sessions
+- [x] Context compaction and long-running agent sessions: Issue #51 (2026-11-19)
 - [ ] Voice agents: speech-to-speech and full-duplex models
 - [ ] World models and video generation
 - [ ] On-device AI: running models on phones and laptops
