@@ -71,7 +71,7 @@ Rules for the daily run:
 - [x] Watermarking and detecting AI-written text: Issue #50 (2026-11-18)
 - [x] Context compaction and long-running agent sessions: Issue #51 (2026-11-19)
 - [x] Voice agents: speech-to-speech and full-duplex models: Issue #52 (2026-11-20)
-- [ ] World models and video generation
+- [x] World models and video generation: Issue #53 (2026-11-21)
 - [ ] On-device AI: running models on phones and laptops
 - [ ] Securing AI apps: sandboxed previews, extensions and supply chain
 - [ ] Trusted-access and tiered model releases
