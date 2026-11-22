@@ -72,7 +72,7 @@ Rules for the daily run:
 - [x] Context compaction and long-running agent sessions: Issue #51 (2026-11-19)
 - [x] Voice agents: speech-to-speech and full-duplex models: Issue #52 (2026-11-20)
 - [x] World models and video generation: Issue #53 (2026-11-21)
-- [ ] On-device AI: running models on phones and laptops
+- [x] On-device AI: running models on phones and laptops: Issue #54 (2026-11-22)
 - [ ] Securing AI apps: sandboxed previews, extensions and supply chain
 - [ ] Trusted-access and tiered model releases
 - [ ] AI for science: biology, maths proofs and lab agents
