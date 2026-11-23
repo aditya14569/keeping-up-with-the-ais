@@ -73,7 +73,7 @@ Rules for the daily run:
 - [x] Voice agents: speech-to-speech and full-duplex models: Issue #52 (2026-11-20)
 - [x] World models and video generation: Issue #53 (2026-11-21)
 - [x] On-device AI: running models on phones and laptops: Issue #54 (2026-11-22)
-- [ ] Securing AI apps: sandboxed previews, extensions and supply chain
+- [x] Securing AI apps: sandboxed previews, extensions and supply chain: Issue #55 (2026-11-23)
 - [ ] Trusted-access and tiered model releases
 - [ ] AI for science: biology, maths proofs and lab agents
 
