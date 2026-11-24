@@ -74,7 +74,7 @@ Rules for the daily run:
 - [x] World models and video generation: Issue #53 (2026-11-21)
 - [x] On-device AI: running models on phones and laptops: Issue #54 (2026-11-22)
 - [x] Securing AI apps: sandboxed previews, extensions and supply chain: Issue #55 (2026-11-23)
-- [ ] Trusted-access and tiered model releases
+- [x] Trusted-access and tiered model releases: Issue #56 (2026-11-24)
 - [ ] AI for science: biology, maths proofs and lab agents
 
 ## Module 8: Building and running AI in the real world
