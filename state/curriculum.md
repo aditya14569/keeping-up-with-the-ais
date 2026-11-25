@@ -75,7 +75,7 @@ Rules for the daily run:
 - [x] On-device AI: running models on phones and laptops: Issue #54 (2026-11-22)
 - [x] Securing AI apps: sandboxed previews, extensions and supply chain: Issue #55 (2026-11-23)
 - [x] Trusted-access and tiered model releases: Issue #56 (2026-11-24)
-- [ ] AI for science: biology, maths proofs and lab agents
+- [x] AI for science: biology, maths proofs and lab agents: Issue #57 (2026-11-25)
 
 ## Module 8: Building and running AI in the real world
 - [ ] Chain-of-thought monitoring and faithfulness: when the notes don't match the work
