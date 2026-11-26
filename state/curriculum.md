@@ -78,7 +78,7 @@ Rules for the daily run:
 - [x] AI for science: biology, maths proofs and lab agents: Issue #57 (2026-11-25)
 
 ## Module 8: Building and running AI in the real world
-- [ ] Chain-of-thought monitoring and faithfulness: when the notes don't match the work
+- [x] Chain-of-thought monitoring and faithfulness: when the notes don't match the work: Issue #58 (2026-11-26)
 - [ ] Data poisoning and backdoors in fine-tuning
 - [ ] Multi-agent systems: coordinators vs peer teams
 - [ ] Robot foundation models: from language models to robot arms
