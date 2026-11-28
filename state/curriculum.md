@@ -80,7 +80,7 @@ Rules for the daily run:
 ## Module 8: Building and running AI in the real world
 - [x] Chain-of-thought monitoring and faithfulness: when the notes don't match the work: Issue #58 (2026-11-26)
 - [x] Data poisoning and backdoors in fine-tuning: Issue #59 (2026-11-27)
-- [ ] Multi-agent systems: coordinators vs peer teams
+- [x] Multi-agent systems: coordinators vs peer teams: Issue #60 (2026-11-28)
 - [ ] Robot foundation models: from language models to robot arms
 - [ ] Memory for LLMs: latent memory tokens vs RAG vs long context
 - [ ] Embeddings and vector search, revisited: multimodal embeddings
